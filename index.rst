@@ -13,6 +13,8 @@ RCAC Biocontainers's documentation!
 
    source/Alphafold/Alphafold
    source/HOMMER/HOMMER
+   source/GTDB-Tk/GTDB-Tk
+   source/HUMAnN3/HUMAnN3
 
 
 
