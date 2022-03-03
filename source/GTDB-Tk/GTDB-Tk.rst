@@ -1,5 +1,6 @@
 .. _backbone-label:  
-   GTDB-Tk
+
+GTDB-Tk
 ============================== 
 
 Introduction
