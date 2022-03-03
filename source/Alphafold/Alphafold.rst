@@ -30,7 +30,7 @@ Users can check its detaied user guide in its `Github`_.
 Example job using CPU
 ~~~~~~~~
 To run alphafold using CPU::
-
+    
     #!/bin/bash
     #SBATCH -A myallocation	# Allocation name 
     #SBATCH -t 20:00:00
@@ -51,7 +51,7 @@ To run alphafold using CPU::
 Example job using GPU
 ~~~~~~~~
 To run alphafold using GPU::
-
+    
     #!/bin/bash
     #SBATCH -A myallocation	# Allocation name 
     #SBATCH -t 20:00:00
