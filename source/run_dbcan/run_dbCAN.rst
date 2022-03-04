@@ -1,4 +1,4 @@
-ckbone-label:  
+.. _backbone-label:  
 run-dbCAN
 ============================== 
 
