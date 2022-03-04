@@ -6,19 +6,21 @@
 RCAC Biocontainers's documentation!
 ==============================================
 .. image:: images/biocontainer_list.png
-   :width: 1000px
+   :width: 700px
    :align: left
+
+This is the user guide for biocontainer modules deployed in Purdue High Performance Computing clusters. More information about our center is avaiable here (https://www.rcac.purdue.edu).
+If you have any questions, contact me at: 
+`zhan4429@purdue.edu <mailto:zhan4429@purdue.edu>`_
+
+.. toctree::
+   :caption: Software list
+   :maxdepth: 3
+   :titlesonly:
 
    source/Alphafold/Alphafold
    source/HOMMER/HOMMER
    source/GTDB-Tk/GTDB-Tk
    source/HUMAnN3/HUMAnN3
 
-This is the user guide for biocontainer modules deployed in Purdue High Performance Computing clusters. More information about our center is avaiable here (https://www.rcac.purdue.edu). 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
