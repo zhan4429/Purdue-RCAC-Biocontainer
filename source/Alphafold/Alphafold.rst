@@ -10,6 +10,11 @@ Introduction
 
 It also relies on a huge database. The full database (~2.2TB) has been downloaded and setup for users.  
 
+
+Support commands
+~~~~~~~
+run_alphafold.sh
+
 Module
 ~~~~~~~~
 You can load the modules by::
