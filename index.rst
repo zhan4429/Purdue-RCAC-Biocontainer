@@ -5,7 +5,7 @@
 
 RCAC Biocontainers's documentation!
 ==============================================
-.. image:: images/biocontainer_list.png
+.. image:: images/biocontainer_cloud.jpg
    :width: 700px
    :align: left
 
