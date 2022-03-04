@@ -5,6 +5,9 @@
 
 RCAC Biocontainers's documentation!
 ==============================================
+.. image:: images/biocontainer_list.png
+   :width: 600px
+   :align: center
 
 .. toctree::
    :maxdepth: 3
