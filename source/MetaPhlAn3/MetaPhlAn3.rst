@@ -5,7 +5,8 @@ MetaPhlAn 3
 
 Introduction
 ~~~~~~~
-``MetaPhlAn`` (Metagenomic Phylogenetic Analysis) is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data. MetaPhlAn relies on unique clade-specific marker genes identified from ~17,000 reference genomes (~13,500 bacterial and archaeal, ~3,500 viral, and ~110 eukaryotic), allowing:
+``MetaPhlAn`` (Metagenomic Phylogenetic Analysis) is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data. MetaPhlAn relies on unique clade-specific marker genes identified from ~17,000 reference genomes (~13,500 bacterial and archaeal, ~3,500 viral, and ~110 eukaryotic), allowing:  
+
 - up to 25,000 reads-per-second (on one CPU) analysis speed (orders of magnitude faster compared to existing methods);
 - unambiguous taxonomic assignments as the MetaPhlAn markers are clade-specific;
 - accurate estimation of organismal relative abundance (in terms of number of cells rather than fraction of reads);
