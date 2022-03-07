@@ -1,14 +1,9 @@
 .. _backbone-label:  
 HOMMER
 ============================== 
+Introduction
+~~~~~~~
 ``HOMMER`` (Hypergeometric Optimization of Motif EnRichment) is a suite of tools for Motif Discovery and next-gen sequencing analysis. Details about its usage can be found in `HOMMER website`_.  
-
-
-Selected database have been downloaded for users.   
-
-- ``ORGANISMS``: yeast, worm, mouse, arabidopsis, zebrafish, rat, human and fly   
-- ``PROMOTERS``: yeast, worm, mouse, arabidopsis, zebrafish, rat, human and fly      
-- ``GENOMES``: hg19, hg38, mm10, ce11, dm6, rn6, danRer11, tair10, and sacCer3  
 
 Commands
 ~~~~~~~
@@ -152,6 +147,14 @@ Commands
 - tagDir2hicFile.pl
 - tagDir2HiCsummary.pl
 - zipHomerResults.pl
+
+Database
+~~~~~
+Selected database have been downloaded for users.
+
+- ``ORGANISMS``: yeast, worm, mouse, arabidopsis, zebrafish, rat, human and fly
+- ``PROMOTERS``: yeast, worm, mouse, arabidopsis, zebrafish, rat, human and fly
+- ``GENOMES``: hg19, hg38, mm10, ce11, dm6, rn6, danRer11, tair10, and sacCer3
 
 Module
 ~~~~~~~~
