@@ -11,7 +11,7 @@ Commands
 ~~~~~~  
 braker.pl
 
-HELPER command
+Helper command
 ~~~~~  
 Since ``BRAKER`` is a pipeline that trains ``AUGUSTUS``, i.e. writes species specific parameter files, BRAKER needs writing access to the configuration directory of AUGUSTUS that contains such files.  This installation comes with a stub of AUGUSTUS coniguration files, but you ``must`` copy them out from the container into a location where you have write permissions.
 
