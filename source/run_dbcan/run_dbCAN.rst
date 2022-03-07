@@ -6,13 +6,13 @@ Introduction
 ~~~~~~~
 ``run_dbCAN`` using genomes/metagenomes/proteomes of any assembled organisms (prokaryotes, fungi, plants, animals, viruses) to search for CAZymes. This is a  standalone tool of http://bcb.unl.edu/dbCAN2/. Details aobut its uage can be found in its  `Github`_ repository. 
 
+Commands
+~~~~~ 
+run_dbcan
+
 Database
 ~~~~~~
 Latest version of database has been downloaded and setup, including CAZyDB.09242021.fa, dbCAN-HMMdb-V10.txt, tcdb.fa, tf-1.hmm, tf-2.hmm, and stp.hmm.  
-
-Supported commands   
-~~~~~~ 
-run_dbcan  
 
 Module
 ~~~~~~~

@@ -9,6 +9,10 @@ Introduction
 
 GTDB-Tk reference data (`R202`_) has been downloaded for users. 
 
+Commands
+~~~~~~
+gtdbtk
+
 Module
 ~~~~~~~
     module load biocontainers

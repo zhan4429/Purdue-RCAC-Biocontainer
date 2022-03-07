@@ -17,7 +17,7 @@ For more information, please check its user guide at: https://huttenhower.sph.ha
 
 Commands
 ~~~~~~  
-- metaphlan
+metaphlan
 
 
 Database  
