@@ -20,8 +20,9 @@ If you have any questions, contact me at:
    :titlesonly:
 
    source/Alphafold/Alphafold
-   source/HOMMER/HOMMER
+   source/AUGUSTUS/AUGUSTUS
    source/GTDB-Tk/GTDB-Tk
+   source/HOMMER/HOMMER
    source/HUMAnN3/HUMAnN3  
    source/MetaPhlAn3/MetaPhlAn3  
    source/run_dbcan/run_dbCAN
