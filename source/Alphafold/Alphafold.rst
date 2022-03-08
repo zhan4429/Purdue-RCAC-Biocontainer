@@ -32,6 +32,25 @@ The usage of Alphafold on our cluster is very straightford::
 
 Users can check its detaied user guide in its `Github`_. 
 
+AlphaDB
+~~~~~~~
+Contents of $AlphaDB::
+
+  --db_preset=full_dbs
+  --bfd_database_path=/depot/itap/datasets/alphafold/db/bfd/bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt
+  --data_dir=/depot/itap/datasets/alphafold/db/
+  --uniref90_database_path=/depot/itap/datasets/alphafold/db/uniref90/uniref90.fasta
+  --mgnify_database_path=/depot/itap/datasets/alphafold/db/mgnify/mgy_clusters_2018_12.fa
+  --uniclust30_database_path=/depot/itap/datasets/alphafold/db/uniclust30/uniclust30_2018_08/uniclust30_2018_08
+  --pdb70_database_path=/depot/itap/datasets/alphafold/db/pdb70/pdb70
+  --template_mmcif_dir=/depot/itap/datasets/alphafold/db/pdb_mmcif/mmcif_files
+  --max_template_date=2022-01-29
+  --obsolete_pdbs_path=/depot/itap/datasets/alphafold/db/pdb_mmcif/obsolete.dat
+  --hhblits_binary_path=/usr/bin/hhblits
+  --hhsearch_binary_path=/usr/bin/hhsearch
+  --jackhmmer_binary_path=/usr/bin/jackhmmer
+  --kalign_binary_path=/usr/bin/kalign
+
 Example job using CPU
 ~~~~~~~~
 To run alphafold using CPU::
