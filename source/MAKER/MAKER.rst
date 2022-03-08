@@ -41,9 +41,8 @@ Module
 ~~~~~~~
 You can load the modules by::
 
-     module load biocontainers
-     module load maker/2.31.11
-  OR maker/3.01.03  
+  module load biocontainers
+  module load maker/2.31.11 # OR maker/3.01.03  
 
 Prerequisites
 ~~~~~~
@@ -52,9 +51,11 @@ Prerequisites
     maker -CTL
     
    This will generate three files:
-   - **maker_opts.ctl** (required to be modified)
-   - **maker_exe.ctl** (do not need to modify this file)
-   - **maker_bopts.ctl** (optionally modify this file) 
+
+- **maker_opts.ctl** (required to be modified)
+- **maker_exe.ctl** (do not need to modify this file)
+- **maker_bopts.ctl** (optionally modify this file) 
+
 2. maker_opts.ctl:
    - If not using RepeatMasker, modify ``model_org=all`` to ``model_org=``
    - If not using RepeatMasker, modify ``model_org=all`` to an appropriate family/genus/species.  
@@ -81,7 +82,7 @@ To run MAKER on our cluster::
 
 Example job mpi
 ~~~~~~
-To use MAKER in MPI mode, we cannot use the maker modules. Instead we have to use the orinal image files stored in ``/apps/biocontainers/images``::
+To use MAKER in MPI mode, we cannot use the maker modules. Instead we have to use the singularity image files stored in ``/apps/biocontainers/images``::
 
     #!/bin/bash
     #SBATCH -A myallocation     # Allocation name 
