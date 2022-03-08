@@ -30,4 +30,4 @@ If you have any questions, contact me at:
    source/MetaPhlAn3/MetaPhlAn3  
    source/RSEM/RSEM
    source/run_dbcan/run_dbCAN
-  
+   source/SRA-Toolkit/SRA-Toolkit
