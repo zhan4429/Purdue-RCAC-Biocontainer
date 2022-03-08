@@ -25,6 +25,7 @@ If you have any questions, contact me at:
    source/GTDB-Tk/GTDB-Tk
    source/HOMMER/HOMMER
    source/HUMAnN3/HUMAnN3  
+   source/MAKER/MAKER  
    source/MetaPhlAn3/MetaPhlAn3  
    source/run_dbcan/run_dbCAN
   
