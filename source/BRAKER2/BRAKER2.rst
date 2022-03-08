@@ -13,7 +13,8 @@ braker.pl
 
 Helper command
 ~~~~~  
-Since ``BRAKER`` is a pipeline that trains ``AUGUSTUS``, i.e. writes species specific parameter files, BRAKER needs writing access to the configuration directory of AUGUSTUS that contains such files.  This installation comes with a stub of AUGUSTUS coniguration files, but you ``must`` copy them out from the container into a location where you have write permissions.
+.. note::
+  Since ``BRAKER`` is a pipeline that trains ``AUGUSTUS``, i.e. writes species specific parameter files, BRAKER needs writing access to the configuration directory of AUGUSTUS that contains such files.  This installation comes with a stub of AUGUSTUS coniguration files, but you ``must`` copy them out from the container into a location where you have write permissions.
 
 A helper command ``copy_augustus_config`` is provided to simplify the task. Follow the procedure below to put the config files in your scratch space::
 
@@ -51,7 +52,7 @@ To run BRAKER on our cluster::
     copy_augustus_config $RCAC_SCRATCH/augustus
     export AUGUSTUS_CONFIG_PATH=$RCAC_SCRATCH/augustus/config
       
-    braker.pl --genome genome.fa --bam RNAseq.bam --softmasking --cores 32
+    braker.pl --genome genome.fa --bam RNAseq.bam --softmasking --cores 24
     
 
      
