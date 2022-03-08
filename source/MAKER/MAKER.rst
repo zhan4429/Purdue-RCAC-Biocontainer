@@ -44,6 +44,9 @@ You can load the modules by::
   module load biocontainers
   module load maker/2.31.11 # OR maker/3.01.03  
 
+.. note::
+  ``Dfam release 3.5`` (October 2021) downloaded from Dfam website (https://www.dfam.org/home) that required by ``RepeatMasker`` has been set up for users. The ``RepeatMakser`` library is stored here ``/depot/itap/datasets/Maker/RepeatMasker/Libraries``. 
+
 Prerequisites
 ~~~~~~
 1. After loading MAKER modules, users can create MAKER control files by the folowing comand::
