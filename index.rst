@@ -22,6 +22,8 @@ If you have any questions, contact me at:
    source/Alphafold/Alphafold
    source/AUGUSTUS/AUGUSTUS
    source/BRAKER2/BRAKER2
+   source/CellRank/CellRank
+   source/CellRank-krylov/CellRank-krylov
    source/GTDB-Tk/GTDB-Tk
    source/HOMMER/HOMMER
    source/HUMAnN3/HUMAnN3  
