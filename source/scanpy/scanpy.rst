@@ -19,7 +19,7 @@ Module
 
 Interactive job
 ~~~~~~
-To run scanpy interactively our our clusters::
+To run scanpy interactively on our clusters::
 
    (base) UserID@bell-fe00:~ $ sinteractive -N1 -n12 -t4:00:00 -A myallocation
    salloc: Granted job allocation 12345869
@@ -35,7 +35,7 @@ To run scanpy interactively our our clusters::
    
 Batch job
 ~~~~~~
-To run scanpy on our cluster::
+To submit a sbatch job on our clusters::
 
     #!/bin/bash
     #SBATCH -A myallocation     # Allocation name 
