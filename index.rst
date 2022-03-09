@@ -31,4 +31,5 @@ If you have any questions, contact me at:
    source/RSEM/RSEM
    source/run_dbcan/run_dbCAN
    source/scanpy/scanpy
+   source/scVelo/scVelo
    source/SRA-Toolkit/SRA-Toolkit
