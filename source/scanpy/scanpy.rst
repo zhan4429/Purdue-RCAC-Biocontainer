@@ -14,6 +14,8 @@ Commands
 
 Module
 ~~~~~~~
+You can load the modules by::
+ 
    module load biocontainers  
    module load scanpy/1.8.2
 
