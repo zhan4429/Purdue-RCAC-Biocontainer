@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-RCAC Biocontainers's documentation!
+RCAC Biocontainers documentation!
 ==============================================
 .. image:: images/biocontainer_cloud.jpg
    :width: 700px
