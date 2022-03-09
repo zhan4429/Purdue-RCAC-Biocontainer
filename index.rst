@@ -24,6 +24,7 @@ If you have any questions, contact me at:
    source/BRAKER2/BRAKER2
    source/CellRank/CellRank
    source/CellRank-krylov/CellRank-krylov
+   source/goatools/goatools
    source/GTDB-Tk/GTDB-Tk
    source/HOMMER/HOMMER
    source/HUMAnN3/HUMAnN3  
