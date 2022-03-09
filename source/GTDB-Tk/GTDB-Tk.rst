@@ -29,7 +29,6 @@ To run GTDB-Tk our our clusters::
     #SBATCH -n 24
     #SBATCH --job-name=gtdbtk
     #SBATCH --mail-type=FAIL,BEGIN,END
-    #SBATCH --mail-user=UserID@purdue.edu
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 

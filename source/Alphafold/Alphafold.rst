@@ -62,7 +62,6 @@ To run alphafold using CPU::
     #SBATCH -n 24
     #SBATCH --job-name=alphafold
     #SBATCH --mail-type=FAIL,BEGIN,END
-    #SBATCH --mail-user=UserID@purdue.edu
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
@@ -84,7 +83,6 @@ To run alphafold using GPU::
     #SBATCH --gres=gpu:1
     #SBATCH --job-name=alphafold
     #SBATCH --mail-type=FAIL,BEGIN,END
-    #SBATCH --mail-user=UserID@purdue.edu
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 

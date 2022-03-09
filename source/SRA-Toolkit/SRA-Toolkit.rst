@@ -74,7 +74,6 @@ To run SRA-Toolkit on our cluster::
     #SBATCH -n 8
     #SBATCH --job-name=SRA-Toolkit
     #SBATCH --mail-type=FAIL,BEGIN,END
-    #SBATCH --mail-user=UserID@purdue.edu
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 

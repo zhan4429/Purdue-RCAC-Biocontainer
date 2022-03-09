@@ -175,7 +175,6 @@ To run HOMMER on our cluster::
     #SBATCH -n 24
     #SBATCH --job-name=hommer
     #SBATCH --mail-type=FAIL,BEGIN,END
-    #SBATCH --mail-user=UserID@purdue.edu
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 

@@ -59,7 +59,6 @@ To run RSEM on our cluster::
     #SBATCH -n 24
     #SBATCH --job-name=rsem
     #SBATCH --mail-type=FAIL,BEGIN,END
-    #SBATCH --mail-user=UserID@purdue.edu
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 

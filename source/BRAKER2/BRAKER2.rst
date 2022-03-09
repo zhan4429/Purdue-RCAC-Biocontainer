@@ -40,7 +40,6 @@ To run BRAKER on our cluster::
     #SBATCH -n 24
     #SBATCH --job-name=BRAKER2
     #SBATCH --mail-type=FAIL,BEGIN,END
-    #SBATCH --mail-user=UserID@purdue.edu
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
