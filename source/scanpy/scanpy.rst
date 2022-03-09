@@ -14,8 +14,8 @@ Commands
 
 Module
 ~~~~~~~
-    module load biocontainers
-    module load scanpy/1.8.2
+   module load biocontainers  
+   module load scanpy/1.8.2
 
 Interactive job
 ~~~~~~
