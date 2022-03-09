@@ -33,7 +33,7 @@ You can load the modules by::
 
 Interactive job
 ~~~~~~
-To run scanpy interactively on our clusters::
+To run goatools interactively on our clusters::
 
    (base) UserID@bell-fe00:~ $ sinteractive -N1 -n12 -t4:00:00 -A myallocation
    salloc: Granted job allocation 12345869
