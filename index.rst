@@ -11,11 +11,11 @@ RCAC Biocontainers documentation!
 
 This is the user guide for biocontainer modules deployed in Purdue High Performance Computing clusters. More information about our center is avaiable here (https://www.rcac.purdue.edu).  
 
-If you have any questions, contact me at: 
+If you have any question, contact me at: 
 `zhan4429@purdue.edu <mailto:zhan4429@purdue.edu>`_
 
 .. toctree::
-   :caption: Software list
+   :caption: Application list
    :maxdepth: 3
    :titlesonly:
 
