@@ -25,7 +25,7 @@ You can load the modules by::
 
 Example job
 ~~~~~~
-To run GTDB-Tk our our clusters::
+To run angsd on our our clusters::
 
     #!/bin/bash
     #SBATCH -A myallocation     # Allocation name 
@@ -43,12 +43,3 @@ To run GTDB-Tk our our clusters::
     angsd -b bam.filelist -GL 1 -doMajorMinor 1 -doMaf 2 -P 5 -minMapQ 30 -minQ 20 -minMaf 0.05
 
 
-
-
-
-
-
-
-
-
-.. _R202: https://gtdb.ecogenomic.org 

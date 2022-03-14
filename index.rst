@@ -21,6 +21,7 @@ If you have any question, contact me at:
 
    source/Alphafold/Alphafold
    source/ANGSD/ANGSD
+   source/aTRAM/aTRAM
    source/AUGUSTUS/AUGUSTUS
    source/BRAKER2/BRAKER2
    source/cellranger/cellranger
