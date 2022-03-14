@@ -33,6 +33,7 @@ If you have any question, contact me at:
    source/InterProScan/InterProScan
    source/MAKER/MAKER  
    source/MetaPhlAn3/MetaPhlAn3  
+   source/Picard/Picard
    source/RSEM/RSEM
    source/run_dbcan/run_dbCAN
    source/scanpy/scanpy
