@@ -27,6 +27,7 @@ If you have any question, contact me at:
    source/CellRank/CellRank
    source/CellRank-krylov/CellRank-krylov
    source/GATK4/GATK4
+   source/GeneMark/GeneMark
    source/goatools/goatools
    source/GTDB-Tk/GTDB-Tk
    source/HOMMER/HOMMER
