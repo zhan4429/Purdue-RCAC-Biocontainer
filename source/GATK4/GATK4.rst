@@ -15,6 +15,8 @@ gatk
 
 Module
 ~~~~~~~
+You can load the modules by::
+
     module load biocontainers
     module load gatk4/4.2.5.0
 

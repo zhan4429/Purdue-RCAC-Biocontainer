@@ -18,6 +18,8 @@ Commands
 
 Module
 ~~~~~~~
+You can load the modules by::
+
     module load biocontainers
     module load angsd/0.937
 
