@@ -20,6 +20,7 @@ If you have any question, contact me at:
    :titlesonly:
 
    source/Alphafold/Alphafold
+   source/ANGSD/ANGSD
    source/AUGUSTUS/AUGUSTUS
    source/BRAKER2/BRAKER2
    source/CellRank/CellRank
