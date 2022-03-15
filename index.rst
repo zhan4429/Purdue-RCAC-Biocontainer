@@ -24,6 +24,7 @@ If you have any question, contact me at:
    source/aTRAM/aTRAM
    source/blobtools/blobtools
    source/AUGUSTUS/AUGUSTUS
+   source/bracken/bracken
    source/BRAKER2/BRAKER2
    source/cellranger/cellranger
    source/CellRank/CellRank
