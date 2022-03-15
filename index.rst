@@ -35,6 +35,7 @@ If you have any question, contact me at:
    source/HUMAnN3/HUMAnN3  
    source/InterProScan/InterProScan
    source/kraken2/kraken2
+   source/krakentools/krakentools
    source/MAKER/MAKER  
    source/MetaPhlAn3/MetaPhlAn3  
    source/Picard/Picard
