@@ -41,6 +41,7 @@ If you have any question, contact me at:
    source/krakentools/krakentools
    source/MAKER/MAKER  
    source/MetaPhlAn3/MetaPhlAn3  
+   source/OrthoFinder/OrthoFinder
    source/Picard/Picard
    source/RSEM/RSEM
    source/run_dbcan/run_dbCAN
