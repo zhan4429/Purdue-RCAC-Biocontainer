@@ -47,4 +47,5 @@ If you have any question, contact me at:
    source/run_dbcan/run_dbCAN
    source/scanpy/scanpy
    source/scVelo/scVelo
+   source/STAR/STAR
    source/SRA-Toolkit/SRA-Toolkit
