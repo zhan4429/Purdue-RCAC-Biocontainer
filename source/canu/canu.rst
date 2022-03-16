@@ -23,7 +23,7 @@ You can load the modules by::
 
 Example job
 ~~~~~~
-To run concoct on our our clusters::
+To run canu on our our clusters::
 
     #!/bin/bash
     #SBATCH -A myallocation     # Allocation name 
