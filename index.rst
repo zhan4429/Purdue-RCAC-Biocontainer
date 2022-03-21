@@ -32,6 +32,7 @@ If you have any question, contact me at:
    source/CellRank-krylov/CellRank-krylov
    source/concoct/concoct
    source/crisprcasfinder/crisprcasfinder
+   source/diamond/diamond
    source/GATK4/GATK4
    source/GeneMark/GeneMark
    source/goatools/goatools
