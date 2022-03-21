@@ -31,6 +31,7 @@ If you have any question, contact me at:
    source/CellRank/CellRank
    source/CellRank-krylov/CellRank-krylov
    source/concoct/concoct
+   source/crisprcasfinder/crisprcasfinder
    source/GATK4/GATK4
    source/GeneMark/GeneMark
    source/goatools/goatools
