@@ -16,12 +16,14 @@ Database
 ~~~~~  
 .. note::
     As of May 20, 2019 GIRI has rescinded the working agreement allowing the www.repeatmasker.org website to offer a repeatmasking service utilizing the RepBase RepeatMasker Edition library. As a result, repeatmasker can only offer masking using the open database Dfam, which starting in 3.0 includes consensus sequences in addition to profile hidden Markov models for many transposable element families. Users requiring RepBase will need to purchase a commercial or academic license from GIRI and run RepeatMasker localy.   
+    
     In our cluster, we set up the Dfam relaese 3.5 (October 2021) that include 285,580 repetitive DNA families. 
 
 Species name
 ~~~~  
 .. note::
-    Since v4.1.1, RepeatMakser has switched to the FamDB format for the Dfam database. Due to this change, RepeatMasker becomes more strict with regards to what is acceptable for the -species flag. The commonly used names such as "mammal" and "mouse" will not be accepted. To check for valid names, you can query the database using the python script famdb.py (https://github.com/Dfam-consortium/FamDB).   
+    Since v4.1.1, RepeatMakser has switched to the FamDB format for the Dfam database. Due to this change, RepeatMasker becomes more strict with regards to what is acceptable for the ``-species`` flag. The commonly used names such as "mammal" and "mouse" will not be accepted. To check for valid names, you can query the database using the python script ``famdb.py`` (https://github.com/Dfam-consortium/FamDB).   
+    
     See ``famdb.py --help`` for usage information and below for an example the check the valid name for "mammal" using our copy of the Dfam database::   
    
     /depot/itap/datasets/Maker/RepeatMasker/Libraries/famdb.py -i /depot/itap/datasets/Maker/RepeatMasker/Libraries/Dfam.h5 names mammal
