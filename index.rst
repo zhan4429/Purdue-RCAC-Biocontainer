@@ -52,3 +52,4 @@ If you have any question, contact me at:
    source/scVelo/scVelo
    source/STAR/STAR
    source/SRA-Toolkit/SRA-Toolkit
+   source/UCSC_tools/UCSC_tools
