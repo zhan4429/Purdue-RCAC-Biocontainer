@@ -45,6 +45,7 @@ If you have any question, contact me at:
    source/MetaPhlAn3/MetaPhlAn3  
    source/OrthoFinder/OrthoFinder
    source/Picard/Picard
+   source/repeatmasker/repeatmasker
    source/RSEM/RSEM
    source/run_dbcan/run_dbCAN
    source/scanpy/scanpy
