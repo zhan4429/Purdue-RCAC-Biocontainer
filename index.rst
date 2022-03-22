@@ -48,6 +48,7 @@ If you have any question, contact me at:
    source/mothur/mothur
    source/OrthoFinder/OrthoFinder
    source/Picard/Picard
+   source/prokka/prokka
    source/rmats/rmats
    source/rmats2sashimiplot/rmats2sashimiplot
    source/repeatmasker/repeatmasker
