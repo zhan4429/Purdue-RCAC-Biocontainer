@@ -1,8 +1,7 @@
 .. _backbone-label:  
 
- r-scrnaseq
+r-scrnaseq
 ============================== 
-
 Introduction
 ~~~~~~~
 ``r-scrnaseq`` is a customerized R module based on ``R/4.1.1`` used for scRNAseq analysis installed. 
@@ -57,7 +56,6 @@ You can load the modules by::
    module load r-scrnaseq/4.1.1-1
    # If you want to use Rstudio, load the rstudio version
    module load r-scrnaseq/4.1.1-1-rstudio 
-
 
 Install packages
 ~~~~~  
