@@ -1,35 +1,19 @@
 .. _backbone-label:  
 
-r-scrnaseq
+r-rnaseq
 ============================== 
 Introduction
 ~~~~~~~
-``r-scrnaseq`` is a customerized R module based on ``R/4.1.1`` used for scRNAseq analysis. 
+``r-rnaseq`` is a customerized R module based on ``R/4.1.1`` used for RNAseq analysis. 
 
 In the module, we have some packages installed:  
 
 - BiocManager     1.30.16
-- Seurat  4.1.0
-- SeuratObject    4.0.4
-- SeuratWrappers  0.3.0
-- monocle3        1.0.0
-- SnapATAC        1.0.0
-- SingleCellExperiment    1.14.1, 1.16.0
-- scDblFinder     1.8.0
-- SingleR 1.8.1
-- scCATCH 3.0
-- scMappR 1.0.7
-- rliger  1.0.0
-- schex   1.8.0
-- CoGAPS  3.14.0
-- celldex 1.4.0
-- dittoSeq        1.6.0
-- DropletUtils    1.14.2
-- miQC    1.2.0
-- Nebulosa        1.4.0
-- tricycle        1.2.0
+- ComplexHeatmap  2.9.4
+- DESeq2  1.34.0
+- edgeR   3.36.0
 - pheatmap        1.0.12
-- limma   3.48.3, 3.50.0
+- limma   3.48.3
 - tibble  3.1.5 
 - tidyr   1.1.4
 - readr   2.0.2
@@ -40,7 +24,6 @@ In the module, we have some packages installed:
 - forcats 0.5.1
 - ggplot2 3.3.5
 - openxlsx        4.2.5
-
 
 Commands
 ~~~~~~
@@ -53,9 +36,9 @@ Module
 You can load the modules by::
  
    module load biocontainers  
-   module load r-scrnaseq/4.1.1-1
+   module load r-rnaseq/4.1.1-1
    # If you want to use Rstudio, load the rstudio version
-   module load r-scrnaseq/4.1.1-1-rstudio 
+   module load r-rnaseq/4.1.1-1-rstudio 
 
 Install packages
 ~~~~~  
@@ -72,7 +55,7 @@ To run interactively on our clusters::
    salloc: Granted job allocation 12345869
    salloc: Waiting for resource configuration
    salloc: Nodes bell-a008 are ready for job
-   (base) UserID@bell-a008:~ $ module load biocontainers r-scrnaseq/4.1.1-1 # or r-scrnaseq/4.1.1-1-rstudio 
+   (base) UserID@bell-a008:~ $ module load biocontainers r-rnaseq/4.1.1-1 # or r-rnaseq/4.1.1-1-rstudio 
    (base) UserID@bell-a008:~ $ R
    
    R version 4.1.1 (2021-08-10) -- "Kick Things"
@@ -94,8 +77,8 @@ To run interactively on our clusters::
    Type 'q()' to quit R.
    
 
-   > library(Seurat)
-   > library(monocle3)
+   > library(edgeR)
+   > library(pheatmap)
 
 Batch job
 ~~~~~~
@@ -106,12 +89,12 @@ To submit a sbatch job on our clusters::
     #SBATCH -t 10:00:00
     #SBATCH -N 1
     #SBATCH -n 24
-    #SBATCH --job-name=r_scRNAseq
+    #SBATCH --job-name=r_RNAseq
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers r-scrnaseq
+    ml biocontainers r-rnaseq
  
-    Rscript scRNAseq.R
+    Rscript RNAseq.R
