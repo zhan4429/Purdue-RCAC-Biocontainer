@@ -52,6 +52,7 @@ If you have any question, contact me at:
    source/rmats2sashimiplot/rmats2sashimiplot
    source/repeatmasker/repeatmasker
    source/RSEM/RSEM
+   source/r-scrnaseq/r-scrnaseq
    source/run_dbcan/run_dbCAN
    source/scanpy/scanpy
    source/scVelo/scVelo
