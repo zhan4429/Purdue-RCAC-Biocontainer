@@ -49,18 +49,18 @@ To run ``mothur`` interactively on our clusters::
 
    Distributed under the GNU General Public License
 
-  Type 'help()' for information on the commands that are available
+   Type 'help()' for information on the commands that are available
 
-  For questions and analysis support, please visit our forum at https://forum.mothur.org
+   For questions and analysis support, please visit our forum at https://forum.mothur.org
 
-  Type 'quit()' to exit program
+   Type 'quit()' to exit program
 
-  [NOTE]: Setting random seed to 19760620.
+   [NOTE]: Setting random seed to 19760620.
 
-  Interactive Mode
+   Interactive Mode
 
-  mothur > align.seqs(help)
-  mothur > quit() 
+   mothur > align.seqs(help)
+   mothur > quit() 
 
 Batch job
 ~~~~~~
