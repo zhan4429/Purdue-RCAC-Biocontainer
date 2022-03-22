@@ -58,6 +58,7 @@ If you have any question, contact me at:
    source/scanpy/scanpy
    source/scVelo/scVelo
    source/STAR/STAR
+   source/Stringtie/Stringtie
    source/SRA-Toolkit/SRA-Toolkit
    source/tpmcalculator/tpmcalculator
    source/transdecoder/transdecoder
