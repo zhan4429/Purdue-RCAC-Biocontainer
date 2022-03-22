@@ -57,5 +57,7 @@ If you have any question, contact me at:
    source/scVelo/scVelo
    source/STAR/STAR
    source/SRA-Toolkit/SRA-Toolkit
+   source/tpmcalculator/tpmcalculator
+   source/transdecoder/transdecoder
    source/UCSC_tools/UCSC_tools
    source/velocyto/velocyto
