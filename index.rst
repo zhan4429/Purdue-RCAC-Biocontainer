@@ -58,6 +58,7 @@ If you have any question, contact me at:
    source/r-rnaseq/r-rnaseq
    source/r-scrnaseq/r-scrnaseq
    source/run_dbcan/run_dbCAN
+   source/salmon/salmon
    source/scanpy/scanpy
    source/scVelo/scVelo
    source/spades/spades
