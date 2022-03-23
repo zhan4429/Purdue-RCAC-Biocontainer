@@ -42,6 +42,7 @@ If you have any question, contact me at:
    source/HUMAnN3/HUMAnN3  
    source/InterProScan/InterProScan
    source/kallisto/kallisto
+   source/kneaddata/kneaddata
    source/kraken2/kraken2
    source/krakentools/krakentools
    source/MAKER/MAKER  
