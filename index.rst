@@ -51,6 +51,7 @@ If you have any question, contact me at:
    source/OrthoFinder/OrthoFinder
    source/Picard/Picard
    source/prokka/prokka
+   source/prothint/prothint
    source/rmats/rmats
    source/rmats2sashimiplot/rmats2sashimiplot
    source/repeatmasker/repeatmasker
