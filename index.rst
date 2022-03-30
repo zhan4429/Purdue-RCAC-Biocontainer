@@ -18,7 +18,10 @@ If you have any question, contact me at:
    :caption: Application list
    :maxdepth: 3
    :titlesonly:
-
+   
+   source/abyss/abyss
+   source/afplot/afplot
+   source/afterqc/afterqc
    source/Alphafold/Alphafold
    source/ANGSD/ANGSD
    source/aTRAM/aTRAM
