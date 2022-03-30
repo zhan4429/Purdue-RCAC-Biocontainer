@@ -16,7 +16,7 @@ Module
 You can load the modules by::
     
     module load biocontainers
-    module load afterqc/0.9.7.lua
+    module load afterqc
 
 Usage
 ~~~~~~~~

@@ -71,7 +71,7 @@ Module
 You can load the modules by::
     
     module load biocontainers
-    module load abyss/2.3.4
+    module load abyss
 
 Usage
 ~~~~~~~~
