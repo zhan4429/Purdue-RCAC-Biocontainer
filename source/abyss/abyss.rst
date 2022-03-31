@@ -73,10 +73,25 @@ You can load the modules by::
     module load biocontainers
     module load abyss
 
-Usage
-~~~~~~~~
+Example job
+~~~~~
+To run abyss on our our clusters::
 
+    #!/bin/bash
+    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -t 1:00:00
+    #SBATCH -N 1
+    #SBATCH -n 4
+    #SBATCH --job-name=abyss
+    #SBATCH --mail-type=FAIL,BEGIN,END
+    #SBATCH --error=%x-%J-%u.err
+    #SBATCH --output=%x-%J-%u.out
 
+    module --force purge
+    ml biocontainers 
+    
+    abyss-pe np=4 k=25 name=test B=1G \
+        in='test-data/reads1.fastq test-data/reads2.fastq'
 
 
 .. _Github: https://github.com/bcgsc/abyss/
