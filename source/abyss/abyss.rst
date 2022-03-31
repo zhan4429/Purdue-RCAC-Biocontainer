@@ -88,7 +88,7 @@ To run abyss on our our clusters::
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers 
+    ml biocontainers abyss
     
     abyss-pe np=4 k=25 name=test B=1G \
         in='test-data/reads1.fastq test-data/reads2.fastq'
