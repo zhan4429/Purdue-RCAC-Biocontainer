@@ -29,6 +29,7 @@ If you have any question, contact me at:
    source/AUGUSTUS/AUGUSTUS
    source/bracken/bracken
    source/BRAKER2/BRAKER2
+   source/busco/busco
    source/canu/canu
    source/cellranger/cellranger
    source/CellRank/CellRank
