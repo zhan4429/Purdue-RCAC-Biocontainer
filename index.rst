@@ -22,11 +22,21 @@ If you have any question, contact me at:
    source/abyss/abyss
    source/afplot/afplot
    source/afterqc/afterqc
+   source/agat/agat
+   source/alien-hunter/alien-hunter
+   source/allpathslg/allpathslg
    source/Alphafold/Alphafold
+   source/amptk/amptk
+   source/anchorwave/anchorwave
    source/ANGSD/ANGSD
+   source/annovar/annovar
+   source/antismash/antismash
+   source/anvio/anvio
+   source/assembly-stats/assembly-stats
    source/aTRAM/aTRAM
-   source/blobtools/blobtools
+   source/augur/augur
    source/AUGUSTUS/AUGUSTUS
+   source/blobtools/blobtools
    source/bracken/bracken
    source/BRAKER2/BRAKER2
    source/busco/busco
