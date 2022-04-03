@@ -36,10 +36,33 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/aTRAM/aTRAM
    source/augur/augur
    source/AUGUSTUS/AUGUSTUS
+   source/bam-readcount/bam-readcount
+   source/bamtools/bamtools
+   source/bamutil/bamutil
+   source/barrnap/barrnap
+   source/bbmap/bbmap
+   source/bcftools/bcftools
+   source/beagle/beagle
+   source/beast2/beast2
+   source/bedops/bedops
+   source/bedtools/bedtools
+   source/bioawk/bioawk
+   source/biobambam/biobambam
+   source/bioconvert/bioconvert
+   source/biopython/biopython
+   source/bismark/bismark
+   source/blasr/blasr
+   source/blast/blast
    source/blobtools/blobtools
+   source/bmge/bmge
+   source/bowtie/bowtie
+   source/bowtie2/bowtie2
    source/bracken/bracken
    source/BRAKER2/BRAKER2
+   source/brass/brass
    source/busco/busco
+   source/bustools/bustools
+   source/bwa/bwa
    source/canu/canu
    source/cellranger/cellranger
    source/CellRank/CellRank
