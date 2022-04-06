@@ -1,4 +1,4 @@
-dddd.. _backbone-label:
+.. _backbone-label:
 
 BamTools
 ==============================
