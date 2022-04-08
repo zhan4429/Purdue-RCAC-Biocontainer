@@ -63,12 +63,27 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/busco/busco
    source/bustools/bustools
    source/bwa/bwa
+   source/cactus/cactus
+   source/cafe/cafe
    source/canu/canu
+   source/cd-hit/cd-hit
    source/cellranger/cellranger
+   source/cellranger-atac/cellranger-atac
    source/CellRank/CellRank
    source/CellRank-krylov/CellRank-krylov
+   source/circlator/circlator
+   source/circos/circos
+   source/clustalw/clustalw
+   source/cnvkit/cnvkit
+   source/cnvnator/cnvnator
    source/concoct/concoct
+   source/control-freec/control-freec
+   source/coverm/coverm
    source/crisprcasfinder/crisprcasfinder
+   source/csvtk/csvtk
+   source/cufflinks/cufflinks
+   source/cutadapt/cutadapt
+   source/cyvcf2/cyvcf2
    source/diamond/diamond
    source/fasttree/fasttree
    source/GATK4/GATK4
