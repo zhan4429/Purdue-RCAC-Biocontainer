@@ -84,7 +84,13 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/cufflinks/cufflinks
    source/cutadapt/cutadapt
    source/cyvcf2/cyvcf2
+   source/dbg2olc/dbg2olc
+   source/deepbgc/deepbgc
+   source/deeptools/deeptools
    source/diamond/diamond
+   source/drep/drep
+   source/dropest/dropest
+   source/dsuite/dsuite
    source/fasttree/fasttree
    source/GATK4/GATK4
    source/GeneMark/GeneMark
