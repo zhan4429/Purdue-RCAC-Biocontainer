@@ -91,6 +91,11 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/drep/drep
    source/dropest/dropest
    source/dsuite/dsuite
+   source/edta/edta
+   source/emboss/emboss
+   source/epic2/epic2
+   source/evidencemodeler/evidencemodeler
+   source/exonerate/exonerate
    source/fasttree/fasttree
    source/GATK4/GATK4
    source/GeneMark/GeneMark
