@@ -111,8 +111,19 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/fseq/fseq
    source/GATK4/GATK4
    source/GeneMark/GeneMark
+   source/genomescope2/genomescope2
+   source/genomicconsensus/genomicconsensus
+   source/genrich/genrich
+   source/gffcompare/gffcompare
+   source/gffread/gffread
+   source/glimmer/glimmer
+   source/glimmerhmm/glimmerhmm
+   source/gmap/gmap
    source/goatools/goatools
+   source/graphlan/graphlan
+   source/gridss/gridss
    source/GTDB-Tk/GTDB-Tk
+   source/guppy/guppy
    source/HOMMER/HOMMER
    source/HUMAnN3/HUMAnN3  
    source/InterProScan/InterProScan
