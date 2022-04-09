@@ -96,7 +96,19 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/epic2/epic2
    source/evidencemodeler/evidencemodeler
    source/exonerate/exonerate
+   source/fasta3/fasta3
+   source/fastani/fastani
+   source/fastp/fastp
+   source/fastq_pair/fastq_pair
+   source/fastqc/fastqc
+   source/faststructure/faststructure
    source/fasttree/fasttree
+   source/fastx_toolkit/fastx_toolkit
+   source/filtlong/filtlong
+   source/flye/flye
+   source/fraggenescan/fraggenescan
+   source/freebayes/freebayes
+   source/fseq/fseq
    source/GATK4/GATK4
    source/GeneMark/GeneMark
    source/goatools/goatools
