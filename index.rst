@@ -124,9 +124,22 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/gridss/gridss
    source/GTDB-Tk/GTDB-Tk
    source/guppy/guppy
+   source/hicexplorer/hicexplorer
+   source/hifiasm/hifiasm
+   source/hisat2/hisat2
+   source/hmmer/hmmer
    source/HOMMER/HOMMER
-   source/HUMAnN3/HUMAnN3  
+   source/HUMAnN3/HUMAnN3
+   source/htseq/htseq
+   source/htslib/htslib
+   source/htstream/htstream
+   source/idba/idba
+   source/igv/igv
+   source/impute2/impute2
+   source/instrain/instrain  
    source/InterProScan/InterProScan
+   source/iqtree/iqtree
+   source/isoseq3/isoseq3
    source/kallisto/kallisto
    source/kneaddata/kneaddata
    source/kraken2/kraken2
