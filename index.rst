@@ -141,9 +141,18 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/iqtree/iqtree
    source/isoseq3/isoseq3
    source/kallisto/kallisto
+   source/khmer/khmer
+   source/kmc/kmc
+   source/kmer-jellyfish/kmer-jellyfish
    source/kneaddata/kneaddata
    source/kraken2/kraken2
    source/krakentools/krakentools
+   source/lambda/lambda
+   source/last/last
+   source/liftoff/liftoff
+   source/lima/lima
+   source/lofreq/lofreq
+   source/lra/lra
    source/MAKER/MAKER  
    source/MetaPhlAn3/MetaPhlAn3  
    source/mothur/mothur
