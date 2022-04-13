@@ -34,3 +34,5 @@ To run Bmge on our clusters::
 
     module --force purge
     ml biocontainers bmge
+
+    bmge -i seq.fa -t AA -o out.phy

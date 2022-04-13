@@ -35,4 +35,6 @@ To run Blasr on our clusters::
     module --force purge
     ml biocontainers blasr
 
+    blasr reads.bas.h5  ecoli_K12.fasta -sam
+
 .. _Github: https://github.com/PacificBiosciences/blasr

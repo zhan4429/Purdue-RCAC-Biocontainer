@@ -45,6 +45,10 @@ You can load the modules by::
     module load biocontainers
     module load blast
 
+BLAST Databases
+~~~~
+Local copies of the blast dabase can be found in the directory **/depot/itap/datasets/blast/latest/**. The environment varialbe ``BLASTDB`` was also set as ``/depot/itap/datasets/blast/latest/``. If users want to use ``cdd_delta``, ``env_nr``, ``env_nt``, ``nr``, ``nt``, ``pataa``, ``patnt``, ``pdbnt``,  ``refseq_protein``, ``refseq_rna``, ``swissprot``, or ``tsa_nt`` databases, do not need to provide the database path. Instead, just use the format like this ``-db nr``. 
+
 Example job
 ~~~~~
 To run BLAST on our clusters::
@@ -61,3 +65,7 @@ To run BLAST on our clusters::
 
     module --force purge
     ml biocontainers blast
+
+    blastp -query protein.fasta -db nr -out test_out -num_threads 4    
+
+
