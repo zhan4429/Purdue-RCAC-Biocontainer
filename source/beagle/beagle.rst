@@ -12,7 +12,6 @@ For more information, please check its website: https://biocontainers.pro/tools/
 Commands
 ~~~~~~~
 - beagle
-- java
 
 Module
 ~~~~~~~~
@@ -38,3 +37,4 @@ To run Beagle on our clusters::
     module --force purge
     ml biocontainers beagle
 
+    beagle gt=test.vcf.gz out=test.out

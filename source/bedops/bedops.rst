@@ -198,3 +198,7 @@ To run Bedops on our clusters::
 
     module --force purge
     ml biocontainers bedops
+
+    bedops -m 001.merge.001.test > 001.merge.001.observed
+    bedops -c 001.merge.001.test > 001.complement.001.observed
+    bedops -i 001.intersection.001a.test 001.intersection.001b.test > 001.intersection.001.observed

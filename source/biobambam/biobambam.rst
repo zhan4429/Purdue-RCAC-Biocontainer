@@ -96,7 +96,7 @@ To run Biobambam on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 8
     #SBATCH --job-name=biobambam
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -104,6 +104,12 @@ To run Biobambam on our clusters::
 
     module --force purge
     ml biocontainers biobambam
+
+    bammarkduplicates I=Aligned.sortedByCoord.out.bam O=out.bam D=duplcate_out
+
+    bamsort I=Aligned.sortedByCoord.out.bam O=sorted.bam sortthreads=8
+
+    bamtofastq filename=Aligned.sortedByCoord.out.bam outputdir=fastq_out
 
 .. _Gitlab: https://gitlab.com/german.tischler/biobambam2
 

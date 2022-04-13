@@ -41,4 +41,7 @@ To run Bcftools on our clusters::
     module --force purge
     ml biocontainers bcftools
 
+    bcftools query -f '%CHROM %POS %REF %ALT\n' file.bcf
+    bcftools polysomy -v -o outdir/ file.vcf
+       
 .. _Github: https://samtools.github.io/bcftools/bcftools.html

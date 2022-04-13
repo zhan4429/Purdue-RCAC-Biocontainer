@@ -184,5 +184,12 @@ To run Bbmap on our clusters::
     module --force purge
     ml biocontainers bbmap
 
+    stats.sh in=SRR11234553_1.fastq > stats_out.txt
+    statswrapper.sh *.fastq > statswrapper_out.txt
+    pileup.sh in=map1.sam out=pileup_out.txt
+    readlength.sh in=SRR11234553_1.fastq in2=SRR11234553_2.fastq > readlength_out.txt
+    kmercountexact.sh in=SRR11234553_1.fastq in2=SRR11234553_2.fastq out=kmer_test.out khist=kmer.khist peaks=kmer.peak
+    bbmask.sh in=SRR11234553_1.fastq out=test.mark sam=map1.sam  
+  
 .. _Sourceforge: https://sourceforge.net/projects/bbmap
 

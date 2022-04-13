@@ -31,7 +31,25 @@ You can load the modules by::
     module load biocontainers
     module load biopython
 
-Example job
+Interactive job
+~~~~~
+To run biopython interactively on our clusters::
+
+   (base) UserID@bell-fe00:~ $ sinteractive -N1 -n12 -t4:00:00 -A myallocation
+   salloc: Granted job allocation 12345869
+   salloc: Waiting for resource configuration
+   salloc: Nodes bell-a008 are ready for job
+   (base) UserID@bell-a008:~ $ module load biocontainers biopython
+   (base) UserID@bell-a008:~ $ python
+   Python 3.9.1 | packaged by conda-forge | (default, Jan 26 2021, 01:34:10) 
+   [GCC 9.3.0] on linux
+   Type "help", "copyright", "credits" or "license" for more information.
+   >>> from Bio import SeqIO
+   >>> with open("input.gb") as input_handle:
+       for record in SeqIO.parse(input_handle, "genbank"):
+             print(record)
+        
+Batch job
 ~~~~~
 To run Biopython on our clusters::
 
@@ -47,3 +65,5 @@ To run Biopython on our clusters::
 
     module --force purge
     ml biocontainers biopython
+
+    python script.py
