@@ -34,3 +34,5 @@ To run Bioconvert on our clusters::
 
     module --force purge
     ml biocontainers bioconvert
+
+    bioconvert fastq2fasta input.fastq output.fa

@@ -35,5 +35,7 @@ To run Bam-readcount on our clusters::
     module --force purge
     ml biocontainers bam-readcount
 
+    bam-readcount -f Homo_sapiens.GRCh38.dna.primary_assembly.fa Aligned.sortedByCoord.out.bam 
+
 .. _Github: https://github.com/genome/bam-readcount
 

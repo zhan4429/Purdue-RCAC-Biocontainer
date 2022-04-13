@@ -35,4 +35,6 @@ To run BamTools on our clusters::
     module --force purge
     ml biocontainers bamtools
 
+    bamtools convert -format fastq -in in.bam -out out.fastq
+
 .. _Github: https://github.com/pezmaster31/bamtools

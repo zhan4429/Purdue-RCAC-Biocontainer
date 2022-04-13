@@ -72,4 +72,6 @@ To run Bedtools on our clusters::
     module --force purge
     ml biocontainers bedtools
 
+    bedtools intersect -a a.bed -b b.bed
+    bedtools annotate -i variants.bed -files genes.bed conserve.bed known_var.bed
 .. _Github: https://github.com/arq5x/bedtools2

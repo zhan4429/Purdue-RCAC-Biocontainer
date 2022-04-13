@@ -35,5 +35,8 @@ To run Barrnap on our clusters::
     module --force purge
     ml biocontainers barrnap
 
+    barrnap --kingdom bac -o bac_16s.fasta < bac_genome.fasta > bac_16s.gff3
+    barrnap --kingdom euk -o euk_16s.fasta < euk_genome.fasta  > euk_16s.gff3
+
 .. _Github: https://github.com/tseemann/barrnap
 

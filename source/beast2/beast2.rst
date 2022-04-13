@@ -33,7 +33,7 @@ To run BEAST 2 on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 4
     #SBATCH --job-name=beast2
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -41,3 +41,5 @@ To run BEAST 2 on our clusters::
 
     module --force purge
     ml biocontainers beast2
+  
+    beast -threads 4 -prefix input input.xml

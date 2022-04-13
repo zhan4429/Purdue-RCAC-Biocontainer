@@ -35,5 +35,8 @@ To run Bioawk on our clusters::
     module --force purge
     ml biocontainers bioawk
 
+    bioawk -c fastx '{print ">"$name;print revcomp($seq)}' seq.fa.gz
+
+
 .. _Github: https://github.com/lh3/bioawk
 
