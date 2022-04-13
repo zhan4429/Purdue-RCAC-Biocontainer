@@ -22,6 +22,11 @@ Commands
 - filter_non_conversion
 - methylation_consistency
 
+Dependencies
+~~~~~
+``Bowtie v2.4.2``, ``Samtools v1.12``, ``HISAT2 v2.2.1`` were included in the container image. So users do not need to provide the dependency path in the bismark parameter.
+
+
 Module
 ~~~~~~~~
 You can load the modules by::
@@ -37,7 +42,7 @@ To run Bismark on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=bismark
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -45,5 +50,9 @@ To run Bismark on our clusters::
 
     module --force purge
     ml biocontainers bismark
+
+    bismark_genome_preparation --bowtie2 data/ref_genome
+
+    bismark --multicore 12 --genome data/ref_genome seq.fastq
 
 .. _Github: https://github.com/FelixKrueger/Bismark
