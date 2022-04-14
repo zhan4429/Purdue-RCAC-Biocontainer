@@ -153,9 +153,34 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/lima/lima
    source/lofreq/lofreq
    source/lra/lra
+   source/macs2/macs2
+   source/macs3/macs3
+   source/mafft/mafft
    source/MAKER/MAKER  
+   source/mash/mash
+   source/mashmap/mashmap
+   source/mashtree/mashtree
+   source/mauve/mauve
+   source/mcl/mcl
+   source/medaka/medaka
+   source/megadepth/megadepth
+   source/megahit/megahit
+   source/megan/megan
+   source/meme/meme
+   source/meryl/meryl
+   source/metabat/metabat
    source/MetaPhlAn3/MetaPhlAn3  
+   source/microbedmm/microbedmm
+   source/minialign/minialign
+   source/miniasm/miniasm
+   source/minimap2/minimap2
+   source/mirdeep2/mirdeep2
+   source/mmseqs2/mmseqs2
    source/mothur/mothur
+   source/mrbayes/mrbayes
+   source/multiqc/multiqc
+   source/mummer4/mummer4
+   source/muscle/muscle
    source/OrthoFinder/OrthoFinder
    source/Picard/Picard
    source/prokka/prokka

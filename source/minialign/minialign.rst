@@ -1,0 +1,38 @@
+.. _backbone-label:
+
+Minialign
+==============================
+
+Introduction
+~~~~~~~~
+``Minialign`` is a little bit fast and moderately accurate nucleotide sequence alignment tool designed for PacBio and Nanopore long reads. For more information, please check its website: https://biocontainers.pro/tools/minialign and its home page on `Github`_.
+
+Commands
+~~~~~~~
+- minialign
+
+Module
+~~~~~~~~
+You can load the modules by::
+    
+    module load biocontainers
+    module load minialign
+
+Example job
+~~~~~
+To run Minialign on our clusters::
+
+    #!/bin/bash
+    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -t 1:00:00
+    #SBATCH -N 1
+    #SBATCH -n 1
+    #SBATCH --job-name=minialign
+    #SBATCH --mail-type=FAIL,BEGIN,END
+    #SBATCH --error=%x-%J-%u.err
+    #SBATCH --output=%x-%J-%u.out
+
+    module --force purge
+    ml biocontainers minialign
+
+.. _Github: https://github.com/ocxtal/minialign
