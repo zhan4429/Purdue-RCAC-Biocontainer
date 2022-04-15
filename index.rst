@@ -181,6 +181,13 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/multiqc/multiqc
    source/mummer4/mummer4
    source/muscle/muscle
+   source/nanofilt/nanofilt
+   source/nanolyse/nanolyse
+   source/nanoplot/nanoplot
+   source/nextalign/nextalign
+   source/nextclade/nextclade
+   source/nextflow/nextflow
+   source/ngsutils/ngsutils
    source/OrthoFinder/OrthoFinder
    source/Picard/Picard
    source/prokka/prokka
