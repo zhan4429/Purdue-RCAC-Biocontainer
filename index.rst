@@ -189,9 +189,31 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/nextflow/nextflow
    source/ngsutils/ngsutils
    source/OrthoFinder/OrthoFinder
+   source/paml/paml
+   source/panacota/panacota
+   source/pandaseq/pandaseq
+   source/pangolin/pangolin
+   source/panphlan/panphlan
+   source/parallel-fastq-dump/parallel-fastq-dump
+   source/parsnp/parsnp
+   source/pbmm2/pbmm2
+   source/pcangsd/pcangsd
+   source/perl-bioperl/perl-bioperl
    source/Picard/Picard
+   source/picrust2/picrust2
+   source/pilon/pilon
+   source/pindel/pindel
+   source/pirate/pirate
+   source/plink/plink
+   source/plink2/plink2
+   source/popscle/popscle
+   source/prodigal/prodigal
    source/prokka/prokka
    source/prothint/prothint
+   source/pyani/pyani
+   source/pycoqc/pycoqc
+   source/pyensembl/pyensembl
+   source/pysam/pysam
    source/rmats/rmats
    source/rmats2sashimiplot/rmats2sashimiplot
    source/repeatmasker/repeatmasker
