@@ -38,5 +38,10 @@ To run CNVkit on our clusters::
     module --force purge
     ml biocontainers cnvkit
 
+    cnvkit.py batch *Tumor.bam --normal *Normal.bam \
+                    --targets my_baits.bed --fasta hg19.fasta \
+                    --access data/access-5kb-mappable.hg19.bed \
+                    --output-reference my_reference.cnn
+                    --output-dir example/
 .. _Github: https://github.com/etal/cnvkit
 

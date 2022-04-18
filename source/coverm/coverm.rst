@@ -35,4 +35,7 @@ To run Coverm on our clusters::
     module --force purge
     ml biocontainers coverm
 
+    coverm  genome  --genome-fasta-files xcc.fasta  --coupled SRR11234553_1.fastq SRR11234553_2.fastq
+
+
 .. _Github: https://github.com/wwood/CoverM

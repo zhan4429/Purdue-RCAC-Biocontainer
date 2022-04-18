@@ -71,4 +71,7 @@ To run Cd-hit on our clusters::
     module --force purge
     ml biocontainers cd-hit
 
+    cd-hit -i Cm_pep.fasta  -o Cmdb90 -c 0.9 -n 5 -M 16000 -T 8
+
+    cd-hit-est -i Cm_dna.fasta  -o Cmdb90_nt -c 0.9 -n 5 -M 16000 -T 8
 .. _Github: https://github.com/weizhongli/cdhit

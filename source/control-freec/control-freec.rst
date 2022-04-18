@@ -35,4 +35,5 @@ To run Control-freec on our clusters::
     module --force purge
     ml biocontainers control-freec
 
+    freec -conf config_chr19.txt
 .. _Github: https://github.com/BoevaLab/FREEC

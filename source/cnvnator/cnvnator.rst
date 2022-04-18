@@ -40,4 +40,8 @@ To run Cnvnator on our clusters::
     module --force purge
     ml biocontainers cnvnator
 
+    cnvnator -root file.root -tree file.bam -chrom $(seq 1 22) X Y
+
+    plotcircular.py file.root
+
 .. _Github: https://github.com/abyzovlab/CNVnator
