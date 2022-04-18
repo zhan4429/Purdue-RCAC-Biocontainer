@@ -214,13 +214,25 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/pycoqc/pycoqc
    source/pyensembl/pyensembl
    source/pysam/pysam
+   source/r/r
+   source/racon/racon
+   source/ragout/ragout
+   source/ragtag/ragtag
+   source/raxml/raxml
+   source/raxml-ng/raxml-ng
+   source/recycler/recycler
+   source/repeatmasker/repeatmasker
+   source/repeatmodeler/repeatmodeler
+   source/repeatscout/repeatscout
    source/rmats/rmats
    source/rmats2sashimiplot/rmats2sashimiplot
-   source/repeatmasker/repeatmasker
-   source/RSEM/RSEM
    source/r-rnaseq/r-rnaseq
+   source/r-rstudio/r-rstudio
    source/r-scrnaseq/r-scrnaseq
+   source/RSEM/RSEM
+   source/rseqc/rseqc
    source/run_dbcan/run_dbCAN
+   source/rush/rush
    source/salmon/salmon
    source/scanpy/scanpy
    source/scVelo/scVelo
