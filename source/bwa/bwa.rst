@@ -36,3 +36,6 @@ To run BWA on our clusters::
 
     module --force purge
     ml biocontainers bwa
+
+    bwa index ref.fasta
+    bwa mem ref.fasta input.fq > test.sam

@@ -36,3 +36,6 @@ To run Bowtie on our clusters::
 
     module --force purge
     ml biocontainers bowtie
+
+    bowtie-build ref.fasta ref
+    bowtie -p 4 -x ref -1 input_1.fq -2 input_2.fq -S test.sam

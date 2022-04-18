@@ -33,7 +33,7 @@ To run Brass on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 4
     #SBATCH --job-name=brass
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -42,4 +42,5 @@ To run Brass on our clusters::
     module --force purge
     ml biocontainers brass
 
+    brass.pl -c 4 -o myout -t tumour.bam -n normal.bam
 .. _Github: https://github.com/cancerit/BRASS#running-brass
