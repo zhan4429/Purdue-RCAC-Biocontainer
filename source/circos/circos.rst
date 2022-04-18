@@ -34,3 +34,5 @@ To run Circos on our clusters::
 
     module --force purge
     ml biocontainers circos
+    
+    circos -conf circos.conf

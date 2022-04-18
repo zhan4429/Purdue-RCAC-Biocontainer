@@ -35,4 +35,8 @@ To run Csvtk on our clusters::
     module --force purge
     ml biocontainers csvtk
 
+    cat data.csv \
+     | csvtk summary --ignore-non-digits --fields f4:sum,f5:sum --groups f1,f2 \
+     | csvtk pretty
+
 .. _Github: https://github.com/shenwei356/csvtk

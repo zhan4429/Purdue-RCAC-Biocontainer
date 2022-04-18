@@ -20,7 +20,23 @@ You can load the modules by::
     module load biocontainers
     module load cyvcf2
 
-Example job
+Interactive job
+~~~~~
+To run Cyvcf2 interactively on our clusters::
+
+   (base) UserID@bell-fe00:~ $ sinteractive -N1 -n1 -t1:00:00 -A myallocation
+   salloc: Granted job allocation 12345869
+   salloc: Waiting for resource configuration
+   salloc: Nodes bell-a008 are ready for job
+   (base) UserID@bell-a008:~ $ module load biocontainers scanpy/1.8.2
+   (base) UserID@bell-a008:~ $ python
+   Python 3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 06:08:53) 
+   [GCC 9.4.0] on linux
+   Type "help", "copyright", "credits" or "license" for more information.
+   >>> from cyvcf2 import VCF
+
+
+Batch job
 ~~~~~
 To run Cyvcf2 on our clusters::
 
@@ -37,4 +53,8 @@ To run Cyvcf2 on our clusters::
     module --force purge
     ml biocontainers cyvcf2
 
+    cyvcf2 --help 
+    cyvcf2 [OPTIONS] <vcf_file>
+
+    
 .. _Github: https://github.com/brentp/cyvcf2

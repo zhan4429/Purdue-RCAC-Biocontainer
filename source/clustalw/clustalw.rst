@@ -34,3 +34,5 @@ To run Clustalw on our clusters::
 
     module --force purge
     ml biocontainers clustalw
+
+    clustalw -tree -align -infile=seq.faa

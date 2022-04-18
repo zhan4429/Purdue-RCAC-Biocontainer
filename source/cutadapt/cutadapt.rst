@@ -34,3 +34,6 @@ To run Cutadapt on our clusters::
 
     module --force purge
     ml biocontainers cutadapt
+    
+
+    cutadapt -a AACCGGTT -o output.fastq input.fastq

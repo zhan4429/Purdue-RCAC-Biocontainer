@@ -62,4 +62,7 @@ To run Cactus on our clusters::
     module --force purge
     ml biocontainers cactus
 
+    wget https://raw.githubusercontent.com/ComparativeGenomicsToolkit/cactus/master/examples/evolverMammals.txt
+    cactus jobStore evolverMammals.txt evolverMammals.hal
+
 .. _Github: https://github.com/ComparativeGenomicsToolkit/cactus

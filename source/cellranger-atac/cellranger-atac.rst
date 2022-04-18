@@ -26,7 +26,8 @@ To run Cellranger-atac on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 8
+    #SBATCH --mem=64G
     #SBATCH --job-name=cellranger-atac
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -34,3 +35,10 @@ To run Cellranger-atac on our clusters::
 
     module --force purge
     ml biocontainers cellranger-atac
+
+    cellranger-atac count --id=sample345 \
+                        --reference=refdata-cellranger-arc-GRCh38-2020-A-2.0.0 \
+                        --fastqs=runs/HAWT7ADXX/outs/fastq_path \
+                        --sample=mysample \
+                        --localcores=8 \
+                        --localmem=64

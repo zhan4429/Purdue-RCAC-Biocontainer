@@ -33,7 +33,7 @@ To run Cufflinks on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 8
     #SBATCH --job-name=cufflinks
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -42,4 +42,5 @@ To run Cufflinks on our clusters::
     module --force purge
     ml biocontainers cufflinks
 
+    cufflinks -p 8 -G transcript.gtf --library-type fr-unstranded -o cufflinks_output tophat_out/accepted_hits.bam
 .. _Github: https://cole-trapnell-lab.github.io/cufflinks/

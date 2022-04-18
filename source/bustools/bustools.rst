@@ -34,4 +34,9 @@ To run Bustools on our clusters::
     module --force purge
     ml biocontainers bustools
 
+    bustools capture -s -o cDNA_capture.bus -c cDNA_transcripts.to_capture.txt -e matrix.ec -t transcripts.txt output.correct.sort.bus
+    bustools count -o u -g cDNA_introns_t2g.txt -e matrix.ec -t transcripts.txt --genecounts cDNA_capture.bus 
+
+
+
 .. _Github: https://github.com/BUStools/bustools

@@ -141,23 +141,98 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/iqtree/iqtree
    source/isoseq3/isoseq3
    source/kallisto/kallisto
+   source/khmer/khmer
+   source/kmc/kmc
+   source/kmer-jellyfish/kmer-jellyfish
    source/kneaddata/kneaddata
    source/kraken2/kraken2
    source/krakentools/krakentools
+   source/lambda/lambda
+   source/last/last
+   source/liftoff/liftoff
+   source/lima/lima
+   source/lofreq/lofreq
+   source/lra/lra
+   source/macs2/macs2
+   source/macs3/macs3
+   source/mafft/mafft
    source/MAKER/MAKER  
+   source/mash/mash
+   source/mashmap/mashmap
+   source/mashtree/mashtree
+   source/mauve/mauve
+   source/mcl/mcl
+   source/medaka/medaka
+   source/megadepth/megadepth
+   source/megahit/megahit
+   source/megan/megan
+   source/meme/meme
+   source/meryl/meryl
+   source/metabat/metabat
    source/MetaPhlAn3/MetaPhlAn3  
+   source/microbedmm/microbedmm
+   source/minialign/minialign
+   source/miniasm/miniasm
+   source/minimap2/minimap2
+   source/mirdeep2/mirdeep2
+   source/mmseqs2/mmseqs2
    source/mothur/mothur
+   source/mrbayes/mrbayes
+   source/multiqc/multiqc
+   source/mummer4/mummer4
+   source/muscle/muscle
+   source/nanofilt/nanofilt
+   source/nanolyse/nanolyse
+   source/nanoplot/nanoplot
+   source/nextalign/nextalign
+   source/nextclade/nextclade
+   source/nextflow/nextflow
+   source/ngsutils/ngsutils
    source/OrthoFinder/OrthoFinder
+   source/paml/paml
+   source/panacota/panacota
+   source/pandaseq/pandaseq
+   source/pangolin/pangolin
+   source/panphlan/panphlan
+   source/parallel-fastq-dump/parallel-fastq-dump
+   source/parsnp/parsnp
+   source/pbmm2/pbmm2
+   source/pcangsd/pcangsd
+   source/perl-bioperl/perl-bioperl
    source/Picard/Picard
+   source/picrust2/picrust2
+   source/pilon/pilon
+   source/pindel/pindel
+   source/pirate/pirate
+   source/plink/plink
+   source/plink2/plink2
+   source/popscle/popscle
+   source/prodigal/prodigal
    source/prokka/prokka
    source/prothint/prothint
+   source/pyani/pyani
+   source/pycoqc/pycoqc
+   source/pyensembl/pyensembl
+   source/pysam/pysam
+   source/r/r
+   source/racon/racon
+   source/ragout/ragout
+   source/ragtag/ragtag
+   source/raxml/raxml
+   source/raxml-ng/raxml-ng
+   source/recycler/recycler
+   source/repeatmasker/repeatmasker
+   source/repeatmodeler/repeatmodeler
+   source/repeatscout/repeatscout
    source/rmats/rmats
    source/rmats2sashimiplot/rmats2sashimiplot
-   source/repeatmasker/repeatmasker
-   source/RSEM/RSEM
    source/r-rnaseq/r-rnaseq
+   source/r-rstudio/r-rstudio
    source/r-scrnaseq/r-scrnaseq
+   source/RSEM/RSEM
+   source/rseqc/rseqc
    source/run_dbcan/run_dbCAN
+   source/rush/rush
    source/salmon/salmon
    source/scanpy/scanpy
    source/scVelo/scVelo
