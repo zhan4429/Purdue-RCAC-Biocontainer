@@ -234,12 +234,31 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/run_dbcan/run_dbCAN
    source/rush/rush
    source/salmon/salmon
+   source/samblaster/samblaster
+   source/samplot/samplot
+   source/samtools/samtools
    source/scanpy/scanpy
    source/scVelo/scVelo
+   source/seidr/seidr
+   source/seqkit/seqkit
+   source/shortstack/shortstack
+   source/skewer/skewer
+   source/snakemake/snakemake
+   source/snap/snap
+   source/snap-aligner/snap-aligner
+   source/snaptools/snaptools
+   source/snpeff/snpeff
+   source/snpgenie/snpgenie
+   source/snpsift/snpsift
+   source/soapdenovo2/soapdenovo2
+   source/sortmerna/sortmerna
+   source/spaceranger/spaceranger
    source/spades/spades
+   source/SRA-Toolkit/SRA-Toolkit
+   source/stacks/stacks
    source/STAR/STAR
    source/Stringtie/Stringtie
-   source/SRA-Toolkit/SRA-Toolkit
+   source/subread/subread
    source/tpmcalculator/tpmcalculator
    source/transdecoder/transdecoder
    source/UCSC_tools/UCSC_tools

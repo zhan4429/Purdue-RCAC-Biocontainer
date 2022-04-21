@@ -1,0 +1,38 @@
+.. _backbone-label:
+
+Samblaster
+==============================
+
+Introduction
+~~~~~~~~
+``Samblaster`` is a tool to mark duplicates and extract discordant and split reads from sam files. For more information, please check its website: https://biocontainers.pro/tools/samblaster and its home page on `Github`_.
+
+Commands
+~~~~~~~
+- samblaster
+
+Module
+~~~~~~~~
+You can load the modules by::
+    
+    module load biocontainers
+    module load samblaster
+
+Example job
+~~~~~
+To run Samblaster on our clusters::
+
+    #!/bin/bash
+    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -t 1:00:00
+    #SBATCH -N 1
+    #SBATCH -n 1
+    #SBATCH --job-name=samblaster
+    #SBATCH --mail-type=FAIL,BEGIN,END
+    #SBATCH --error=%x-%J-%u.err
+    #SBATCH --output=%x-%J-%u.out
+
+    module --force purge
+    ml biocontainers samblaster
+
+.. _Github: https://github.com/GregoryFaust/samblaster
