@@ -259,7 +259,19 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/STAR/STAR
    source/Stringtie/Stringtie
    source/subread/subread
+   source/t-coffee/t-coffee
+   source/talon/talon
+   source/taxonkit/taxonkit
+   source/tetranscripts/tetranscripts
+   source/tiara/tiara
+   source/tophat/tophat
    source/tpmcalculator/tpmcalculator
+   source/transabyss/transabyss
    source/transdecoder/transdecoder
+   source/trim-galore/trim-galore
+   source/trimal/trimal
+   source/trimmomatic/trimmomatic
+   source/trinity/trinity
+   source/trnascan-se/trnascan-se
    source/UCSC_tools/UCSC_tools
    source/velocyto/velocyto
