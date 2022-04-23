@@ -214,6 +214,10 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/pycoqc/pycoqc
    source/pyensembl/pyensembl
    source/pysam/pysam
+   source/qiime2/qiime2
+   source/qualimap/qualimap
+   source/quast/quast
+   source/quickmirseq/quickmirseq
    source/r/r
    source/racon/racon
    source/ragout/ragout
@@ -274,4 +278,10 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/trinity/trinity
    source/trnascan-se/trnascan-se
    source/UCSC_tools/UCSC_tools
+   source/varscan/varscan
+   source/vartrix/vartrix
+   source/vcftools/vcftools
    source/velocyto/velocyto
+   source/velvet/velvet
+   source/vsearch/vsearch
+   source/weblogo/weblogo
