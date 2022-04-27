@@ -19,10 +19,13 @@ If you have any question, contact me(Yucheng Zhang) at:
    :maxdepth: 3
    :titlesonly:
    
+   source/abacas/abacas
    source/abyss/abyss
+   source/advntr/advntr
    source/afplot/afplot
    source/afterqc/afterqc
    source/agat/agat
+   source/alfred/alfred
    source/alien-hunter/alien-hunter
    source/allpathslg/allpathslg
    source/Alphafold/Alphafold
@@ -40,6 +43,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/bamtools/bamtools
    source/bamutil/bamutil
    source/barrnap/barrnap
+   source/basenji/basenji
    source/bbmap/bbmap
    source/bcftools/bcftools
    source/beagle/beagle
@@ -67,19 +71,26 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/cafe/cafe
    source/canu/canu
    source/cd-hit/cd-hit
+   source/cdbtools/cdbtools
+   source/cellbender/cellbender
    source/cellranger/cellranger
    source/cellranger-atac/cellranger-atac
    source/CellRank/CellRank
    source/CellRank-krylov/CellRank-krylov
+   source/celltypist/celltypist
    source/circlator/circlator
    source/circos/circos
+   source/ciriquant/ciriquant
    source/clustalw/clustalw
    source/cnvkit/cnvkit
    source/cnvnator/cnvnator
    source/concoct/concoct
    source/control-freec/control-freec
+   source/cooler/cooler
    source/coverm/coverm
    source/crisprcasfinder/crisprcasfinder
+   source/crispritz/crispritz
+   source/crossmap/crossmap
    source/csvtk/csvtk
    source/cufflinks/cufflinks
    source/cutadapt/cutadapt
