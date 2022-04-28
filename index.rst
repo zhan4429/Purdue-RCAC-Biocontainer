@@ -98,10 +98,13 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/dbg2olc/dbg2olc
    source/deepbgc/deepbgc
    source/deeptools/deeptools
+   source/delly/delly
    source/diamond/diamond
+   source/dnaio/dnaio
    source/drep/drep
    source/dropest/dropest
    source/dsuite/dsuite
+   source/easysfs/easysfs
    source/edta/edta
    source/emboss/emboss
    source/epic2/epic2
@@ -112,6 +115,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/fastp/fastp
    source/fastq_pair/fastq_pair
    source/fastqc/fastqc
+   source/fastspar/fastspar
    source/faststructure/faststructure
    source/fasttree/fasttree
    source/fastx_toolkit/fastx_toolkit
@@ -132,7 +136,9 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/gmap/gmap
    source/goatools/goatools
    source/graphlan/graphlan
+   source/graphmap/graphmap
    source/gridss/gridss
+   source/gseapy/gseapy
    source/GTDB-Tk/GTDB-Tk
    source/guppy/guppy
    source/hicexplorer/hicexplorer
@@ -144,6 +150,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/htseq/htseq
    source/htslib/htslib
    source/htstream/htstream
+   source/hyphy/hyphy
    source/idba/idba
    source/igv/igv
    source/impute2/impute2
@@ -186,6 +193,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/miniasm/miniasm
    source/minimap2/minimap2
    source/mirdeep2/mirdeep2
+   source/mitofinder/mitofinder
    source/mmseqs2/mmseqs2
    source/mothur/mothur
    source/mrbayes/mrbayes
@@ -195,6 +203,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/nanofilt/nanofilt
    source/nanolyse/nanolyse
    source/nanoplot/nanoplot
+   source/nanopolish/nanopolish
    source/nextalign/nextalign
    source/nextclade/nextclade
    source/nextflow/nextflow
@@ -209,21 +218,29 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/parsnp/parsnp
    source/pbmm2/pbmm2
    source/pcangsd/pcangsd
+   source/peakranger/peakranger
    source/perl-bioperl/perl-bioperl
    source/Picard/Picard
    source/picrust2/picrust2
    source/pilon/pilon
    source/pindel/pindel
    source/pirate/pirate
+   source/platypus/platypus
    source/plink/plink
    source/plink2/plink2
    source/popscle/popscle
+   source/prinseq/prinseq
    source/prodigal/prodigal
    source/prokka/prokka
+   source/proteinortho/proteinortho
    source/prothint/prothint
    source/pyani/pyani
+   source/pybedtools/pybedtools
+   source/pybigwig/pybigwig
    source/pycoqc/pycoqc
    source/pyensembl/pyensembl
+   source/pyfaidx/pyfaidx
+   source/pyranges/pyranges
    source/pysam/pysam
    source/qiime2/qiime2
    source/qualimap/qualimap
