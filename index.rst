@@ -19,10 +19,13 @@ If you have any question, contact me(Yucheng Zhang) at:
    :maxdepth: 3
    :titlesonly:
    
+   source/abacas/abacas
    source/abyss/abyss
+   source/advntr/advntr
    source/afplot/afplot
    source/afterqc/afterqc
    source/agat/agat
+   source/alfred/alfred
    source/alien-hunter/alien-hunter
    source/allpathslg/allpathslg
    source/Alphafold/Alphafold
@@ -40,6 +43,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/bamtools/bamtools
    source/bamutil/bamutil
    source/barrnap/barrnap
+   source/basenji/basenji
    source/bbmap/bbmap
    source/bcftools/bcftools
    source/beagle/beagle
@@ -67,19 +71,26 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/cafe/cafe
    source/canu/canu
    source/cd-hit/cd-hit
+   source/cdbtools/cdbtools
+   source/cellbender/cellbender
    source/cellranger/cellranger
    source/cellranger-atac/cellranger-atac
    source/CellRank/CellRank
    source/CellRank-krylov/CellRank-krylov
+   source/celltypist/celltypist
    source/circlator/circlator
    source/circos/circos
+   source/ciriquant/ciriquant
    source/clustalw/clustalw
    source/cnvkit/cnvkit
    source/cnvnator/cnvnator
    source/concoct/concoct
    source/control-freec/control-freec
+   source/cooler/cooler
    source/coverm/coverm
    source/crisprcasfinder/crisprcasfinder
+   source/crispritz/crispritz
+   source/crossmap/crossmap
    source/csvtk/csvtk
    source/cufflinks/cufflinks
    source/cutadapt/cutadapt
@@ -87,10 +98,13 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/dbg2olc/dbg2olc
    source/deepbgc/deepbgc
    source/deeptools/deeptools
+   source/delly/delly
    source/diamond/diamond
+   source/dnaio/dnaio
    source/drep/drep
    source/dropest/dropest
    source/dsuite/dsuite
+   source/easysfs/easysfs
    source/edta/edta
    source/emboss/emboss
    source/epic2/epic2
@@ -101,6 +115,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/fastp/fastp
    source/fastq_pair/fastq_pair
    source/fastqc/fastqc
+   source/fastspar/fastspar
    source/faststructure/faststructure
    source/fasttree/fasttree
    source/fastx_toolkit/fastx_toolkit
@@ -121,7 +136,9 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/gmap/gmap
    source/goatools/goatools
    source/graphlan/graphlan
+   source/graphmap/graphmap
    source/gridss/gridss
+   source/gseapy/gseapy
    source/GTDB-Tk/GTDB-Tk
    source/guppy/guppy
    source/hicexplorer/hicexplorer
@@ -133,6 +150,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/htseq/htseq
    source/htslib/htslib
    source/htstream/htstream
+   source/hyphy/hyphy
    source/idba/idba
    source/igv/igv
    source/impute2/impute2
@@ -175,6 +193,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/miniasm/miniasm
    source/minimap2/minimap2
    source/mirdeep2/mirdeep2
+   source/mitofinder/mitofinder
    source/mmseqs2/mmseqs2
    source/mothur/mothur
    source/mrbayes/mrbayes
@@ -184,6 +203,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/nanofilt/nanofilt
    source/nanolyse/nanolyse
    source/nanoplot/nanoplot
+   source/nanopolish/nanopolish
    source/nextalign/nextalign
    source/nextclade/nextclade
    source/nextflow/nextflow
@@ -198,28 +218,42 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/parsnp/parsnp
    source/pbmm2/pbmm2
    source/pcangsd/pcangsd
+   source/peakranger/peakranger
    source/perl-bioperl/perl-bioperl
    source/Picard/Picard
    source/picrust2/picrust2
    source/pilon/pilon
    source/pindel/pindel
    source/pirate/pirate
+   source/platypus/platypus
    source/plink/plink
    source/plink2/plink2
    source/popscle/popscle
+   source/prinseq/prinseq
    source/prodigal/prodigal
    source/prokka/prokka
+   source/proteinortho/proteinortho
    source/prothint/prothint
    source/pyani/pyani
+   source/pybedtools/pybedtools
+   source/pybigwig/pybigwig
    source/pycoqc/pycoqc
    source/pyensembl/pyensembl
+   source/pyfaidx/pyfaidx
+   source/pyranges/pyranges
    source/pysam/pysam
+   source/qiime2/qiime2
+   source/qualimap/qualimap
+   source/quast/quast
+   source/quickmirseq/quickmirseq
    source/r/r
    source/racon/racon
    source/ragout/ragout
    source/ragtag/ragtag
+   source/raven-assembler/raven-assembler
    source/raxml/raxml
    source/raxml-ng/raxml-ng
+   source/rebaler/rebaler
    source/recycler/recycler
    source/repeatmasker/repeatmasker
    source/repeatmodeler/repeatmodeler
@@ -229,18 +263,72 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/r-rnaseq/r-rnaseq
    source/r-rstudio/r-rstudio
    source/r-scrnaseq/r-scrnaseq
+   source/rnaquast/rnaquast
    source/RSEM/RSEM
    source/rseqc/rseqc
    source/run_dbcan/run_dbCAN
    source/rush/rush
    source/salmon/salmon
+   source/sambamba/sambamba
+   source/samblaster/samblaster
+   source/samplot/samplot
+   source/samtools/samtools
    source/scanpy/scanpy
    source/scVelo/scVelo
+   source/seidr/seidr
+   source/sepp/sepp
+   source/seqkit/seqkit
+   source/shorah/shorah
+   source/shortstack/shortstack
+   source/sicer/sicer
+   source/sicer2/sicer2
+   source/simug/simug
+   source/skewer/skewer
+   source/snakemake/snakemake
+   source/snap/snap
+   source/snap-aligner/snap-aligner
+   source/snaptools/snaptools
+   source/snpeff/snpeff
+   source/snpgenie/snpgenie
+   source/snpsift/snpsift
+   source/soapdenovo2/soapdenovo2
+   source/sortmerna/sortmerna
+   source/sourmash/sourmash
+   source/spaceranger/spaceranger
    source/spades/spades
-   source/STAR/STAR
-   source/Stringtie/Stringtie
    source/SRA-Toolkit/SRA-Toolkit
+   source/stacks/stacks
+   source/STAR/STAR
+   source/starfusion/starfusion
+   source/stream/stream
+   source/Stringtie/Stringtie
+   source/subread/subread
+   source/t-coffee/t-coffee
+   source/talon/talon
+   source/taxonkit/taxonkit
+   source/tetranscripts/tetranscripts
+   source/tiara/tiara
+   source/tobias/tobias
+   source/tophat/tophat
    source/tpmcalculator/tpmcalculator
+   source/transabyss/transabyss
    source/transdecoder/transdecoder
+   source/trax/trax
+   source/trim-galore/trim-galore
+   source/trimal/trimal
+   source/trimmomatic/trimmomatic
+   source/trinity/trinity
+   source/trinotate/trinotate
+   source/trnascan-se/trnascan-se
    source/UCSC_tools/UCSC_tools
+   source/unicycler/unicycler
+   source/varlociraptor/varlociraptor
+   source/varscan/varscan
+   source/vartrix/vartrix
+   source/vcftools/vcftools
    source/velocyto/velocyto
+   source/velvet/velvet
+   source/viennarna/viennarna
+   source/vsearch/vsearch
+   source/weblogo/weblogo
+   source/wtdbg/wtdbg
