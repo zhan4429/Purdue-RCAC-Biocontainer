@@ -250,8 +250,10 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/racon/racon
    source/ragout/ragout
    source/ragtag/ragtag
+   source/raven-assembler/raven-assembler
    source/raxml/raxml
    source/raxml-ng/raxml-ng
+   source/rebaler/rebaler
    source/recycler/recycler
    source/repeatmasker/repeatmasker
    source/repeatmodeler/repeatmodeler
@@ -261,19 +263,26 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/r-rnaseq/r-rnaseq
    source/r-rstudio/r-rstudio
    source/r-scrnaseq/r-scrnaseq
+   source/rnaquast/rnaquast
    source/RSEM/RSEM
    source/rseqc/rseqc
    source/run_dbcan/run_dbCAN
    source/rush/rush
    source/salmon/salmon
+   source/sambamba/sambamba
    source/samblaster/samblaster
    source/samplot/samplot
    source/samtools/samtools
    source/scanpy/scanpy
    source/scVelo/scVelo
    source/seidr/seidr
+   source/sepp/sepp
    source/seqkit/seqkit
+   source/shorah/shorah
    source/shortstack/shortstack
+   source/sicer/sicer
+   source/sicer2/sicer2
+   source/simug/simug
    source/skewer/skewer
    source/snakemake/snakemake
    source/snap/snap
@@ -284,11 +293,14 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/snpsift/snpsift
    source/soapdenovo2/soapdenovo2
    source/sortmerna/sortmerna
+   source/sourmash/sourmash
    source/spaceranger/spaceranger
    source/spades/spades
    source/SRA-Toolkit/SRA-Toolkit
    source/stacks/stacks
    source/STAR/STAR
+   source/starfusion/starfusion
+   source/stream/stream
    source/Stringtie/Stringtie
    source/subread/subread
    source/t-coffee/t-coffee
@@ -296,20 +308,27 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/taxonkit/taxonkit
    source/tetranscripts/tetranscripts
    source/tiara/tiara
+   source/tobias/tobias
    source/tophat/tophat
    source/tpmcalculator/tpmcalculator
    source/transabyss/transabyss
    source/transdecoder/transdecoder
+   source/trax/trax
    source/trim-galore/trim-galore
    source/trimal/trimal
    source/trimmomatic/trimmomatic
    source/trinity/trinity
+   source/trinotate/trinotate
    source/trnascan-se/trnascan-se
    source/UCSC_tools/UCSC_tools
+   source/unicycler/unicycler
+   source/varlociraptor/varlociraptor
    source/varscan/varscan
    source/vartrix/vartrix
    source/vcftools/vcftools
    source/velocyto/velocyto
    source/velvet/velvet
+   source/viennarna/viennarna
    source/vsearch/vsearch
    source/weblogo/weblogo
+   source/wtdbg/wtdbg
