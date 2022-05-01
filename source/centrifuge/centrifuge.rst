@@ -1,0 +1,50 @@
+.. _backbone-label:
+
+Centrifuge
+==============================
+
+Introduction
+~~~~~~~~
+``Centrifuge`` is a novel microbial classification engine that enables rapid, accurate, and sensitive labeling of reads and quantification of species on desktop computers. For more information, please check its website: https://biocontainers.pro/tools/centrifuge and its home page: http://www.ccb.jhu.edu/software/centrifuge/.
+
+Commands
+~~~~~~~
+- centrifuge
+- centrifuge-BuildSharedSequence.pl
+- centrifuge-RemoveEmptySequence.pl
+- centrifuge-RemoveN.pl
+- centrifuge-build
+- centrifuge-build-bin
+- centrifuge-class
+- centrifuge-compress.pl
+- centrifuge-download
+- centrifuge-inspect
+- centrifuge-inspect-bin
+- centrifuge-kreport
+- centrifuge-sort-nt.pl
+- centrifuge_evaluate.py
+- centrifuge_simulate_reads.py
+
+Module
+~~~~~~~~
+You can load the modules by::
+    
+    module load biocontainers
+    module load centrifuge
+
+Example job
+~~~~~
+To run Centrifuge on our clusters::
+
+    #!/bin/bash
+    #SBATCH -A myallocation     # Allocation name 
+    #SBATCH -t 1:00:00
+    #SBATCH -N 1
+    #SBATCH -n 1
+    #SBATCH --job-name=centrifuge
+    #SBATCH --mail-type=FAIL,BEGIN,END
+    #SBATCH --error=%x-%J-%u.err
+    #SBATCH --output=%x-%J-%u.out
+
+    module --force purge
+    ml biocontainers centrifuge
