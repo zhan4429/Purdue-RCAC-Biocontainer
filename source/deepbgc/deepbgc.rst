@@ -35,4 +35,8 @@ To run Deepbgc on our clusters::
     module --force purge
     ml biocontainers deepbgc
 
+    export DEEPBGC_DOWNLOADS_DIR=$PWD
+    deepbgc download
+    deepbgc pipeline genome.fa  -o output
+
 .. _Github: https://github.com/Merck/deepbgc

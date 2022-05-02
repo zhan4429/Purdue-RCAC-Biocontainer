@@ -35,4 +35,10 @@ To run Cafe on our clusters::
     module --force purge
     ml biocontainers cafe
 
+    #To get a list of commands just call CAFE with the -h or --help arguments
+    cafe5 -h
+    
+    #To estimate lambda with no among family rate variation issue the command
+    cafe5 -i mammal_gene_families.txt -t mammal_tree.txt  
+  
 .. _Github: https://github.com/hahnlab/CAFE

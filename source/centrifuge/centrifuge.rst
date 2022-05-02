@@ -48,3 +48,11 @@ To run Centrifuge on our clusters::
 
     module --force purge
     ml biocontainers centrifuge
+
+    centrifuge-download -o taxonomy taxonomy
+    centrifuge-download -o library -m -d "archaea,bacteria,viral" refseq > seqid2taxid.map
+    cat library/*/*.fna > input-sequences.fna
+    centrifuge-build -p 8 --conversion-table seqid2taxid.map \
+                 --taxonomy-tree taxonomy/nodes.dmp --name-table taxonomy/names.dmp \
+                 input-sequences.fna abv
+

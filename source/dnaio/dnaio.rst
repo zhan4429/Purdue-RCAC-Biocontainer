@@ -36,4 +36,6 @@ To run Dnaio on our clusters::
     module --force purge
     ml biocontainers dnaio
 
+    python dnaio_test.py
+
 .. _Github: https://github.com/marcelm/dnaio

@@ -37,4 +37,7 @@ To run Epic2 on our clusters::
     module --force purge
     ml biocontainers epic2
 
+    epic2 -t /examples/test.bed.gz \
+      -c /examples/control.bed.gz \
+      > deleteme.txt
 .. _Github: https://github.com/biocore-ntnu/epic2

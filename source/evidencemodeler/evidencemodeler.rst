@@ -49,4 +49,11 @@ To run Evidencemodeler on our clusters::
     module --force purge
     ml biocontainers evidencemodeler
 
+    
+    evidence_modeler.pl --genome genome.fasta \
+                       --weights weights.txt \
+                       --gene_predictions gene_predictions.gff3 \
+                       --protein_alignments protein_alignments.gff3 \
+                       --transcript_alignments transcript_alignments.gff3 \
+                     > evm.out 
 .. _Github: https://github.com/EVidenceModeler/EVidenceModeler

@@ -35,4 +35,14 @@ To run Crispritz on our clusters::
     module --force purge
     ml biocontainers crispritz
 
+    crispritz.py add-variants hg38_1000genomeproject_vcf/ hg38_ref/ &> output.redirect.out 
+
+    crispritz.py index-genome hg38_ref hg38_ref/ 20bp-NGG-SpCas9.txt -bMax 2 &> output.redirect.out 
+
+    crispritz.py search hg38_ref/ 20bp-NGG-SpCas9.txt EMX1.sgRNA.txt emx1.hg38 -mm 4 -t -scores hg38_ref/ &> output.redirect.out
+
+    crispritz.py search genome_library/NGG_2_hg38_ref/ 20bp-NGG-SpCas9.txt EMX1.sgRNA.txt emx1.hg38.bulges -index -mm 4 -bDNA 1 -bRNA 1 -t &> output.redirect.out
+
+    crispritz.py annotate-results emx1.hg38.targets.txt hg38Annotation.bed emx1.hg38 &> output.redirect.out
+   
 .. _Github: https://github.com/pinellolab/CRISPRitz

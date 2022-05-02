@@ -35,4 +35,7 @@ To run Delly on our clusters::
     module --force purge
     ml biocontainers delly
 
+    delly call -x hg19.excl -o delly.bcf -g hg19.fa input.bam
+    delly filter -f somatic -o t1.pre.bcf -s samples.tsv t1.bcf
+
 .. _Github: https://github.com/dellytools/delly

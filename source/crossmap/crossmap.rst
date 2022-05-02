@@ -34,3 +34,5 @@ To run Crossmap on our clusters::
 
     module --force purge
     ml biocontainers crossmap
+
+    CrossMap.py bed GRCh37_to_GRCh38.chain.gz test.bed

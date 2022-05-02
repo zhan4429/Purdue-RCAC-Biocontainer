@@ -39,4 +39,5 @@ To run Dropest on our clusters::
     module --force purge
     ml biocontainers dropest
 
+    dropest -f -c 10x.xml  -C 1200 neurons_900_possorted_genome_bam.bam
 .. _Github: https://github.com/kharchenkolab/dropEst

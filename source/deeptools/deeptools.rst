@@ -46,7 +46,7 @@ To run DeepTools on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 4
     #SBATCH --job-name=deeptools
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -54,5 +54,10 @@ To run DeepTools on our clusters::
 
     module --force purge
     ml biocontainers deeptools
+    
+    bamCoverage  --normalizeUsing CPM -p 32  \
+         --effectiveGenomeSize  11000000  \
+         -b WT_coord_sorted.bam  \
+         -o WT_coord_sorted.bw  
 
 .. _Github: https://github.com/deeptools/deepTools
