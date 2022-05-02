@@ -20,7 +20,8 @@ You can load the modules by::
 
 config.yml 
 ~~~~
-All required dependencies have been installed within the CIRIquant container image. But users still need toprovide the PATH of these exectuables in `config.yml`. Please use the below `config.yml` as example:::
+All required dependencies have been installed within the CIRIquant container image. But users still need toprovide the PATH of these exectuables in `config.yml`. Please use the below `config.yml` as example::
+
     name: hg38
     tools:
        bwa: /bin/bwa
@@ -28,10 +29,10 @@ All required dependencies have been installed within the CIRIquant container ima
        stringtie: /bin/stringtie
        samtools: /usr/local/bin/samtools
     reference:
-      fasta: reference/Homo_sapiens.GRCh38.dna.primary_assembly.fa
-      gtf:  reference/Homo_sapiens.GRCh38.105.gtf
-      bwa_index: reference/Homo_sapiens.GRCh38.dna.primary_assembly.fa
-      hisat_index: reference/hg38_hisat2
+       fasta: reference/Homo_sapiens.GRCh38.dna.primary_assembly.fa
+       gtf:  reference/Homo_sapiens.GRCh38.105.gtf
+       bwa_index: reference/Homo_sapiens.GRCh38.dna.primary_assembly.fa
+       hisat_index: reference/hg38_hisat2
     
 
 Example job
