@@ -34,3 +34,5 @@ To run Exonerate on our clusters::
 
     module --force purge
     ml biocontainers exonerate
+
+    exonerate  -m genome2genome  cms.fasta cmm.fasta > cm_vs_cs.out

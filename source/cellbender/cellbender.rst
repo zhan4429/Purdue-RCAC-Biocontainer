@@ -24,9 +24,9 @@ To run Cellbender on our clusters::
 
     #!/bin/bash
     #SBATCH -A myallocation     # Allocation name 
-    #SBATCH -t 1:00:00
+    #SBATCH -t 10:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 24
     #SBATCH --job-name=cellbender
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -35,4 +35,13 @@ To run Cellbender on our clusters::
     module --force purge
     ml biocontainers cellbender
 
+    cellbender remove-background \
+                 --input cellranger/test_count/run_count_1kpbmcs/outs/raw_feature_bc_matrix.h5 \
+                 --output output_cpu.h5 \
+                 --expected-cells 1000 \
+                 --total-droplets-included 20000 \
+                 --fpr 0.01 \
+                 --epochs 150
+
+   
 .. _Github: https://github.com/broadinstitute/CellBender

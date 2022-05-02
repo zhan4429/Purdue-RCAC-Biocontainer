@@ -35,4 +35,6 @@ To run easySFS on our clusters::
     module --force purge
     ml biocontainers easysfs
 
+    easySFS.py -i example_files/wcs_1200.vcf -p example_files/wcs_pops.txt --preview -a
+    easySFS.py -i example_files/wcs_1200.vcf -p example_files/wcs_pops.txt -a --proj=7,7
 .. _Github: https://github.com/isaacovercast/easySFS

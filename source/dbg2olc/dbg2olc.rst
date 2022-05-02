@@ -44,4 +44,5 @@ To run Dbg2olc on our clusters::
     module --force purge
     ml biocontainers dbg2olc
 
+    SelectLongestReads sum 600000000 longest 0 o TEST.fq f SRR1976948.abundtrim.subset.pe.fq
 .. _Github: https://github.com/yechengxi/DBG2OLC

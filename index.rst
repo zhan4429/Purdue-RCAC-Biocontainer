@@ -20,6 +20,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    :titlesonly:
    
    source/abacas/abacas
+   source/abricate/abricate
    source/abyss/abyss
    source/advntr/advntr
    source/afplot/afplot
@@ -36,7 +37,9 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/antismash/antismash
    source/anvio/anvio
    source/assembly-stats/assembly-stats
+   source/ataqv/ataqv
    source/aTRAM/aTRAM
+   source/atropos/atropos
    source/augur/augur
    source/AUGUSTUS/AUGUSTUS
    source/bam-readcount/bam-readcount
@@ -64,6 +67,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/bracken/bracken
    source/BRAKER2/BRAKER2
    source/brass/brass
+   source/breseq/breseq
    source/busco/busco
    source/bustools/bustools
    source/bwa/bwa
@@ -78,6 +82,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/CellRank/CellRank
    source/CellRank-krylov/CellRank-krylov
    source/celltypist/celltypist
+   source/centrifuge/centrifuge
    source/circlator/circlator
    source/circos/circos
    source/ciriquant/ciriquant
@@ -90,6 +95,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/coverm/coverm
    source/crisprcasfinder/crisprcasfinder
    source/crispritz/crispritz
+   source/cross_match/cross_match
    source/crossmap/crossmap
    source/csvtk/csvtk
    source/cufflinks/cufflinks
@@ -125,7 +131,9 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/freebayes/freebayes
    source/fseq/fseq
    source/GATK4/GATK4
+   source/gemma/gemma
    source/GeneMark/GeneMark
+   source/genomepy/genomepy
    source/genomescope2/genomescope2
    source/genomicconsensus/genomicconsensus
    source/genrich/genrich
@@ -140,6 +148,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/gridss/gridss
    source/gseapy/gseapy
    source/GTDB-Tk/GTDB-Tk
+   source/gubbins/gubbins
    source/guppy/guppy
    source/hicexplorer/hicexplorer
    source/hifiasm/hifiasm
@@ -147,6 +156,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/hmmer/hmmer
    source/HOMMER/HOMMER
    source/HUMAnN3/HUMAnN3
+   source/how_are_we_stranded_here/how_are_we_stranded_here
    source/htseq/htseq
    source/htslib/htslib
    source/htstream/htstream
@@ -155,9 +165,11 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/igv/igv
    source/impute2/impute2
    source/instrain/instrain  
+   source/intarna/intarna
    source/InterProScan/InterProScan
    source/iqtree/iqtree
    source/isoseq3/isoseq3
+   source/kaiju/kaiju
    source/kallisto/kallisto
    source/khmer/khmer
    source/kmc/kmc
@@ -175,10 +187,12 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/macs3/macs3
    source/mafft/mafft
    source/MAKER/MAKER  
+   source/mapcaller/mapcaller
    source/mash/mash
    source/mashmap/mashmap
    source/mashtree/mashtree
    source/mauve/mauve
+   source/maxquant/maxquant
    source/mcl/mcl
    source/medaka/medaka
    source/megadepth/megadepth
@@ -204,9 +218,11 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/nanolyse/nanolyse
    source/nanoplot/nanoplot
    source/nanopolish/nanopolish
+   source/ncbi-genome-download/ncbi-genome-download
    source/nextalign/nextalign
    source/nextclade/nextclade
    source/nextflow/nextflow
+   source/ngs-bits/ngs-bits
    source/ngsutils/ngsutils
    source/OrthoFinder/OrthoFinder
    source/paml/paml
@@ -220,6 +236,9 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/pcangsd/pcangsd
    source/peakranger/peakranger
    source/perl-bioperl/perl-bioperl
+   source/phd2fasta/phd2fasta
+   source/phrap/phrap
+   source/phred/phred
    source/Picard/Picard
    source/picrust2/picrust2
    source/pilon/pilon
@@ -288,6 +307,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/snap/snap
    source/snap-aligner/snap-aligner
    source/snaptools/snaptools
+   source/snippy/snippy
    source/snpeff/snpeff
    source/snpgenie/snpgenie
    source/snpsift/snpsift
@@ -303,6 +323,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/stream/stream
    source/Stringtie/Stringtie
    source/subread/subread
+   source/swat/swat
    source/t-coffee/t-coffee
    source/talon/talon
    source/taxonkit/taxonkit
@@ -314,6 +335,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/transabyss/transabyss
    source/transdecoder/transdecoder
    source/trax/trax
+   source/treetime/treetime
    source/trim-galore/trim-galore
    source/trimal/trimal
    source/trimmomatic/trimmomatic

@@ -35,3 +35,7 @@ To run Cdbtools on our clusters::
 
     module --force purge
     ml biocontainers cdbtools
+
+    cdbfasta genome.fa
+    cdbyank -a 'seq_1' genome.fa.cidx
+    

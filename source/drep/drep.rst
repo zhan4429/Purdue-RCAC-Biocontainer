@@ -35,4 +35,7 @@ To run Drep on our clusters::
     module --force purge
     ml biocontainers drep
 
+    dRep compare compare_out -g tests/genomes/*
+    dRep dereplicate dereplicate_out -g tests/genomes/* 
+
 .. _Github: https://github.com/MrOlm/drep

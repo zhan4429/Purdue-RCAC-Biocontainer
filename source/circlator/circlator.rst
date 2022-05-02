@@ -36,5 +36,6 @@ To run Circlator on our clusters::
     module --force purge
     ml biocontainers circlator
 
+    circlator minimus2  minimus2_test_run_minimus2.in.fa  minimus2_test
 .. _Github: https://github.com/sanger-pathogens/circlator
 

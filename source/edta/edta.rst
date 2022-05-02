@@ -88,7 +88,7 @@ To run Edta on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 10
     #SBATCH --job-name=edta
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -97,4 +97,5 @@ To run Edta on our clusters::
     module --force purge
     ml biocontainers edta
 
+    EDTA.pl --genome genome.fa --cds genome.cds.fa --curatedlib EDTA/database/rice6.9.5.liban --exclude genome.exclude.bed --overwrite 1 --sensitive 1 --anno 1 --evaluate 1 --threads 10
 .. _Github: https://github.com/oushujun/EDTA

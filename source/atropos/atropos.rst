@@ -1,41 +1,38 @@
 .. _backbone-label:
 
-Dnaio
+Atropos
 ==============================
 
 Introduction
 ~~~~~~~~
-``Dnaio`` is a Python 3.7+ library for very efficient parsing and writing of FASTQ and also FASTA files. For more information, please check its website: https://biocontainers.pro/tools/dnaio and its home page on `Github`_.
+``Atropos`` is a tool for specific, sensitive, and speedy trimming of NGS reads. For more information, please check its website: https://biocontainers.pro/tools/atropos and its home page on `Github`_.
 
 Commands
 ~~~~~~~
-- python
-- python3
+- atropos
 
 Module
 ~~~~~~~~
 You can load the modules by::
     
     module load biocontainers
-    module load dnaio
+    module load atropos
 
 Example job
 ~~~~~
-To run Dnaio on our clusters::
+To run Atropos on our clusters::
 
     #!/bin/bash
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
-    #SBATCH --job-name=dnaio
+    #SBATCH --job-name=atropos
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers dnaio
+    ml biocontainers atropos
 
-    python dnaio_test.py
-
-.. _Github: https://github.com/marcelm/dnaio
+.. _Github: https://github.com/jdidion/atropos

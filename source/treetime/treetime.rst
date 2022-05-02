@@ -1,41 +1,38 @@
 .. _backbone-label:
 
-Dnaio
+Treetime
 ==============================
 
 Introduction
 ~~~~~~~~
-``Dnaio`` is a Python 3.7+ library for very efficient parsing and writing of FASTQ and also FASTA files. For more information, please check its website: https://biocontainers.pro/tools/dnaio and its home page on `Github`_.
+``Treetime`` is a tool for maximum likelihood dating and ancestral sequence inference. For more information, please check its website: https://biocontainers.pro/tools/treetime and its home page on `Github`_.
 
 Commands
 ~~~~~~~
-- python
-- python3
+- treetime
 
 Module
 ~~~~~~~~
 You can load the modules by::
     
     module load biocontainers
-    module load dnaio
+    module load treetime
 
 Example job
 ~~~~~
-To run Dnaio on our clusters::
+To run Treetime on our clusters::
 
     #!/bin/bash
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
     #SBATCH -n 1
-    #SBATCH --job-name=dnaio
+    #SBATCH --job-name=treetime
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers dnaio
+    ml biocontainers treetime
 
-    python dnaio_test.py
-
-.. _Github: https://github.com/marcelm/dnaio
+.. _Github: https://github.com/neherlab/treetime
