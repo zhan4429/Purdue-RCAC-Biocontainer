@@ -28,7 +28,7 @@ To run Cooler interactively on our clusters::
    salloc: Granted job allocation 12345869
    salloc: Waiting for resource configuration
    salloc: Nodes bell-a008 are ready for job
-   (base) UserID@bell-a008:~ $ module load biocontainers cellrank/1.5.1
+   (base) UserID@bell-a008:~ $ module load biocontainers cooler
    (base) UserID@bell-a008:~ $ python
    Python 3.9.7 | packaged by conda-forge | (default, Sep 29 2021, 19:20:46) 
    [GCC 9.4.0] on linux
