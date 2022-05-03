@@ -20,9 +20,25 @@ You can load the modules by::
     module load biocontainers
     module load Cooler
 
-Example job
+Interactive job
 ~~~~~
-To run Cooler on our clusters::
+To run Cooler interactively on our clusters::
+
+   (base) UserID@bell-fe00:~ $ sinteractive -N1 -n12 -t4:00:00 -A myallocation
+   salloc: Granted job allocation 12345869
+   salloc: Waiting for resource configuration
+   salloc: Nodes bell-a008 are ready for job
+   (base) UserID@bell-a008:~ $ module load biocontainers cellrank/1.5.1
+   (base) UserID@bell-a008:~ $ python
+   Python 3.9.7 | packaged by conda-forge | (default, Sep 29 2021, 19:20:46) 
+   [GCC 9.4.0] on linux
+   Type "help", "copyright", "credits" or "license" for more information.  
+   >>> import cooler
+
+
+Batch job
+~~~~~
+To run Cooler batch jobs on our clusters::
 
     #!/bin/bash
     #SBATCH -A myallocation     # Allocation name 
@@ -36,5 +52,10 @@ To run Cooler on our clusters::
 
     module --force purge
     ml biocontainers cooler
-
+    
+    cooler info data/Rao2014-GM12878-MboI-allreps-filtered.1000kb.cool
+    cooler info -f bin-size data/Rao2014-GM12878-MboI-allreps-filtered.1000kb.cool
+    cooler info -m data/Rao2014-GM12878-MboI-allreps-filtered.1000kb.cool
+    cooler tree data/Rao2014-GM12878-MboI-allreps-filtered.1000kb.cool
+    cooler attrs data/Rao2014-GM12878-MboI-allreps-filtered.1000kb.cool
 .. _Github: https://github.com/open2c/cooler
