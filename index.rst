@@ -36,6 +36,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/annovar/annovar
    source/antismash/antismash
    source/anvio/anvio
+   source/asgal/asgal
    source/assembly-stats/assembly-stats
    source/ataqv/ataqv
    source/aTRAM/aTRAM
@@ -43,6 +44,9 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/augur/augur
    source/AUGUSTUS/AUGUSTUS
    source/bam-readcount/bam-readcount
+   source/bamgineer/bamgineer
+   source/bamliquidator/bamliquidator
+   source/bamsurgeon/bamsurgeon
    source/bamtools/bamtools
    source/bamutil/bamutil
    source/barrnap/barrnap
@@ -81,8 +85,10 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/cellranger-atac/cellranger-atac
    source/CellRank/CellRank
    source/CellRank-krylov/CellRank-krylov
+   source/cellsnp-lite/cellsnp-lite
    source/celltypist/celltypist
    source/centrifuge/centrifuge
+   source/cicero/cicero
    source/circlator/circlator
    source/circos/circos
    source/ciriquant/ciriquant
@@ -103,6 +109,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/cyvcf2/cyvcf2
    source/dbg2olc/dbg2olc
    source/deepbgc/deepbgc
+   source/deepsignal2/deepsignal2
    source/deeptools/deeptools
    source/delly/delly
    source/diamond/diamond
@@ -112,6 +119,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/dsuite/dsuite
    source/easysfs/easysfs
    source/edta/edta
+   source/eggnog-mapper/eggnog-mapper
    source/emboss/emboss
    source/epic2/epic2
    source/evidencemodeler/evidencemodeler
@@ -130,6 +138,8 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/fraggenescan/fraggenescan
    source/freebayes/freebayes
    source/fseq/fseq
+   source/funannotate/funannotate
+   source/gatk/gatk
    source/GATK4/GATK4
    source/gemma/gemma
    source/GeneMark/GeneMark
@@ -183,6 +193,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/lima/lima
    source/lofreq/lofreq
    source/lra/lra
+   source/lumpy-sv/lumpy-sv
    source/macs2/macs2
    source/macs3/macs3
    source/mafft/mafft
@@ -273,6 +284,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/raxml/raxml
    source/raxml-ng/raxml-ng
    source/rebaler/rebaler
+   source/reciprocal_smallest_distance/reciprocal_smallest_distance
    source/recycler/recycler
    source/repeatmasker/repeatmasker
    source/repeatmodeler/repeatmodeler
@@ -282,6 +294,8 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/r-rnaseq/r-rnaseq
    source/r-rstudio/r-rstudio
    source/r-scrnaseq/r-scrnaseq
+   source/rnaindel/rnaindel
+   source/rnapeg/rnapeg
    source/rnaquast/rnaquast
    source/RSEM/RSEM
    source/rseqc/rseqc
@@ -301,8 +315,10 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/shortstack/shortstack
    source/sicer/sicer
    source/sicer2/sicer2
+   source/signalp/signalp
    source/simug/simug
    source/skewer/skewer
+   source/smoove/smoove
    source/snakemake/snakemake
    source/snap/snap
    source/snap-aligner/snap-aligner
@@ -330,10 +346,12 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/tetranscripts/tetranscripts
    source/tiara/tiara
    source/tobias/tobias
+   source/tombo/tombo
    source/tophat/tophat
    source/tpmcalculator/tpmcalculator
    source/transabyss/transabyss
    source/transdecoder/transdecoder
+   source/transvar/transvar
    source/trax/trax
    source/treetime/treetime
    source/trim-galore/trim-galore
