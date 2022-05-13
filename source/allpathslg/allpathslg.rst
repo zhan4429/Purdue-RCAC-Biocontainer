@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Allpathslg`` is a whole-genome shotgun assembler that can generate high-quality genome assemblies using short reads. For more information, please check its website: https://biocontainers.pro/tools/allpathslg and its home page: https://software.broadinstitute.org/allpaths-lg/blog/.
 
+Versions
+~~~~~~~~
+- 52488
+
 Commands
 ~~~~~~~
 - PrepareAllPathsInputs.pl

@@ -5,11 +5,14 @@ Alphafold
 
 Introduction
 ~~~~~~~~
-
 ``Alphafold`` is a protein structure prediction tool developed by DeepMind (Google). It uses a novel machine learning approach to predict 3D protein structures from primary sequences alone. The source code is available on `Github`_. It has been deployed in all RCAC clusters, supporting both CPU and GPU.   
 
 It also relies on a huge database. The full database (~2.2TB) has been downloaded and setup for users.  
 
+Versions
+~~~~~~~~
+- 2.1.1
+- 2.2.0
 
 Commands
 ~~~~~~~

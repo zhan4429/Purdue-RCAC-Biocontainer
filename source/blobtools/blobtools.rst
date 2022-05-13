@@ -9,6 +9,9 @@ Introduction
 
 Detailed usage can be found here: https://github.com/DRL/blobtools
 
+Versions
+~~~~~~~~
+- 1.1.1
 
 Commands
 ~~~~~~

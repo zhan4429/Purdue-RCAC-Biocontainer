@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``ASGAL`` (Alternative Splicing Graph ALigner) is a tool for detecting the alternative splicing events expressed in a RNA-Seq sample with respect to a gene annotation. For more information, please check its Docker hub: https://hub.docker.com/r/algolab/asgal and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.1.7
+
 Commands
 ~~~~~~~
 - asgal

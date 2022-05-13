@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Cactus`` is a reference-free whole-genome multiple alignment program. For more information, please check its website: https://biocontainers.pro/tools/cactus and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 2.0.5
+
 Commands
 ~~~~~~~
 - cactus

@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Bioconvert`` is a collaborative project to facilitate the interconversion of life science data from one format to another. For more information, please check its website: https://biocontainers.pro/tools/bioconvert and its home page: https://bioconvert.readthedocs.io/en/master/.
 
+Versions
+~~~~~~~~
+- 0.4.3
+
 Commands
 ~~~~~~~
 - bioconvert

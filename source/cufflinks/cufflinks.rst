@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Cufflinks`` assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples. It accepts aligned RNA-Seq reads and assembles the alignments into a parsimonious set of transcripts. Cufflinks then estimates the relative abundances of these transcripts based on how many reads support each one, taking into account biases in library preparation protocols. For more information, please check its website: https://biocontainers.pro/tools/cufflinks and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 2.2.1-py36
+
 Commands
 ~~~~~~~
 - cuffcompare

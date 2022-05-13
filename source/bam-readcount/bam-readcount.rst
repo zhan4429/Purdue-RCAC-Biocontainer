@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Bam-readcount`` is a utility that runs on a BAM or CRAM file and generates low-level information about sequencing data at specific nucleotide positions. For more information, please check its Docker hub: https://hub.docker.com/r/mgibio/bam-readcount and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.0.0
+
 Commands
 ~~~~~~~
 - bam-readcount

@@ -9,6 +9,9 @@ Introduction
 
 Detailed usage can be found here: https://github.com/dcouvin/CRISPRCasFinder
 
+Versions
+~~~~~~~~
+- 4.2.20
 
 Commands
 ~~~~~~

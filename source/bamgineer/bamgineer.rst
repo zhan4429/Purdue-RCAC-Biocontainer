@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Bamgineer`` is a tool that can be used to introduce user-defined haplotype-phased allele-specific copy number variations (CNV) into an existing Binary Alignment Mapping (BAM) file with demonstrated applicability to simulate somatic cancer CNVs in phased whole-genome sequencing datsets. For more information, please check its Docker hub: https://hub.docker.com/r/suluxan/bamgineer-v2 and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.1
+
 Commands
 ~~~~~~~
 - simulate.py

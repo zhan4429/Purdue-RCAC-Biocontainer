@@ -9,6 +9,10 @@ Introduction
 
 Detailed usage can be found here: https://github.com/marbl/canu
 
+Versions
+~~~~~~~~
+- 2.1.1
+- 2.2
 
 Commands
 ~~~~~~

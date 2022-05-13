@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Biobambam`` is a collection of tools for early stage alignment file processing. For more information, please check its website: https://biocontainers.pro/tools/biobambam and its home page on `Gitlab`_.
 
+Versions
+~~~~~~~~
+- 2.0.183
+
 Commands
 ~~~~~~~
 - bam12auxmerge

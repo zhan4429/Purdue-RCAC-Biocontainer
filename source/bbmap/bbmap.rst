@@ -7,6 +7,11 @@ Introduction
 ~~~~~~~~
 ``Bbmap`` is a short read aligner, as well as various other bioinformatic tools. For more information, please check its website: https://biocontainers.pro/tools/bbmap and its home page on `Sourceforge`_.
 
+Versions
+~~~~~~~~
+- 38.93
+- 38.96
+
 Commands
 ~~~~~~~
 - addadapters.sh

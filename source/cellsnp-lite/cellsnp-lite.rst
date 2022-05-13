@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``cellSNP`` aims to pileup the expressed alleles in single-cell or bulk RNA-seq data, which can be directly used for donor deconvolution in multiplexed single-cell RNA-seq data, particularly with vireo, which assigns cells to donors and detects doublets, even without genotyping reference. For more information, please check its website: https://biocontainers.pro/tools/cellsnp-lite and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.2.2
+
 Commands
 ~~~~~~~
 - cellsnp-lite

@@ -7,6 +7,11 @@ Introduction
 ~~~~~~~~
 ``Cutadapt`` finds and removes adapter sequences, primers, poly-A tails and other types of unwanted sequence from your high-throughput sequencing reads. For more information, please check its website: https://biocontainers.pro/tools/cutadapt and its home page: https://cutadapt.readthedocs.io/en/stable/.
 
+Versions
+~~~~~~~~
+- 3.4-py38
+- 3.7-py37
+
 Commands
 ~~~~~~~
 - cutadapt

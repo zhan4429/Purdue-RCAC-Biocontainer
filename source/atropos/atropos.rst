@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Atropos`` is a tool for specific, sensitive, and speedy trimming of NGS reads. For more information, please check its website: https://biocontainers.pro/tools/atropos and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.1.17
+
 Commands
 ~~~~~~~
 - atropos

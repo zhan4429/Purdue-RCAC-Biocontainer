@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Ataqv`` is a toolkit for measuring and comparing ATAC-seq results, made in the Parker lab at the University of Michigan. For more information, please check its website: https://biocontainers.pro/tools/ataqv and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.3.0-py39
+
 Commands
 ~~~~~~~
 - ataqv

@@ -9,6 +9,11 @@ Introduction
 
 Detailed information can be found here: https://gitlab.com/ezlab/busco/
 
+Versions
+~~~~~~~~
+- 5.2.2
+- 5.3.0
+
 Commands
 ~~~~~~  
 - busco

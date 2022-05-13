@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Bamutil`` is a collection of programs for working on SAM/BAM files. For more information, please check its website: https://biocontainers.pro/tools/bamutil and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.0.15
+
 Commands
 ~~~~~~~
 - bam

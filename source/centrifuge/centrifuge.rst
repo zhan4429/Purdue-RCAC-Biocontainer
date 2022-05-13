@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Centrifuge`` is a novel microbial classification engine that enables rapid, accurate, and sensitive labeling of reads and quantification of species on desktop computers. For more information, please check its website: https://biocontainers.pro/tools/centrifuge and its home page: http://www.ccb.jhu.edu/software/centrifuge/.
 
+Versions
+~~~~~~~~
+- 1.0.4_beta
+
 Commands
 ~~~~~~~
 - centrifuge

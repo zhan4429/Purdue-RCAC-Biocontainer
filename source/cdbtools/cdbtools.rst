@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Cdbtools`` is a collection of tools used for creating indices for quick retrieval of any particular sequences from large multi-FASTA files. For more information, please check its website: https://biocontainers.pro/tools/cdbtools and its home page: http://compbio.dfci.harvard.edu/tgi.
 
+Versions
+~~~~~~~~
+- 0.99
+
 Commands
 ~~~~~~~
 - cdbfasta

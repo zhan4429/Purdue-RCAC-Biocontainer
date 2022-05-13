@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``BamTools`` is a programmer API and an end-user toolkit for handling BAM files. This container provides a toolkit-only version (no API to build against). For more information, please check its website: https://biocontainers.pro/tools/bamtools and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 2.5.1
+
 Commands
 ~~~~~~~
 - bamtools

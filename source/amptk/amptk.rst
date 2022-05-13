@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Amptk`` is a series of scripts to process NGS amplicon data using USEARCH and VSEARCH, it can also be used to process any NGS amplicon data and includes databases setup for analysis of fungal ITS, fungal LSU, bacterial 16S, and insect COI amplicons. For more information, please check its website: https://biocontainers.pro/tools/amptk and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.5.4
+
 Commands
 ~~~~~~~
 - amptk

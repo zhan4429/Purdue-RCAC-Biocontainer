@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Agat`` is a suite of tools to handle gene annotations in any GTF/GFF format. For more information, please check its website: https://biocontainers.pro/tools/agat and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.8.1
+
 Commands
 ~~~~~~~
 - agat_convert_bed2gff.pl

@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Abacas`` is a tool for algorithm based automatic contiguation of assembled sequences. For more information, please check its website: https://biocontainers.pro/tools/abacas and its home page: http://abacas.sourceforge.net.
 
+Versions
+~~~~~~~~
+- 1.3.1
+
 Commands
 ~~~~~~~
 - abacas.pl

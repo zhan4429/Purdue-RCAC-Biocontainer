@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Breseq`` is a computational pipeline for the analysis of short-read re-sequencing data. For more information, please check its website: https://biocontainers.pro/tools/breseq and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.36.1
+
 Commands
 ~~~~~~~
 - breseq

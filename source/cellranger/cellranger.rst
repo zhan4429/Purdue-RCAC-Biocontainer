@@ -8,6 +8,12 @@ Introduction
 ``Cell Ranger`` is a set of analysis pipelines that process Chromium single-cell data to align reads, generate feature-barcode matrices, perform clustering and other secondary analysis, and more. 
 Detailed usage can be found here: https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger.
 
+Versions
+~~~~~~~~
+- 6.0.1
+- 6.1.1
+- 6.1.2
+
 Commands
 ~~~~~~
 - cellranger mkfastq 

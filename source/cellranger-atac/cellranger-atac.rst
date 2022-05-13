@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Cellranger-atac`` is a set of analysis pipelines that process Chromium Single Cell ATAC data. For more information, please check its Docker hub: https://hub.docker.com/r/cumulusprod/cellranger-atac and its home page: https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/algorithms/overview.
 
+Versions
+~~~~~~~~
+- 2.0.0
+
 Commands
 ~~~~~~~
 - cellranger-atac

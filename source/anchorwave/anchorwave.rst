@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Anchorwave`` is used for sensitive alignment of genomes with high sequence diversity, extensive structural polymorphism and whole-genome duplication variation. For more information, please check its website: https://biocontainers.pro/tools/anchorwave and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.0.1
+
 Commands
 ~~~~~~~
 - anchorwave

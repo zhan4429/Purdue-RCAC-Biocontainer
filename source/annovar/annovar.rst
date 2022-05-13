@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``ANNOVAR`` is an efficient software tool to utilize update-to-date information to functionally annotate genetic variants detected from diverse genomes (including human genome hg18, hg19, hg38, as well as mouse, worm, fly, yeast and many others). For more information, please check its website: https://annovar.openbioinformatics.org/en/latest/.
 
+Versions
+~~~~~~~~
+- 2022-01-13
+
 Commands
 ~~~~~~~
 - annotate_variation.pl

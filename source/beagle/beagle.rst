@@ -9,6 +9,10 @@ Introduction
 Note: Bref is not installed in this container. 
 For more information, please check its website: https://biocontainers.pro/tools/beagle and its home page: https://faculty.washington.edu/browning/beagle/beagle.html.
 
+Versions
+~~~~~~~~
+- 5.1_24Aug19.3e8
+
 Commands
 ~~~~~~~
 - beagle

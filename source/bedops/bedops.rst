@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Bedops`` is a software package for manipulating and analyzing genomic interval data. For more information, please check its website: https://biocontainers.pro/tools/bedops and its home page: https://bedops.readthedocs.io/en/latest/.
 
+Versions
+~~~~~~~~
+- 2.4.39
+
 Commands
 ~~~~~~~
 - bam2bed

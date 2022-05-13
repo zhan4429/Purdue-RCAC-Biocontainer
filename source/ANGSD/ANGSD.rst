@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~
 ``ANGSD`` is a software for analyzing next generation sequencing data. Detailed usage can be found here: http://www.popgen.dk/angsd/index.php/ANGSD. 
 
+Versions
+~~~~~~~~
+- 0.935
+- 0.937
 
 Commands
 ~~~~~~

@@ -8,6 +8,10 @@ Introduction
 ``CellRank`` a toolkit to uncover cellular dynamics based on Markov state modeling of single-cell data. ``CellRank-krylov`` is ``CellRank`` installed with extra libraries, enabling it to have better performance for large datasets (>15k cells). 
 Detailed information about CellRank can be found here: https://cellrank.readthedocs.io/en/stable/. 
 
+Versions
+~~~~~~~~
+- 1.5.1
+
 Commands
 ~~~~~~
 - python

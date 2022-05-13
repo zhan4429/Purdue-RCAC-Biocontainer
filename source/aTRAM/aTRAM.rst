@@ -9,6 +9,9 @@ Introduction
 
 Detailed usage can be found here: https://bioinformaticshome.com/tools/wga/descriptions/aTRAM.html
 
+Versions
+~~~~~~~~
+- 2.4.3
 
 Commands
 ~~~~~~
