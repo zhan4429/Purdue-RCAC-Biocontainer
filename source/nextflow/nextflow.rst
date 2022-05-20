@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Nextflow`` is a bioinformatics workflow manager that enables the development of portable and reproducible workflows. For more information, please check its website: https://biocontainers.pro/tools/nextflow and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 21.10.0
+
 Commands
 ~~~~~~~
 - nextflow

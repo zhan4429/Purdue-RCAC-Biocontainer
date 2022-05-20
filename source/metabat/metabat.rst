@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Metabat`` is a robust statistical framework for reconstructing genomes from metagenomic data. For more information, please check its Docker hub: https://hub.docker.com/r/metabat/metabat and its home page: https://bitbucket.org/berkeleylab/metabat/src/master/
 
+Versions
+~~~~~~~~
+- 2.15-5
+
 Commands
 ~~~~~~~
 - aggregateBinDepths.pl

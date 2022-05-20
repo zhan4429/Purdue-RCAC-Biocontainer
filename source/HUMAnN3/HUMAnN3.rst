@@ -7,12 +7,16 @@ Introduction
 ~~~~~~~
 ``HUMAnN 3.0`` is the next iteration of HUMAnN, the HMP Unified Metabolic Analysis Network. HUMAnN is a method for efficiently and accurately profiling the abundance of microbial metabolic pathways and other molecular functions from metagenomic or metatranscriptomic sequencing data. For more information please check its website: https://huttenhower.sph.harvard.edu/humann/
 
+Versions
+~~~~~~~~
+- 3.0.0
+
 Commands
-~~~~~~  
+~~~~~~~
 - humann  
 - humann3  
 - humann3_databases
--  humann_barplot
+- humann_barplot
 - humann_benchmark
 - humann_build_custom_database
 - humann_config
@@ -28,7 +32,6 @@ Commands
 - humann_split_table
 - humann_test  
 - humann_unpack_pathways
-
 
 Database  
 ~~~~~~

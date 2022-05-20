@@ -14,6 +14,11 @@ Introduction
 
 Detailed about its usage can be found here: https://github.com/bbuchfink/diamond
 
+Versions
+~~~~~~~~
+- 2.0.13
+- 2.0.14
+
 Commands
 ~~~~~~
 - diamond makedb 

@@ -7,6 +7,11 @@ Introduction
 ~~~~~~~~
 ``Dbg2olc`` is used for efficient assembly of large genomes using long erroneous reads of the third generation sequencing technologies. For more information, please check its website: https://biocontainers.pro/tools/dbg2olc and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 20180222
+- 20200723
+
 Commands
 ~~~~~~~
 - AssemblyStatistics

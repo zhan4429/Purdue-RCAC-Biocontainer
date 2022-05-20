@@ -7,6 +7,11 @@ Introduction
 ~~~~~~~~
 ``RepeatModeler`` is a de novo transposable element (TE) family identification and modeling package. For more information, please check its website: https://biocontainers.pro/tools/repeatmodeler and its home page: http://www.repeatmasker.org/RepeatModeler/.
 
+Versions
+~~~~~~~~
+- 2.0.2
+- 2.0.3
+
 Commands
 ~~~~~~~
 - RepeatModeler

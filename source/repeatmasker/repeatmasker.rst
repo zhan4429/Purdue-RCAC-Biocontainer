@@ -8,6 +8,10 @@ Introduction
 ``RepeatMakser`` is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences. 
 Detailed usage can be found here: http://www.repeatmasker.org.
 
+Versions
+~~~~~~~~
+- 4.1.2
+
 Commands
 ~~~~~~  
 - RepeatMasker 

@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Glimmer`` is a system for finding genes in microbial DNA, especially the genomes of bacteria, archaea, and viruses. For more information, please check its website: https://biocontainers.pro/tools/glimmer and its home page: http://ccb.jhu.edu/software/glimmer/index.shtml.
 
+Versions
+~~~~~~~~
+- 3.02
+
 Commands
 ~~~~~~~
 - anomaly

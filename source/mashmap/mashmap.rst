@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Mashmap`` is a fast approximate aligner for long DNA sequences. For more information, please check its website: https://biocontainers.pro/tools/mashmap and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 2.0-pl5321
+
 Commands
 ~~~~~~~
 - mashmap

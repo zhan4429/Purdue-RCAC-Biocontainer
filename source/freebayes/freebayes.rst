@@ -7,6 +7,11 @@ Introduction
 ~~~~~~~~
 ``Freebayes`` is a Bayesian genetic variant detector designed to find small polymorphisms, specifically SNPs (single-nucleotide polymorphisms), indels (insertions and deletions), MNPs (multi-nucleotide polymorphisms), and complex events (composite insertion and substitution events) smaller than the length of a short-read sequencing alignment. For more information, please check its website: https://biocontainers.pro/tools/freebayes and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.3.5-py38
+- 1.3.6
+
 Commands
 ~~~~~~~
 - freebayes

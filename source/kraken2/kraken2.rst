@@ -10,6 +10,10 @@ Introduction
 Detailed usage can be found here: https://ccb.jhu.edu/software/kraken2/
 
 
+Versions
+~~~~~~~~
+- 2.1.2
+
 Commands
 ~~~~~~
 - kraken2

@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``STAR-Fusion`` is a component of the Trinity Cancer Transcriptome Analysis Toolkit (CTAT). For more information, please check its Docker hub: https://hub.docker.com/r/trinityctat/starfusion and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.11b
+
 Commands
 ~~~~~~~
 - STAR-Fusion

@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Glimmerhmm`` is a new gene finder based on a Generalized Hidden Markov Model (GHMM). For more information, please check its website: https://biocontainers.pro/tools/glimmerhmm and its home page: https://ccb.jhu.edu/software/glimmerhmm/.
 
+Versions
+~~~~~~~~
+- 3.0.4
+
 Commands
 ~~~~~~~
 - glimmerhmm

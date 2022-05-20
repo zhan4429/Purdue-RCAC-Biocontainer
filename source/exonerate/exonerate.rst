@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Exonerate`` is a generic tool for pairwise sequence comparison/alignment. For more information, please check its home page: https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate.
 
+Versions
+~~~~~~~~
+- 2.4.0
+
 Commands
 ~~~~~~~
 - exonerate

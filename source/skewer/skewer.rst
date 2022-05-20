@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Skewer`` is a fast and accurate adapter trimmer for paired-end reads. For more information, please check its website: https://biocontainers.pro/tools/skewer and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.2.2
+
 Commands
 ~~~~~~~
 - skewer

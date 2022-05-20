@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Tiara`` is a deep-learning-based approach for identification of eukaryotic sequences in the metagenomic data powered by PyTorch. For more information, please check its Docker hub: https://hub.docker.com/r/zhan4429/tiara and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.0.2
+
 Commands
 ~~~~~~~
 - tiara

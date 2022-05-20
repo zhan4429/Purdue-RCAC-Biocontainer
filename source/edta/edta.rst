@@ -11,6 +11,11 @@ Note: Running EDTA, please use the command like this:
         EDTA.pl [OPTIONS]
 DO NOT call it 'perl EDTA.pl'
 
+Versions
+~~~~~~~~
+- 1.9.6
+- 2.0.0
+
 Commands
 ~~~~~~~
 - EDTA.pl

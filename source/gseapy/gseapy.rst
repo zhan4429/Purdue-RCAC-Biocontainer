@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Gseapy`` is a python wrapper for GESA and Enrichr. For more information, please check its website: https://biocontainers.pro/tools/gseapy and its home page: https://gseapy.readthedocs.io/en/latest/introduction.html.
 
+Versions
+~~~~~~~~
+- 0.10.8
+
 Commands
 ~~~~~~~
 - gseapy

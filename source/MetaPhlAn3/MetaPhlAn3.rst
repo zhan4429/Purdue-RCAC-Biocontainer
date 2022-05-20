@@ -15,6 +15,11 @@ Introduction
 
 For more information, please check its user guide at: https://huttenhower.sph.harvard.edu/metaphlan/
 
+Versions
+~~~~~~~~
+- 3.0.9
+- 3.0.14
+
 Commands
 ~~~~~~  
 metaphlan

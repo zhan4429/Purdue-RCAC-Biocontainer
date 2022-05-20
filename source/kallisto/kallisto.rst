@@ -10,6 +10,11 @@ Introduction
 Detailed usage can be found here: https://github.com/pachterlab/kallisto
 
 
+Versions
+~~~~~~~~
+- 0.46.2
+- 0.48.0
+
 Commands
 ~~~~~~
 - kallisto

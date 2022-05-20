@@ -7,8 +7,13 @@ Introduction
 ~~~~~~~
 ``MAKER`` is a popular genome annotation pipeline for both prokaryotic and eukaryotic genomes. This guide describes best practices for running MAKER on RCAC clusters. For detailed information about MAKER, see its offical website (http://weatherby.genetics.utah.edu/MAKER/wiki/index.php/MAKER_Tutorial_for_WGS_Assembly_and_Annotation_Winter_School_2018).
 
+Versions
+~~~~~~~~
+- 2.31.11
+- 3.01.03
+
 Commands
-~~~~~~  
+~~~~~~
 - cegma2zff
 - chado2gff3
 - compare

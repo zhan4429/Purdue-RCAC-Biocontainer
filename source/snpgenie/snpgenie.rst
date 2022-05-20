@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Snpgenie`` is a collection of Perl scripts for estimating πN/πS, dN/dS, and gene diversity from next-generation sequencing (NGS) single-nucleotide polymorphism (SNP) variant data. For more information, please check its website: https://biocontainers.pro/tools/snpgenie and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.0
+
 Commands
 ~~~~~~~
 - fasta2revcom.pl

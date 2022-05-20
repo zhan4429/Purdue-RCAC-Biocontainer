@@ -1,7 +1,7 @@
 .. _backbone-label:  
 
 GTDB-Tk
-============================== 
+==============================
 
 Introduction
 ~~~~~~~
@@ -9,9 +9,13 @@ Introduction
 
 GTDB-Tk reference data (`R202`_) has been downloaded for users. 
 
+Versions
+~~~~~~~~
+- 1.7.0
+
 Commands
 ~~~~~~
-gtdbtk
+- gtdbtk
 
 Module
 ~~~~~~~

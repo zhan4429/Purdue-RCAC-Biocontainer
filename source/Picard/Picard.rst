@@ -8,7 +8,10 @@ Introduction
 ``Picard`` is a set of command line tools for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF. 
 Detailed usage can be found here: https://broadinstitute.github.io/picard/
 
-
+Versions
+~~~~~~~~
+- 2.25.1
+- 2.26.10
 
 Commands
 ~~~~~~

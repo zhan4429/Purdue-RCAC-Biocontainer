@@ -9,6 +9,10 @@ Introduction
 
 Detailed usage can be found here: https://github.com/davidemms/OrthoFinder
 
+Versions
+~~~~~~~~
+- 2.5.2
+- 2.5.4
 
 Commands
 ~~~~~~

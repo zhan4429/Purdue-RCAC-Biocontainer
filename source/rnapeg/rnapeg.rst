@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``RNApeg`` is an RNA junction calling, correction, and quality-control package. RNAIndel supports GRCh38 and 37. For more information, please check its Github package: https://github.com/stjude/RNApeg/pkgs/container/rnapeg and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 2.7.1
+
 Commands
 ~~~~~~~
 - RNApeg.sh

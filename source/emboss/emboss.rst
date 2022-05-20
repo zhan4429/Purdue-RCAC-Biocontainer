@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Emboss`` is "The European Molecular Biology Open Software Suite". For more information, please check its website: https://biocontainers.pro/tools/emboss and its home page: http://emboss.open-bio.org.
 
+Versions
+~~~~~~~~
+- 6.6.0
+
 Commands
 ~~~~~~~
 - aaindexextract

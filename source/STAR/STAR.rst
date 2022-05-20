@@ -9,6 +9,10 @@ Introduction
 
 Detailed usage can be found here: https://github.com/alexdobin/STAR
 
+Versions
+~~~~~~~~
+- 2.7.9a
+- 2.7.10a
 
 Commands
 ~~~~~~

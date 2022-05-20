@@ -9,6 +9,10 @@ Introduction
 
 Detailed information about velocyto.py can be found here: https://github.com/velocyto-team/velocyto.py. 
 
+Versions
+~~~~~~~~
+- 0.17.17-py39
+
 Commands
 ~~~~~~
 - python

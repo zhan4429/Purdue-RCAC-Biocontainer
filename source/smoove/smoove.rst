@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Smoove`` simplifies and speeds calling and genotyping SVs for short reads. For more information, please check its website: https://biocontainers.pro/tools/smoove and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.2.7
+
 Commands
 ~~~~~~~
 - smoove

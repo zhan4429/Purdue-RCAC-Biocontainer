@@ -42,6 +42,11 @@ In the module, we have some packages installed:
 - openxlsx        4.2.5
 
 
+Versions
+~~~~~~~~
+- 4.1.1-1
+- 4.1.1-1-rstudio
+
 Commands
 ~~~~~~
 - R

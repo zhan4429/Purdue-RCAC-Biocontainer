@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``DeepTools`` is a collection of user-friendly tools for normalization and visualization of deep-sequencing data. For more information, please check its website: https://biocontainers.pro/tools/deeptools and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 3.5.1-py
+
 Commands
 ~~~~~~~
 - alignmentSieve

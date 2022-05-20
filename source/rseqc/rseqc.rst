@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Rseqc`` is a package provides a number of useful modules that can comprehensively evaluate high throughput sequence data especially RNA-seq data. For more information, please check its website: https://biocontainers.pro/tools/rseqc and its home page: http://rseqc.sourceforge.net.
 
+Versions
+~~~~~~~~
+- 4.0.0-py37
+
 Commands
 ~~~~~~~
 - FPKM-UQ.py

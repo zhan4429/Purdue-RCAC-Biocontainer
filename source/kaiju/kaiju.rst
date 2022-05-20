@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Kaiju`` is a tool for fast taxonomic classification of metagenomic sequencing reads using a protein reference database. For more information, please check its website: https://biocontainers.pro/tools/kaiju and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.8.2
+
 Commands
 ~~~~~~~
 - kaiju

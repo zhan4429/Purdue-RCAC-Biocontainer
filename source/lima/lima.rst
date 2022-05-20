@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Lima`` is the standard tool to identify barcode and primer sequences in PacBio single-molecule sequencing data. For more information, please check its website: https://biocontainers.pro/tools/lima and its home page: https://lima.how.
 
+Versions
+~~~~~~~~
+- 2.2.0
+
 Commands
 ~~~~~~~
 - lima

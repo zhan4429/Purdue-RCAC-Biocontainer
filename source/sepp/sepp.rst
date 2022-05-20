@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Sepp`` stands for SATé-Enabled Phylogenetic Placement and addresses the problem of phylogenetic placement for meta-genomic short reads. For more information, please check its website: https://biocontainers.pro/tools/sepp and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 4.5.1-py37
+
 Commands
 ~~~~~~~
 - run_sepp.py

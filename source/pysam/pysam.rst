@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Pysam`` is a python module that makes it easy to read and manipulate mapped short read sequence data stored in SAM/BAM files. For more information, please check its website: https://biocontainers.pro/tools/pysam and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.18.0-py37
+
 Commands
 ~~~~~~~
 - python

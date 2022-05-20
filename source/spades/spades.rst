@@ -10,6 +10,11 @@ Introduction
 Detailed usage can be found here: https://github.com/ablab/spades
 
 
+Versions
+~~~~~~~~
+- 3.15.3
+- 3.15.4
+
 Commands
 ~~~~~~
 - coronaspades.py

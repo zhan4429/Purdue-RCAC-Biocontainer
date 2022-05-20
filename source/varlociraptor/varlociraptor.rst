@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Varlociraptor`` implements a novel, unified fully uncertainty-aware approach to genomic variant calling in arbitrary scenarios. For more information, please check its website: https://biocontainers.pro/tools/varlociraptor and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 4.11.4
+
 Commands
 ~~~~~~~
 - varlociraptor

@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~
 ``ProtHint`` is a pipeline for predicting and scoring hints (in the form of introns, start and stop codons) in the genome of interest by mapping and spliced aligning predicted genes to a database of reference protein sequences.
 
+Versions
+~~~~~~~~
+- 2.6.0
+
 Commands
 ~~~~~~  
 - cds_with_upstream_support.py

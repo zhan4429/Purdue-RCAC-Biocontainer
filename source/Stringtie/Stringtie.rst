@@ -11,6 +11,10 @@ Stringtie employs efficient algorithms for transcript structure recovery and abu
 
 Detailed usage can be found here: https://github.com/gpertea/stringtie
 
+Versions
+~~~~~~~~
+- 2.1.7
+- 2.2.1
 
 Commands
 ~~~~~~

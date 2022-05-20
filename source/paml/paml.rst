@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Paml`` is a package of programs for phylogenetic analyses of DNA or protein sequences using maximum likelihood. For more information, please check its website: https://biocontainers.pro/tools/paml and its home page: http://abacus.gene.ucl.ac.uk/software/paml.html.
 
+Versions
+~~~~~~~~
+- 4.9
+
 Commands
 ~~~~~~~
 - baseml

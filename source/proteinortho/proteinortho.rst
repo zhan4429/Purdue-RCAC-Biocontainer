@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Proteinortho`` is a tool to detect orthologous genes within different species. For more information, please check its website: https://biocontainers.pro/tools/proteinortho and its home page on `Gitlab`_.
 
+Versions
+~~~~~~~~
+- 6.0.33
+
 Commands
 ~~~~~~~
 - proteinortho

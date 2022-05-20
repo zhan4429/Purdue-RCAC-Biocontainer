@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Mmseqs2`` is a software suite to search and cluster huge protein and nucleotide sequence sets. For more information, please check its website: https://biocontainers.pro/tools/mmseqs2 and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 13.45111
+
 Commands
 ~~~~~~~
 - mmseqs

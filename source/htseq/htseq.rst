@@ -7,6 +7,14 @@ Introduction
 ~~~~~~~~
 ``HTSeq`` is a Python library to facilitate processing and analysis of data from high-throughput sequencing (HTS) experiments. For more information, please check its website: https://biocontainers.pro/tools/htseq and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.13.5-py36
+- 0.13.5-py37
+- 0.13.5-py38
+- 1.99.2-py37
+- 2.0.1-py37
+
 Commands
 ~~~~~~~
 - htseq-count

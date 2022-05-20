@@ -6,6 +6,10 @@ Introduction
 ~~~~~~~
 ``run_dbCAN`` using genomes/metagenomes/proteomes of any assembled organisms (prokaryotes, fungi, plants, animals, viruses) to search for CAZymes. This is a  standalone tool of http://bcb.unl.edu/dbCAN2/. Details aobut its uage can be found in its  `Github`_ repository. 
 
+Versions
+~~~~~~~~
+- 3.0.2
+
 Commands
 ~~~~~ 
 run_dbcan

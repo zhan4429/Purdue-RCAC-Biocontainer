@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Pybigwig`` is a python extension, written in C, for quick access to bigBed files and access to and creation of bigWig files. For more information, please check its website: https://biocontainers.pro/tools/pybigwig and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.3.18-py36
+
 Commands
 ~~~~~~~
 - python

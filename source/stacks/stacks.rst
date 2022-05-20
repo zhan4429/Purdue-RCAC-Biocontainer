@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Stacks`` is a software pipeline for building loci from RAD-seq. For more information, please check its website: https://biocontainers.pro/tools/stacks and its home page: https://catchenlab.life.illinois.edu/stacks/.
 
+Versions
+~~~~~~~~
+- 2.60
+
 Commands
 ~~~~~~~
 - clone_filter

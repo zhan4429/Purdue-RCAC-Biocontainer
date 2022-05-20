@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Samtools`` is a set of utilities for the Sequence Alignment/Map (SAM) format. For more information, please check its website: https://biocontainers.pro/tools/samtools and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.9
+
 Commands
 ~~~~~~~
 - samtools

@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Viennarna`` is a set of standalone programs and libraries used for prediction and analysis of RNA secondary structures. For more information, please check its website: https://biocontainers.pro/tools/viennarna and its home page: https://www.tbi.univie.ac.at/RNA/.
 
+Versions
+~~~~~~~~
+- 2.5.0-py37
+
 Commands
 ~~~~~~~
 - RNA2Dfold

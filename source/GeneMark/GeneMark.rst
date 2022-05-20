@@ -7,8 +7,13 @@ Introduction
 ~~~~~~~
 ``GeneMark-ES/ET/EP`` contains GeneMark-ES, GeneMark-ET and GeneMark-EP+ algorithms. 
 
+Versions
+~~~~~~~~
+- 4.68
+- 4.69
+
 Commands
-~~~~~~  
+~~~~~~~
 - bed_to_gff.pl
 - bp_seq_select.pl
 - build_mod.pl
@@ -37,7 +42,7 @@ Commands
 - verify_evidence_gmhmm.pl
 
 Academic license
-~~~~~  
+~~~~~
 .. note::
 To use GeneMark, users need to download license files by yourself.   
 

@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``STREAM`` (Single-cell Trajectories Reconstruction, Exploration And Mapping) is an interactive pipeline capable of disentangling and visualizing complex branching trajectories from both single-cell transcriptomic and epigenomic data. For more information, please check its Docker hub: https://hub.docker.com/r/pinellolab/stream and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.0
+
 Commands
 ~~~~~~~
 - python
