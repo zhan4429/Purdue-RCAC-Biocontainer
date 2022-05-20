@@ -25,6 +25,10 @@ Introduction
 Detailed usage can be found here: https://github.com/TransDecoder/TransDecoder/wiki#running-transdecoder
 
 
+Versions
+~~~~~~~~
+- 5.5.0
+
 Commands
 ~~~~~~
 - TransDecoder.LongOrfs

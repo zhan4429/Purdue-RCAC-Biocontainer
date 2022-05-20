@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Phd2fasta`` is a tool to convert Phred ‘phd’ format files to ‘fasta’ format. For more information, please check its home page: http://www.phrap.org/phredphrapconsed.html.
 
+Versions
+~~~~~~~~
+- 0.990622
+
 Commands
 ~~~~~~~
 - phd2fasta

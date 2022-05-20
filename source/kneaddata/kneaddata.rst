@@ -10,6 +10,10 @@ Introduction
 Detailed usage can be found here: https://huttenhower.sph.harvard.edu/kneaddata/
 
 
+Versions
+~~~~~~~~
+- 0.10.0
+
 Commands
 ~~~~~~
 - kneaddata 

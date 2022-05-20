@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Mapcaller`` is an efficient and versatile approach for short-read mapping and variant identification using high-throughput sequenced data. For more information, please check its website: https://biocontainers.pro/tools/mapcaller and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.9.9.41
+
 Commands
 ~~~~~~~
 - MapCaller

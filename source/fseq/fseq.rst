@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Fseq`` is a feature density estimator for high-throughput sequence tags. For more information, please check its home page: https://fureylab.web.unc.edu/software/fseq/.
 
+Versions
+~~~~~~~~
+- 2.0.3
+
 Commands
 ~~~~~~~
 - fseq2

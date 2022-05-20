@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``BioPerl`` is a collection of Perl modules that facilitate the development of Perl scripts for bioinformatics applications. It provides software modules for many of the typical tasks of bioinformatics programming. For more information, please check its website: https://biocontainers.pro/tools/perl-bioperl.
 
+Versions
+~~~~~~~~
+- 1.7.2-pl526
+
 Commands
 ~~~~~~~
 - SOAPsh.pl

@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``RepeatScout`` is a tool to discover repetitive substrings in DNA. For more information, please check its website: https://biocontainers.pro/tools/repeatscout and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.0.6
+
 Commands
 ~~~~~~~
 - RepeatScout

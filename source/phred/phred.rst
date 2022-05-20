@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``phred`` software reads DNA sequencing trace files, calls bases, and assigns a quality value to each called base. For more information, please check its home page: http://www.phrap.org/phredphrapconsed.html#block_phred.
 
+Versions
+~~~~~~~~
+- 0.071220.c
+
 Commands
 ~~~~~~~
 - phred

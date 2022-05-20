@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Lra`` is a sequence alignment program that aligns long reads from single-molecule sequencing (SMS) instruments, or megabase-scale contigs from SMS assemblies. For more information, please check its website: https://biocontainers.pro/tools/lra and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.3.2
+
 Commands
 ~~~~~~~
 - lra

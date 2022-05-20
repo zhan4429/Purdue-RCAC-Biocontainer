@@ -7,6 +7,11 @@ Introduction
 ~~~~~~~~
 ``Seqkit`` is a rapid tool for manipulating fasta and fastq files. For more information, please check its website: https://biocontainers.pro/tools/seqkit and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 2.0.0
+- 2.1.0
+
 Commands
 ~~~~~~~
 - seqkit

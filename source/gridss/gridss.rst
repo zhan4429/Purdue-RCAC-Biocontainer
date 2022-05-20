@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Gridss`` is a module software suite containing tools useful for the detection of genomic rearrangements. For more information, please check its Docker hub: https://hub.docker.com/r/gridss/gridss and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 2.13.2
+
 Commands
 ~~~~~~~
 - R

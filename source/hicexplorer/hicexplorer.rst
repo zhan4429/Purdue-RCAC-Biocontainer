@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Hicexplorer`` is a set of tools to process, normalize and visualize Hi-C data. For more information, please check its website: https://biocontainers.pro/tools/hicexplorer and its home page: https://hicexplorer.readthedocs.io/en/latest/#.
 
+Versions
+~~~~~~~~
+- 3.7.2
+
 Commands
 ~~~~~~~
 - chicAggregateStatistic

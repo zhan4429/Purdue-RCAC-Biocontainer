@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Miniasm`` is a very fast OLC-based de novo assembler for noisy long reads. For more information, please check its website: https://biocontainers.pro/tools/miniasm and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.3_r179
+
 Commands
 ~~~~~~~
 - miniasm

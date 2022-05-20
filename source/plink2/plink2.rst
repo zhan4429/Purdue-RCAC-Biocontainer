@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Plink2`` is a whole genome association analysis toolset. For more information, please check its website: https://biocontainers.pro/tools/plink2 and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 2.00a2.3
+
 Commands
 ~~~~~~~
 - plink2

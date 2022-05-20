@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Parallel-fastq-dump`` is the parallel fastq-dump wrapper. For more information, please check its website: https://biocontainers.pro/tools/parallel-fastq-dump and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.6.7
+
 Commands
 ~~~~~~~
 - parallel-fastq-dump

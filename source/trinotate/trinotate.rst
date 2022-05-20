@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Trinotate`` is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms. For more information, please check its website: https://biocontainers.pro/tools/trinotate and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 3.2.2
+
 Commands
 ~~~~~~~
 - Trinotate

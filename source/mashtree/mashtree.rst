@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Mashtree`` is a tool to create a tree using Mash distances. For more information, please check its website: https://biocontainers.pro/tools/mashtree and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.2.0
+
 Commands
 ~~~~~~~
 - mashtree

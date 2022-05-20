@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Genomepy`` is designed to provide a simple and straightforward way to download and use genomic data. For more information, please check its website: https://biocontainers.pro/tools/genomepy and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.12.0
+
 Commands
 ~~~~~~~
 - genomepy

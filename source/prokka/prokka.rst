@@ -10,6 +10,10 @@ Introduction
 Detailed usage can be found here: https://github.com/tseemann/prokka
 
 
+Versions
+~~~~~~~~
+- 1.14.6
+
 Commands
 ~~~~~~
 - prokka

@@ -11,6 +11,10 @@ This is a plain R-base installation (see https://github.com/rocker-org/rocker/) 
 
 For more information, please check its Docker hub: https://hub.docker.com/_/r-base and its home page: https://www.r-project.org/.
 
+Versions
+~~~~~~~~
+- 4.1.1
+
 Commands
 ~~~~~~~
 - R

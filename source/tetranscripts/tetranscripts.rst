@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Tetranscripts`` is a package for including transposable elements in differential enrichment analysis of sequencing datasets. For more information, please check its website: https://biocontainers.pro/tools/tetranscripts and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 2.2.1
+
 Commands
 ~~~~~~~
 - TEtranscripts

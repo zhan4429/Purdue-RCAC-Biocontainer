@@ -10,6 +10,10 @@ Introduction
 Detailed usage can be found here: https://github.com/jenniferlu717/KrakenTools
 
 
+Versions
+~~~~~~~~
+- 1.2
+
 Commands
 ~~~~~~
 - alpha_diversity.py

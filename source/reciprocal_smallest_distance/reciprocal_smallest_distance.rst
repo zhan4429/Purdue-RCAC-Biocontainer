@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 The ``reciprocal smallest distance`` (RSD) algorithm accurately infers orthologs between pairs of genomes by considering global sequence alignment and maximum likelihood evolutionary distance between sequences. For more information, please check its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.1.7
+
 Commands
 ~~~~~~~
 - rsd_search

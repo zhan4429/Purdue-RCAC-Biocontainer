@@ -10,6 +10,11 @@ Introduction
 Detailed usage can be found here: https://github.com/ncbi/TPMCalculator
 
 
+Versions
+~~~~~~~~
+- 0.0.3
+- 0.0.4
+
 Commands
 ~~~~~~
 - TPMCalculator 

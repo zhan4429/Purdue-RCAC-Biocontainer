@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Megadepth`` is an efficient tool for extracting coverage related information from RNA and DNA-seq BAM and BigWig files. For more information, please check its website: https://biocontainers.pro/tools/megadepth and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.2.0
+
 Commands
 ~~~~~~~
 - megadepth

@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Tombo`` is a suite of tools primarily for the identification of modified nucleotides from nanopore sequencing data. Tombo also provides tools for the analysis and visualization of raw nanopore signal. For more information, please check its website: https://biocontainers.pro/tools/ont-tombo and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.5.1
+
 Commands
 ~~~~~~~
 - tombo

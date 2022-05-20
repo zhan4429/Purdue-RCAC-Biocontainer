@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``How_are_we_stranded_here`` is a python package for testing strandedness of RNA-Seq fastq files. For more information, please check its website: https://biocontainers.pro/tools/how_are_we_stranded_here and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.0.1
+
 Commands
 ~~~~~~~
 - check_strandedness

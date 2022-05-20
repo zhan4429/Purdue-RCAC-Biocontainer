@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Hifiasm`` is a fast haplotype-resolved de novo assembler for PacBio HiFi reads. For more information, please check its website: https://biocontainers.pro/tools/hifiasm and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.16.0
+
 Commands
 ~~~~~~~
 - hifiasm

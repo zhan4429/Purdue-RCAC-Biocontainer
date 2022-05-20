@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Trim-galore`` is a wrapper tool that automates quality and adapter trimming to FastQ files. For more information, please check its website: https://biocontainers.pro/tools/trim-galore and its home page: https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/.
 
+Versions
+~~~~~~~~
+- 0.6.7
+
 Commands
 ~~~~~~~
 - trim_galore

@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Treetime`` is a tool for maximum likelihood dating and ancestral sequence inference. For more information, please check its website: https://biocontainers.pro/tools/treetime and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.8.6
+
 Commands
 ~~~~~~~
 - treetime

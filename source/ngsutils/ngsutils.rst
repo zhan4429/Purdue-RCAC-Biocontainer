@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Ngsutils`` is a suite of software tools for working with next-generation sequencing datasets. For more information, please check its website: https://biocontainers.pro/tools/ngsutils and its home page: http://ngsutils.org.
 
+Versions
+~~~~~~~~
+- 0.5.9
+
 Commands
 ~~~~~~~
 - ngsutils

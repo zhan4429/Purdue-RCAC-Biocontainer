@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Pyranges`` are collections of intervals that support comparison operations (like overlap and intersect) and other methods that are useful for genomic analyses. For more information, please check its website: https://biocontainers.pro/tools/pyranges and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.0.115
+
 Commands
 ~~~~~~~
 - python

@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Shorah`` is an open source project for the analysis of next generation sequencing data. For more information, please check its website: https://biocontainers.pro/tools/shorah and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.99.2-py37
+
 Commands
 ~~~~~~~
 - shorah

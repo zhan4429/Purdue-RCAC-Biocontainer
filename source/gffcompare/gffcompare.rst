@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Gffcompare`` is used to compare, merge, annotate and estimate accuracy of one or more GFF files. For more information, please check its website: https://biocontainers.pro/tools/gffcompare and its home page: https://ccb.jhu.edu/software/stringtie/gffcompare.shtml.
 
+Versions
+~~~~~~~~
+- 0.11.2
+
 Commands
 ~~~~~~~
 - gffcompare

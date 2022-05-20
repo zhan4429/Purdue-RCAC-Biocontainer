@@ -7,6 +7,11 @@ Introduction
 ~~~~~~~~
 ``Meme`` is a collection of tools for the discovery and analysis of sequence motifs. For more information, please check its website: https://biocontainers.pro/tools/meme and its home page: https://meme-suite.org/meme/.
 
+Versions
+~~~~~~~~
+- 5.3.0-py37
+- 5.4.1-py37
+
 Commands
 ~~~~~~~
 - ame

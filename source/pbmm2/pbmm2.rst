@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Pbmm2`` is a minimap2 frontend for PacBio native data formats. For more information, please check its website: https://biocontainers.pro/tools/pbmm2 and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.7.0
+
 Commands
 ~~~~~~~
 - pbmm2

@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Nextalign`` is a viral genome sequence alignment tool for command line. For more information, please check its Docker hub: https://hub.docker.com/r/nextstrain/nextalign and its home page: https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextalign-cli.html.
 
+Versions
+~~~~~~~~
+- 1.10.3
+
 Commands
 ~~~~~~~
 - nextalign

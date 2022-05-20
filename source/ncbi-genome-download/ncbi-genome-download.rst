@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Ncbi-genome-download`` is a script to download genomes from the NCBI FTP servers. For more information, please check its website: https://biocontainers.pro/tools/ncbi-genome-download and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.3.1
+
 Commands
 ~~~~~~~
 - ncbi-genome-download

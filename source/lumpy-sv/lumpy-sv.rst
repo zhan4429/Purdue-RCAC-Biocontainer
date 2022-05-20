@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Lumpy-sv`` is a general probabilistic framework for structural variant discovery. For more information, please check its website: https://biocontainers.pro/tools/lumpy-sv and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 0.3.1
+
 Commands
 ~~~~~~~
 - lumpy

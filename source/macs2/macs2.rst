@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``MACS2`` is Model-based Analysis of ChIP-Seq for identifying transcript factor binding sites. For more information, please check its website: https://biocontainers.pro/tools/macs2 and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 2.2.7.1-py39
+
 Commands
 ~~~~~~~
 - macs2

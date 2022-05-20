@@ -15,6 +15,10 @@ You will also need a run configuration file. You can copy from an existing one, 
 
 For more information, please check its Docker hub: https://hub.docker.com/r/gcfntnu/quickmirseq and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.0
+
 Commands
 ~~~~~~~
 - perl

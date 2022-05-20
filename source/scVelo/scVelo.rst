@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~
 ``scVelo`` is a scalable toolkit for RNA velocity analysis in single cells, based on https://doi.org/10.1038/s41587-020-0591-3. Its detailed usage can be found here: https://scvelo.readthedocs.io. 
 
+Versions
+~~~~~~~~
+- 0.2.4
+
 Commands
 ~~~~~~
 - python

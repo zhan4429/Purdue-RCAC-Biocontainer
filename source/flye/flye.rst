@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Flye``: Fast and accurate de novo assembler for single molecule sequencing reads. For more information, please check its website: https://biocontainers.pro/tools/flye and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 2.9-py38
+
 Commands
 ~~~~~~~
 - flye

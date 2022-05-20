@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Maxquant`` is a quantitative proteomics software package designed for analyzing large mass-spectrometric data sets. It is specifically aimed at high-resolution MS data. For more information, please check home page: https://www.maxquant.org.
 
+Versions
+~~~~~~~~
+- 2.1.0.0
+
 Commands
 ~~~~~~~
 - MaxQuantGui.exe

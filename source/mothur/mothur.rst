@@ -9,6 +9,11 @@ Introduction
 
 Detailed information about Mothur can be found here: https://mothur.org
 
+Versions
+~~~~~~~~
+- 1.46.0
+- 1.47.0
+
 Commands
 ~~~~~~
 - mothur

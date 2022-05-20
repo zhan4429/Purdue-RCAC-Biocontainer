@@ -13,6 +13,10 @@ Note: 'mb-mpi' in this version of the container does not run across multiple nod
 
 For more information, please check its website: https://biocontainers.pro/tools/mrbayes and its home page: http://mrbayes.net.
 
+Versions
+~~~~~~~~
+- 3.2.7
+
 Commands
 ~~~~~~~
 - mb

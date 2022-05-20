@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Prinseq`` is a tool that generates summary statistics of sequence and quality data and that is used to filter, reformat and trim next-generation sequence data. For more information, please check its website: https://biocontainers.pro/tools/prinseq and its home page: http://prinseq.sourceforge.net.
 
+Versions
+~~~~~~~~
+- 0.20.4
+
 Commands
 ~~~~~~~
 - prinseq-graphs-noPCA.pl

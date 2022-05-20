@@ -7,6 +7,11 @@ Introduction
 ~~~~~~~~
 ``FastANI`` is developed for fast alignment-free computation of whole-genome Average Nucleotide Identity (ANI). For more information, please check its website: https://biocontainers.pro/tools/fastani and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 1.32
+- 1.33
+
 Commands
 ~~~~~~~
 - fastANI

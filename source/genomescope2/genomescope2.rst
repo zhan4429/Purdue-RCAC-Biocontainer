@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Genomescope2``: Reference-free profiling of polyploid genomes. For more information, please check its website: https://biocontainers.pro/tools/genomescope2 and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 2.0
+
 Commands
 ~~~~~~~
 - genomescope2

@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Drep`` is a python program for rapidly comparing large numbers of genomes. For more information, please check its website: https://biocontainers.pro/tools/drep and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 3.2.2
+
 Commands
 ~~~~~~~
 - dRep

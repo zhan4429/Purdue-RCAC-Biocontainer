@@ -10,6 +10,11 @@ Introduction
 Detailed usage can be found here: http://www.microbesonline.org/fasttree/
 
 
+Versions
+~~~~~~~~
+- 2.1.10
+- 2.1.11
+
 Commands
 ~~~~~~
 - fasttree

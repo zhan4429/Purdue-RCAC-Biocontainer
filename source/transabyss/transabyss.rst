@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Transabyss`` is a tool for De novo assembly of RNAseq data using ABySS. For more information, please check its website: https://bioconda.github.io/recipes/transabyss and its home page on `Github`_.
 
+Versions
+~~~~~~~~
+- 2.0.1
+
 Commands
 ~~~~~~~
 - transabyss

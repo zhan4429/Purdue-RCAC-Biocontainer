@@ -7,6 +7,10 @@ Introduction
 ~~~~~~~~
 ``Hmmer`` is used for searching sequence databases for sequence homologs, and for making sequence alignments. For more information, please check its website: https://biocontainers.pro/tools/hmmer and its home page: http://hmmer.org.
 
+Versions
+~~~~~~~~
+- 3.3.2
+
 Commands
 ~~~~~~~
 - alimask
