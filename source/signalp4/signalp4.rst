@@ -9,9 +9,6 @@ Introduction
 
 Versions
 ~~~~~~~~
-
-Versions
-~~~~~~~~
 - 4.1
 
 Commands
