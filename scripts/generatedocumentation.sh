@@ -1,13 +1,17 @@
 #! /bin/bash
 
-# This script generates documentation file based on the name of biocontainer entered 
-# Example Usage: ./generatedocumenation.sh name
-# Warning: Will not work unless name exactly matches with biocontainer name
-# Verify input and output paths before running
+# This script generates documentation files based on the names of the missing biocontainers in listofmissingfiles.txt
+# listofmissingfiles.txt can be generated using generatelistofmissingfiles.sh
+# Example Usage: ./generatedocumentation.sh
+# Warning: Will not work if listofmissingfiles.txt does not exist
+# Verify biocontainer input and documentation output paths before running
 
-if [ $# -eq 1 ]
-then 
-   inputfolder="/opt/spack/modulefiles/biocontainers/$1/"
+readarray -t listofmissingfiles < listofmissingfiles.txt
+
+for filename in ${listofmissingfiles[@]}; do
+   echo $filename
+
+   inputfolder="/opt/spack/modulefiles/biocontainers/$filename/"
    echo "input folder: "$inputfolder
 
    filenamesarray=`ls $inputfolder*.lua`
@@ -19,10 +23,13 @@ then
 
    containername=$(echo $inputpath | awk -F/ '{print $6}')
 
+   # outputfile="$containername.rst"
    outputfile="/home/$USER/biocontainer_doc/source/$containername/$containername.rst"
    echo "output file: "$outputfile
 
    inputpathcontent=$(<$inputpath)  
+
+   mkdir -p /home/$USER/biocontainer_doc/source/$containername
 
    echo ".. _backbone-label:" > $outputfile
    echo "" >> $outputfile
@@ -76,4 +83,4 @@ then
    echo "    module --force purge" >> $outputfile
    echo "    ml biocontainers $containername" >> $outputfile
    echo "" >> $outputfile
-fi
+done
