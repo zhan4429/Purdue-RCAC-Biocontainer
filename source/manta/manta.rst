@@ -1,0 +1,45 @@
+.. _backbone-label:
+
+Manta
+==============================
+
+Introduction
+~~~~~~~~
+Manta calls structural variants (SVs) and indels from mapped paired-end sequencing reads.
+For more information, please check:
+BioContainers: https://biocontainers.pro/tools/manta 
+Home page: https://github.com/Illumina/manta
+
+Versions
+~~~~~~~~
+- 1.6.0
+
+Commands
+~~~~~~~
+- configManta.py
+- python
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load biocontainers
+    module load manta
+
+Example job
+~~~~~
+To run manta on our clusters::
+
+    #!/bin/bash
+    #SBATCH -A myallocation     # Allocation name
+    #SBATCH -t 1:00:00
+    #SBATCH -N 1
+    #SBATCH -n 1
+    #SBATCH --job-name=manta
+    #SBATCH --mail-type=FAIL,BEGIN,END
+    #SBATCH --error=%x-%J-%u.err
+    #SBATCH --output=%x-%J-%u.out
+
+    module --force purge
+    ml biocontainers manta
+
