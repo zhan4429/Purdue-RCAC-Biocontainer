@@ -33,7 +33,7 @@ To run marginpolish on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 32
     #SBATCH --job-name=marginpolish
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -41,4 +41,11 @@ To run marginpolish on our clusters::
 
     module --force purge
     ml biocontainers marginpolish
-
+        
+    marginpolish \
+        Reads_to_assembly_StaphAur.bam \
+        Draft_assembly_StaphAur.fasta \
+        helen_modles/MP_r941_guppy344_microbial.json \
+        -t 32 \
+        -o mp_output/mp_images \
+        -f

@@ -33,7 +33,7 @@ To run bactopia on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=bactopia
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -41,4 +41,18 @@ To run bactopia on our clusters::
 
     module --force purge
     ml biocontainers bactopia
-
+    
+    bactopia datasets \
+    --ariba "vfdb_core,card" \
+    --species "Staphylococcus aureus" \
+    --include_genus \
+    --limit 100 \
+    --cpus 12
+    
+    bactopia --accession SRX4563634 \
+    --datasets datasets/ \
+    --species "Staphylococcus aureus" \
+    --coverage 100 \
+    --genome_size median \
+    --outdir ena-single-sample \
+    --max_cpus 12
