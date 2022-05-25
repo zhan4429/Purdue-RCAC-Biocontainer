@@ -42,3 +42,4 @@ To run fastq-scan on our clusters::
     module --force purge
     ml biocontainers fastq-scan
 
+    cat example-q33.fq |fastq-scan -g 150000

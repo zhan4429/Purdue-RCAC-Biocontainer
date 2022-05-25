@@ -33,7 +33,7 @@ To run helen on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 32
     #SBATCH --job-name=helen
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -42,3 +42,9 @@ To run helen on our clusters::
     module --force purge
     ml biocontainers helen
 
+    helen polish \
+        --image_dir mp_output \
+        --model_path "helen_modles/HELEN_r941_guppy344_microbial.pkl" \
+        --threads 32 \
+        --output_dir "helen_output/" \
+        --output_prefix Staph_Aur_draft_helen
