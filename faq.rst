@@ -3,14 +3,14 @@
 Frequently Asked Questions
 ================================
 
-- Question
-Answer
+Question
+- Answer
 
-- Question
-Answer
+Question
+- Answer
 
-- Question
-Answer
+Question
+- Answer
 
-- Question
-Answer
+Question
+- Answer
