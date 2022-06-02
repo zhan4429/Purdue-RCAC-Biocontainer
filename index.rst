@@ -15,6 +15,18 @@ If you have any question, contact me(Yucheng Zhang) at:
 `zhan4429@purdue.edu <mailto:zhan4429@purdue.edu>`_
 
 .. toctree::
+   :caption: Frequently Asked Question
+   :titlesonly:
+
+   faq
+
+.. toctree::
+   :caption: Singularity
+   :titlesonly:
+
+   singularity
+
+.. toctree::
    :caption: Application list
    :maxdepth: 3
    :titlesonly:
