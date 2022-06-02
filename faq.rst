@@ -4,13 +4,13 @@ Frequently Asked Questions
 ================================
 
 - Question
-    Answer
+Answer
 
 - Question
-    Answer
+Answer
 
 - Question
-    Answer
+Answer
 
 - Question
-    Answer
+Answer
