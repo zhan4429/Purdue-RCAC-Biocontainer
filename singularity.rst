@@ -15,7 +15,7 @@ Features
 - Gain access to the latest developer tools
 - Launch MPI programs easily
 - Much more
-Singularity's user guide is available at: sylabs.io/guides/3.8/user-guide
+Singularity's user guide is available at: `sylabs.io/guides/3.8/user-guide <https://sylabs.io/guides/3.8/user-guide/>`_
 
 Example
 ~~~~~~
@@ -37,7 +37,8 @@ Purdue Cluster Specific Notes
 All service providers will integrate Singularity slightly differently depending on site. The largest customization will be which default files are inserted into your images so that routine services will work.
 Services we configure for your images include DNS settings and account information. File systems we overlay into your images are your home directory, scratch, Data Depot, and application file systems.
 
-Here is a list of paths::
+Here is a list of paths:
+
 - /etc/resolv.conf
 - /etc/hosts
 - /home/$USER
@@ -51,7 +52,7 @@ Creating Singularity Images
 ~~~~~~~~~~~~~~~~~~~~~
 Due to how singularity containers work, you must have root privileges to *build* an image. Once you have a singularity container image built on your own system, you can copy the image file up to the cluster (you do not need root privileges to *run* the container).
 
-You can find information and documentation for how to install and use singularity on your system::
+You can find information and documentation for how to install and use singularity on your system:
 - `Install Singularity on Windows <https://sylabs.io/guides/2.6/user-guide/installation.html#install-on-windows>`_
 - `Install Singularity on macOS <https://sylabs.io/guides/2.6/user-guide/installation.html#install-on-mac>`_
 - `Install Singularity on Linux <https://sylabs.io/guides/2.6/user-guide/installation.html#install-on-linux>`_
@@ -62,6 +63,7 @@ We have version ``3.8.0-1.el7`` on the cluster. You will most likely not be able
 
 Everything you need on how to `build a container <https://sylabs.io/guides/3.8/user-guide/build_a_container.html>`_ is available from their user-guide. Below are merely some quick tips for getting your own containers built for Weber.
 You can use a `Definition File <https://sylabs.io/guides/3.8/user-guide/definition_files.html>`_ to both build your container and share its specification with collaborators (for the sake of reproducibility). Here is a simplistic example of such a file::
+
     # FILENAME: Buildfile
 
     Bootstrap: docker
@@ -72,18 +74,22 @@ You can use a `Definition File <https://sylabs.io/guides/3.8/user-guide/definiti
         mkdir /apps /depot /scratch
 
 To build the image itself::
+
     sudo singularity build ubuntu-18.04.sif Buildfile
 
 The challenge with this approach however is that it must start from scratch if you decide to change something. In order to create a container image iteratively and interactively, you can use the ``--sandbox`` option.
+    
     sudo singularity build --sandbox ubuntu-18.04 docker://ubuntu:18.04
 
 This will not create a flat image file but a directory tree (i.e., a folder), the contents of which are the container's filesystem. In order to get a shell inside the container that allows you to modify it, user the ``--writable`` option.
+    
     sudo singularity shell --writable ubuntu-18.04
     Singularity: Invoking an interactive shell within container...
 
     Singularity ubuntu-18.04.sandbox:~>
 
 You can then proceed to install any libraries, software, etc. within the container. Then to create the final image file, ``exit`` the shell and call the ``build`` command once more on the *sandbox*.
+    
     sudo singularity build ubuntu-18.04.sif ubuntu-18.04
 
 Finally, copy the new image to Weber and run it.

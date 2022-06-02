@@ -15,7 +15,7 @@ If you have any question, contact me(Yucheng Zhang) at:
 `zhan4429@purdue.edu <mailto:zhan4429@purdue.edu>`_
 
 .. toctree::
-   :caption: Frequently Asked Question
+   :caption: Frequently Asked Questions
    :titlesonly:
 
    faq
@@ -31,8 +31,6 @@ If you have any question, contact me(Yucheng Zhang) at:
    :maxdepth: 3
    :titlesonly:
    
-   faq
-   singularity
    source/abacas/abacas
    source/abricate/abricate
    source/abyss/abyss
