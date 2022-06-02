@@ -1,11 +1,12 @@
 #! /bin/bash
 
-# This script generates documentation files based on the names of the missing biocontainers in listofmissingfiles.txt
+# This script generates documentation files based on the names of the missing biocontainers in listofmissingfiles.txt and then updates index.rst based on files in the 'source' folder
 # listofmissingfiles.txt can be generated using generatelistofmissingfiles.sh
 # Example Usage: ./generatedocumentation.sh
 # Warning: Will not work if listofmissingfiles.txt does not exist
 # Verify biocontainer input and documentation output paths before running
 
+# Generate documentation for missing files using listofmissingfiles.txt
 readarray -t listofmissingfiles < listofmissingfiles.txt
 
 for filename in ${listofmissingfiles[@]}; do
@@ -83,4 +84,21 @@ for filename in ${listofmissingfiles[@]}; do
    echo "    module --force purge" >> $outputfile
    echo "    ml biocontainers $containername" >> $outputfile
    echo "" >> $outputfile
+done
+
+# Update index.rst using names of files in source folder
+
+sourcefolder="/home/$USER/biocontainer_doc/source/"
+indexfile="/home/$USER/biocontainer_doc/index.rst"
+
+filenamesarray=`ls $sourcefolder`
+
+sed -i '/Application list/,$d' $indexfile
+echo "   :caption: Application list" >> $indexfile
+echo "   :maxdepth: 3" >> $indexfile
+echo "   :titlesonly:" >> $indexfile
+echo "   " >> $indexfile
+for eachfile in $filenamesarray
+do
+   echo "   source/$eachfile/$eachfile" >> $indexfile
 done
