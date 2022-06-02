@@ -34,12 +34,14 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/abacas/abacas
    source/abricate/abricate
    source/abyss/abyss
+   source/actc/actc
    source/advntr/advntr
    source/afplot/afplot
    source/afterqc/afterqc
    source/agat/agat
    source/alfred/alfred
    source/alien-hunter/alien-hunter
+   source/alignstats/alignstats
    source/allpathslg/allpathslg
    source/alphafold/alphafold
    source/amptk/amptk
@@ -49,14 +51,17 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/annovar/annovar
    source/antismash/antismash
    source/anvio/anvio
+   source/any2fasta/any2fasta
    source/asgal/asgal
    source/assembly-stats/assembly-stats
+   source/atac-seq-pipeline/atac-seq-pipeline
    source/ataqv/ataqv
    source/atram/atram
    source/atropos/atropos
    source/augur/augur
    source/augustus/augustus
    source/bactopia/bactopia
+   source/bali-phy/bali-phy
    source/bamgineer/bamgineer
    source/bamliquidator/bamliquidator
    source/bam-readcount/bam-readcount
@@ -94,13 +99,14 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/cactus/cactus
    source/cafe/cafe
    source/canu/canu
+   source/ccs/ccs
    source/cdbtools/cdbtools
    source/cd-hit/cd-hit
    source/cellbender/cellbender
    source/cellphonedb/cellphonedb
    source/cellranger/cellranger
    source/cellranger-atac/cellranger-atac
-   source/Cellrank/cellrank
+   source/cellrank/cellrank
    source/cellrank-krylov/cellrank-krylov
    source/cellsnp-lite/cellsnp-lite
    source/celltypist/celltypist
@@ -110,6 +116,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/circlator/circlator
    source/circos/circos
    source/ciriquant/ciriquant
+   source/clairvoyante/clairvoyante
    source/clever-toolkit/clever-toolkit
    source/clustalw/clustalw
    source/cnvkit/cnvkit
@@ -128,6 +135,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/cyvcf2/cyvcf2
    source/dbg2olc/dbg2olc
    source/deepbgc/deepbgc
+   source/deepconsensus/deepconsensus
    source/deepsignal2/deepsignal2
    source/deeptools/deeptools
    source/deepvariant/deepvariant
@@ -141,6 +149,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/edta/edta
    source/eggnog-mapper/eggnog-mapper
    source/emboss/emboss
+   source/ensembl-vep/ensembl-vep
    source/epic2/epic2
    source/evidencemodeler/evidencemodeler
    source/exonerate/exonerate
@@ -157,9 +166,12 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/filtlong/filtlong
    source/flye/flye
    source/fraggenescan/fraggenescan
+   source/fraggenescanrs/fraggenescanrs
    source/freebayes/freebayes
    source/fseq/fseq
    source/funannotate/funannotate
+   source/fwdpy11/fwdpy11
+   source/gamma/gamma
    source/gatk/gatk
    source/gatk4/gatk4
    source/gemma/gemma
@@ -172,6 +184,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/gffread/gffread
    source/glimmer/glimmer
    source/glimmerhmm/glimmerhmm
+   source/glnexus/glnexus
    source/gmap/gmap
    source/goatools/goatools
    source/graphlan/graphlan
@@ -203,6 +216,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/interproscan/interproscan
    source/iqtree/iqtree
    source/isoseq3/isoseq3
+   source/ivar/ivar
    source/kaiju/kaiju
    source/kallisto/kallisto
    source/khmer/khmer
@@ -216,8 +230,10 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/liftoff/liftoff
    source/lima/lima
    source/lofreq/lofreq
+   source/longqc/longqc
    source/lra/lra
    source/lumpy-sv/lumpy-sv
+   source/lyveset/lyveset
    source/macs2/macs2
    source/macs3/macs3
    source/mafft/mafft
@@ -247,6 +263,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/minimap2/minimap2
    source/minipolish/minipolish
    source/mirdeep2/mirdeep2
+   source/mirtop/mirtop
    source/mitofinder/mitofinder
    source/mlst/mlst
    source/mmseqs2/mmseqs2
@@ -270,6 +287,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/paml/paml
    source/panacota/panacota
    source/pandaseq/pandaseq
+   source/pandora/pandora
    source/pangolin/pangolin
    source/panphlan/panphlan
    source/parallel-fastq-dump/parallel-fastq-dump
@@ -299,6 +317,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/proteinortho/proteinortho
    source/prothint/prothint
    source/pullseq/pullseq
+   source/pvactools/pvactools
    source/pyani/pyani
    source/pybedtools/pybedtools
    source/pybigwig/pybigwig
@@ -316,6 +335,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/racon/racon
    source/ragout/ragout
    source/ragtag/ragtag
+   source/rasusa/rasusa
    source/raven-assembler/raven-assembler
    source/raxml/raxml
    source/raxml-ng/raxml-ng
@@ -341,10 +361,15 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/salmon/salmon
    source/sambamba/sambamba
    source/samblaster/samblaster
+   source/samclip/samclip
    source/samplot/samplot
    source/samtools/samtools
    source/scanpy/scanpy
+   source/scarches/scarches
+   source/scgen/scgen
+   source/scirpy/scirpy
    source/scvelo/scvelo
+   source/scvi-tools/scvi-tools
    source/seidr/seidr
    source/sepp/sepp
    source/seqkit/seqkit
@@ -369,8 +394,10 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/snpeff/snpeff
    source/snpgenie/snpgenie
    source/snpsift/snpsift
+   source/snp-sites/snp-sites
    source/soapdenovo2/soapdenovo2
    source/sortmerna/sortmerna
+   source/souporcell/souporcell
    source/sourmash/sourmash
    source/spaceranger/spaceranger
    source/spades/spades
@@ -378,6 +405,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/sra-tools/sra-tools
    source/stacks/stacks
    source/star/star
+   source/staramr/staramr
    source/starfusion/starfusion
    source/stream/stream
    source/stringtie/stringtie
@@ -410,17 +438,23 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/trinotate/trinotate
    source/trnascan-se/trnascan-se
    source/trust4/trust4
+   source/trycycler/trycycler
    source/ucsc_genome_toolkit/ucsc_genome_toolkit
    source/unicycler/unicycler
+   source/vadr/vadr
    source/varlociraptor/varlociraptor
    source/varscan/varscan
    source/vartrix/vartrix
+   source/vatools/vatools
+   source/vcf2phylip/vcf2phylip
    source/vcftools/vcftools
    source/velocyto.py/velocyto.py
    source/velvet/velvet
+   source/vg/vg
    source/viennarna/viennarna
    source/vsearch/vsearch
    source/weblogo/weblogo
    source/whatshap/whatshap
    source/wiggletools/wiggletools
+   source/winnowmap/winnowmap
    source/wtdbg/wtdbg
