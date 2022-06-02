@@ -31,6 +31,8 @@ If you have any question, contact me(Yucheng Zhang) at:
    :maxdepth: 3
    :titlesonly:
    
+   faq
+   singularity
    source/abacas/abacas
    source/abricate/abricate
    source/abyss/abyss
