@@ -43,3 +43,11 @@ To run manta on our clusters::
     module --force purge
     ml biocontainers manta
 
+    configManta.py --normalBam=HCC1954.NORMAL.30x.compare.COST16011_region.bam \
+        --tumorBam=G15512.HCC1954.1.COST16011_region.bam \
+        --referenceFasta=Homo_sapiens_assembly19.COST16011_region.fa \
+        --region=8:107652000-107655000 \
+        --region=11:94974000-94989000 \
+        --exome --runDir="MantaDemoAnalysis"
+
+     python MantaDemoAnalysis/runWorkflow.py

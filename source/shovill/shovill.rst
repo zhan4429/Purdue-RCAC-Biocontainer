@@ -42,3 +42,6 @@ To run shovill on our clusters::
     module --force purge
     ml biocontainers shovill
 
+    shovill --outdir out \
+        --R1 test/R1.fq.gz \
+        --R2 test/R2.fq.gz

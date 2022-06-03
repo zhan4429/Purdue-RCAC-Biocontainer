@@ -44,3 +44,4 @@ To run ensembl-vep on our clusters::
     module --force purge
     ml biocontainers ensembl-vep
 
+    haplo -i bos_taurus_UMD3.1.vcf -o out.txt

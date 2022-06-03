@@ -33,7 +33,7 @@ To run pandora on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 4
     #SBATCH --job-name=pandora
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -42,3 +42,4 @@ To run pandora on our clusters::
     module --force purge
     ml biocontainers pandora
 
+    pandora index -t 4 GC00006032.fa

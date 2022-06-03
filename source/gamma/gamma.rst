@@ -43,3 +43,4 @@ To run gamma on our clusters::
     module --force purge
     ml biocontainers gamma
 
+    GAMMA.py DHQP1701672_complete_genome.fasta ResFinderDB_Combined_05-06-20.fsa GAMMA_Test

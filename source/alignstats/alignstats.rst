@@ -42,3 +42,4 @@ To run alignstats on our clusters::
     module --force purge
     ml biocontainers alignstats
 
+    alignstats -C -i input.bam -o report.txt

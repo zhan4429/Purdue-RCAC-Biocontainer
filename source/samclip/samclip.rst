@@ -42,3 +42,4 @@ To run samclip on our clusters::
     module --force purge
     ml biocontainers samclip
 
+    samclip --ref test.fna < test.sam > out.sam

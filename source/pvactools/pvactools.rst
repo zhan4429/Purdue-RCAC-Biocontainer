@@ -47,3 +47,16 @@ To run pvactools on our clusters::
     module --force purge
     ml biocontainers pvactools
 
+    pvacseq download_example_data .
+
+    pvacseq run \
+      pvacseq_example_data/input.vcf \
+      Test \
+      HLA-A*02:01,HLA-B*35:01,DRB1*11:01 \
+      MHCflurry MHCnuggetsI MHCnuggetsII NNalign NetMHC PickPocket SMM SMMPMBEC SMMalign \
+      pvacseq_output_data \
+      -e1 8,9,10 \
+      -e2 15 \
+      --iedb-install-directory /opt/iedb
+
+

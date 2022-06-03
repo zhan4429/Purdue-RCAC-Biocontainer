@@ -41,3 +41,4 @@ To run actc on our clusters::
     module --force purge
     ml biocontainers actc
 
+    actc subreads.bam ccs.bam subreads_to_ccs.bam

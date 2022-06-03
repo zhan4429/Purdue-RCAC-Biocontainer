@@ -42,3 +42,7 @@ To run staramr on our clusters::
     module --force purge
     ml biocontainers staramr
 
+    staramr db info
+    staramr search \ 
+        --pointfinder-organism salmonella \
+        -o out *.fasta

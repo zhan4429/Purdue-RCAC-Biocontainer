@@ -40,4 +40,6 @@ To run Fraggenescan on our clusters::
     module --force purge
     ml biocontainers fraggenescan
 
+    FragGeneScanRs -t 454_10 < example/NC_000913-454.fna > example/NC_000913-454.faa
+
 .. _Github: https://github.com/gaberoo/FragGeneScan

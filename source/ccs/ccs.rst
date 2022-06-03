@@ -42,3 +42,4 @@ To run ccs on our clusters::
     module --force purge
     ml biocontainers ccs
 
+    ccs --all subreads.bam ccs.bam

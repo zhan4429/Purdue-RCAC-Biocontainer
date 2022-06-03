@@ -42,3 +42,13 @@ To run clairvoyante on our clusters::
     module --force purge
     ml biocontainers clairvoyante
 
+    cd training
+    clairvoyante.py callVarBam \
+       --chkpnt_fn ../trainedModels/fullv3-illumina-novoalign-hg001+hg002-hg38/learningRate1e-3.epoch500 \
+       --bam_fn ../testingData/chr21/chr21.bam \
+       --ref_fn ../testingData/chr21/chr21.fa \
+       --bed_fn ../testingData/chr21/chr21.bed \
+       --call_fn chr21_calls.vcf \
+       --ctgName chr21
+
+

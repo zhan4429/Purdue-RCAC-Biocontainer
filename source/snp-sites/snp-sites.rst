@@ -42,3 +42,4 @@ To run snp-sites on our clusters::
     module --force purge
     ml biocontainers snp-sites
 
+    snp-sites salmonella_serovars_core_genes.aln

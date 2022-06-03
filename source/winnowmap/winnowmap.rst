@@ -42,3 +42,6 @@ To run winnowmap on our clusters::
     module --force purge
     ml biocontainers winnowmap
 
+    winnowmap -W repetitive_k15.txt \
+        -ax map-pb Cm.contigs.fasta \
+        SRR3982487.fastq > output.sam

@@ -42,3 +42,4 @@ To run snp-dists on our clusters::
     module --force purge
     ml biocontainers snp-dists
 
+    snp-dists test/good.aln > distances.tab
