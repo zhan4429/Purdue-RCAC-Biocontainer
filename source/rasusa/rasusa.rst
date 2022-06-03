@@ -42,3 +42,7 @@ To run rasusa on our clusters::
     module --force purge
     ml biocontainers rasusa
 
+    rasusa -i seq_1.fq -i seq_2.fq  \
+        --coverage 100 --genome-size 35mb  \
+        -o out.r1.fq -o out.r2.fq
+

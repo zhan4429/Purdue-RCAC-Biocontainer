@@ -83,3 +83,5 @@ To run lyveset on our clusters::
     module --force purge
     ml biocontainers lyveset
 
+    set_test.pl lambda
+    set_manage.pl --create setTest

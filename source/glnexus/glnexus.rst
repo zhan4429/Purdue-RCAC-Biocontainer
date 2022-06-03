@@ -42,3 +42,7 @@ To run glnexus on our clusters::
     module --force purge
     ml biocontainers glnexus
 
+    glnexus_cli --config DeepVariant \
+        --bed ALDH2.bed \
+        dv_1000G_ALDH2_gvcf/*.g.vcf.gz \
+        > dv_1000G_ALDH2.bcf

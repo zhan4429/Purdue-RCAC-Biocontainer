@@ -41,3 +41,5 @@ To run shasta on our clusters::
     module --force purge
     ml biocontainers shasta
 
+    shasta --input r94_ec_rad2.181119.60x-10kb.fasta \
+        --config Nanopore-May2022

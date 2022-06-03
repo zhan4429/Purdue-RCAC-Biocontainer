@@ -45,3 +45,4 @@ To run vadr on our clusters::
     module --force purge
     ml biocontainers vadr
 
+    v-annotate.pl noro.9.fa va-noro.9

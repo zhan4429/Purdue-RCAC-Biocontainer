@@ -42,3 +42,18 @@ To run vg on our clusters::
     module --force purge
     ml biocontainers vg
 
+    vg construct -r test/small/x.fa -v test/small/x.vcf.gz >x.vg
+
+    # GFA output
+    vg view x.vg >x.gfa
+
+    # dot output suitable for graphviz
+    vg view -d x.vg >x.dot
+
+    # And if you have a GAM file
+    cp small/x-s1337-n1.gam x.gam
+
+    # json version of binary alignments
+    vg view -a x.gam >x.json
+
+    vg align -s CTACTGACAGCAGAAGTTTGCTGTGAAGATTAAATTAGGTGATGCTTG x.vg

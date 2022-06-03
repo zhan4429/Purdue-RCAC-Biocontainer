@@ -42,3 +42,4 @@ To run longqc on our clusters::
     module --force purge
     ml biocontainers longqc
 
+    longQC.py sampleqc -x pb-rs2 -o out_dir seq.fastq

@@ -44,3 +44,9 @@ To run deepconsensus on our clusters::
     module --force purge
     ml biocontainers deepconsensus
 
+    deepconsensus run \
+        --subreads_to_ccs=subreads_to_ccs.bam  \
+        --ccs_fasta=ccs.fasta \
+        --checkpoint=checkpoint-50 \
+        --output=output.fastq \
+        --batch_zmws=100

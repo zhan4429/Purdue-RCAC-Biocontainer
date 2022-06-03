@@ -42,3 +42,4 @@ To run any2fasta on our clusters::
     module --force purge
     ml biocontainers any2fasta
 
+    any2fasta input.gff > out.fasta

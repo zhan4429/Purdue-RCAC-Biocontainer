@@ -42,3 +42,9 @@ To run mirtop on our clusters::
     module --force purge
     ml biocontainers mirtop
 
+    mirtop gff --format prost --sps hsa 
+        --hairpin examples/annotate/hairpin.fa \
+        --gtf examples/annotate/hsa.gff3 \
+        -o test_out \
+        examples/prost/prost.example.txt
+

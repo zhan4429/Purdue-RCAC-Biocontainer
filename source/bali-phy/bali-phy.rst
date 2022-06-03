@@ -42,3 +42,5 @@ To run bali-phy on our clusters::
     module --force purge
     ml biocontainers bali-phy
 
+    bali-phy examples/sequences/ITS/ITS1.fasta 5.8S.fasta ITS2.fasta --test
+    bali-phy examples/sequences/5S-rRNA/5d-clustalw.fasta -S gtr+Rates.gamma[4]+inv -n 5d-free

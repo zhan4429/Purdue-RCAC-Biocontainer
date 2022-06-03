@@ -63,3 +63,4 @@ To run clever-toolkit on our clusters::
     module --force purge
     ml biocontainers clever-toolkit
 
+    cat mapped.bam | bam2fastq output_1.fq output_2.fq
