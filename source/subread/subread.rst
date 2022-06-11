@@ -47,7 +47,7 @@ To run Subread on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 4
     #SBATCH --job-name=subread
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -55,3 +55,5 @@ To run Subread on our clusters::
 
     module --force purge
     ml biocontainers subread
+
+    featureCounts -s 2 -p -Q 10 -T 4 -a genome.gtf -o featurecounts.txt mapped.bam

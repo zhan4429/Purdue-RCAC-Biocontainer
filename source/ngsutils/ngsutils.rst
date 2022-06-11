@@ -14,6 +14,10 @@ Versions
 Commands
 ~~~~~~~
 - ngsutils
+- bamutils
+- bedutils
+- fastqutils
+- gtfutils
 
 Module
 ~~~~~~~~
@@ -38,3 +42,15 @@ To run Ngsutils on our clusters::
 
     module --force purge
     ml biocontainers ngsutils
+
+    bamutils filter \
+        input.bam \
+        MQ10filtered.bam  \
+        -mapped \
+        -noqcfail \
+        -gte MAPQ 10
+
+    bamutils stats \
+       -gtf genome.gtf MQ10filtered.bam \ 
+       > MQ10filtered_bamstats
+        

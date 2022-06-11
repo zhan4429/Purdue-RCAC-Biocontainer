@@ -30,7 +30,7 @@ To run Trim-galore on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 4
     #SBATCH --job-name=trim-galore
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -38,3 +38,5 @@ To run Trim-galore on our clusters::
 
     module --force purge
     ml biocontainers trim-galore
+   
+    trim_galore  --paired --fastqc --length 20 -o sample1_trimmed Sample1_1.fq Sample1_2.fq
