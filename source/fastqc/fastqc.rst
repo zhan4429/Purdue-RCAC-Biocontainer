@@ -30,7 +30,7 @@ To run Fastqc on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 4
     #SBATCH --job-name=fastqc
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -38,3 +38,5 @@ To run Fastqc on our clusters::
 
     module --force purge
     ml biocontainers fastqc
+
+    fastqc -o fastqc_out -t 4 FASTQ1 FASTQ2

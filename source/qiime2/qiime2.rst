@@ -41,3 +41,8 @@ To run QIIME 2 on our clusters::
 
     module --force purge
     ml biocontainers qiime2
+
+    qiime metadata tabulate \
+        --m-input-file rep-seqs.qza \
+        --m-input-file taxonomy.qza \
+        --o-visualization tabulated-feature-metadata.qzv

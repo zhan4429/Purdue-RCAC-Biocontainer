@@ -30,7 +30,7 @@ To run cellSNP on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 8
     #SBATCH --job-name=cellsnp-lite
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -38,5 +38,6 @@ To run cellSNP on our clusters::
 
     module --force purge
     ml biocontainers cellsnp-lite
-
+    
+    cellsnp-lite -s sample.bam -b barcode.tsv -O cellsnp_out -p 8 --minMAF 0.1 --minCOUNT 100
 .. _Github: https://github.com/single-cell-genetics/cellSNP

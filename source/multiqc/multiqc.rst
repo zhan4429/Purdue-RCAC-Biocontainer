@@ -38,3 +38,5 @@ To run Multiqc on our clusters::
 
     module --force purge
     ml biocontainers multiqc
+        
+    multiqc fastqc_out -o multiqc_out

@@ -30,7 +30,7 @@ To run Trimmomatic on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 8
     #SBATCH --job-name=trimmomatic
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -38,3 +38,9 @@ To run Trimmomatic on our clusters::
 
     module --force purge
     ml biocontainers trimmomatic
+
+    trimmomatic PE -threads 8 \
+        input_forward.fq.gz input_reverse.fq.gz \ 
+        output_forward_paired.fq.gz output_forward_unpaired.fq.gz \
+        output_reverse_paired.fq.gz output_reverse_unpaired.fq.gz \
+        ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:2:True LEADING:3 TRAILING:3 MINLEN:36

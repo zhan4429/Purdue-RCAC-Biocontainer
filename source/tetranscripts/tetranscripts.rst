@@ -40,4 +40,10 @@ To run Tetranscripts on our clusters::
     module --force purge
     ml biocontainers tetranscripts
 
+    TEtranscripts --format BAM --mode multi \
+        -t treatment_sample1.bam treatment_sample2.bam treatment_sample3.bam \
+        -c control_sample1.bam control_sample2.bam control_sample3.bam \
+        --GTF genic-GTF-file \
+        --GTF genic-GTF-file \  
+        --project sample_nosort_test
 .. _Github: https://github.com/mhammell-laboratory/TEtranscripts

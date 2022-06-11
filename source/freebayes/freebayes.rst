@@ -41,4 +41,5 @@ To run Freebayes on our clusters::
     module --force purge
     ml biocontainers freebayes
 
+    freebayes -f ref.fa aln.cram >var.vcf
 .. _Github: https://github.com/freebayes/freebayes
