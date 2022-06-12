@@ -39,3 +39,5 @@ To run Plink on our clusters::
 
     module --force purge
     ml biocontainers plink
+
+    plink --file toy --freq --out toy_analysis

@@ -39,4 +39,8 @@ To run How_are_we_stranded_here on our clusters::
     module --force purge
     ml biocontainers how_are_we_stranded_here
 
+    check_strandedness --gtf Homo_sapiens.GRCh38.105.gtf \ 
+        --transcripts Homo_sapiens.GRCh38.cds.all.fa \
+        --reads_1 seq_1.fastq  --reads_2 seq_2.fastq
+
 .. _Github: https://github.com/betsig/how_are_we_stranded_here

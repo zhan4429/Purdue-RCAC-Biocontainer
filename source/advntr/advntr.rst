@@ -38,5 +38,7 @@ To run Advntr on our clusters::
 
     module --force purge
     ml biocontainers advntr
-
+ 
+    advntr addmodel -r chr21.fa -p CGCGGGGCGGGG -s 45196324 -e 45196360 -c chr21
+    advntr genotype --vntr_id 1 --alignment_file CSTB_2_5_testdata.bam --working_directory working_dir
 .. _Github: https://github.com/mehrdadbakhtiari/adVNTR

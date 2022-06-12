@@ -39,4 +39,5 @@ To run Plink2 on our clusters::
     module --force purge
     ml biocontainers plink2
 
+    plink2 --bfile HapMap_3_r3_1 --freq --out HapMap_3_r3_1_out
 .. _Github: https://bioconda.github.io/recipes/plink2/README.html 

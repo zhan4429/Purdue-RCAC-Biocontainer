@@ -39,3 +39,5 @@ To run Abacas on our clusters::
 
     module --force purge
     ml biocontainers abacas
+   
+    abacas.pl -r cmm.fasta -q Cm.contigs.fasta -p nucmer -o out_prefix

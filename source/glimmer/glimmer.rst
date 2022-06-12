@@ -59,3 +59,8 @@ To run Glimmer on our clusters::
 
     module --force purge
     ml biocontainers glimmer
+
+    long-orfs -n -t 1.15 scaffolds.fasta run1.longorfs
+    extract -t scaffolds.fasta run1.longorfs > run1.train
+    build-icm -r run1.icm < run1.train
+    glimmer3 scaffolds.fasta run1.icm cm 

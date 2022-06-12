@@ -40,4 +40,5 @@ To run Fastp on our clusters::
     module --force purge
     ml biocontainers fastp
 
+    fastp -i input_1.fastq  -I input_2.fastq -o out.R1.fq.gz -O out.R2.fq.gz
 .. _Github: https://github.com/OpenGene/fastp/

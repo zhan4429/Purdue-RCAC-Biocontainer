@@ -40,4 +40,8 @@ To run FastANI on our clusters::
     module --force purge
     ml biocontainers fastani
 
+    fastANI -q cmm.fasta -r cms.fasta -o cm_cs_out 
+
+    fastANI -q cmm.fasta -r cms.fasta  --visualize -o cm_cs_visualize_out
+    
 .. _Github: https://github.com/ParBLiSS/FastANI
