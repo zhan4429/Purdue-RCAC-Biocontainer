@@ -42,3 +42,11 @@ To run wiggletools on our clusters::
     module --force purge
     ml biocontainers wiggletools
 
+    wiggletools test/fixedStep.wig
+    wiggletools test/fixedStep.bw
+    wiggletools test/bedfile.bg
+    wiggletools test/overlapping.bed
+    wiggletools test/bam.bam
+    wiggletools test/cram.cram
+    wiggletools test/vcf.vcf
+    wiggletools test/bcf.bcf

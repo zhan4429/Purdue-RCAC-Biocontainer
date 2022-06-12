@@ -42,3 +42,6 @@ To run whatshap on our clusters::
     module --force purge
     ml biocontainers whatshap
 
+    whatshap phase --indels \ 
+        --reference=reference.fasta \
+        variants.vcf pacbio.bam

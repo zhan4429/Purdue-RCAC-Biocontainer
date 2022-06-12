@@ -30,7 +30,7 @@ To run GATK on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 24
     #SBATCH --job-name=gatk
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -38,3 +38,8 @@ To run GATK on our clusters::
 
     module --force purge
     ml biocontainers gatk
+
+    gatk3 -T HaplotypeCaller  \
+        -nct 24  -R hg38.fa \
+        -I 19P0126636WES.sorted.bam \
+         -o 19P0126636WES.HC.vcf 

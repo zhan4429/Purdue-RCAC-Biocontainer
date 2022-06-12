@@ -30,7 +30,7 @@ To run Smoove on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 24
     #SBATCH --job-name=smoove
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -38,5 +38,12 @@ To run Smoove on our clusters::
 
     module --force purge
     ml biocontainers smoove
+
+    smoove call \
+        -x --name my-cohort \
+        --exclude hg38_blacklist.bed \
+        --fasta  Homo_sapiens.GRCh38.dna.primary_assembly.fa \
+         -p 24 \
+        --genotype input_bams/*.bam
 
 .. _Github: https://github.com/brentp/smoove

@@ -41,4 +41,15 @@ To run Reciprocal Smallest Distance on our clusters::
     module --force purge
     ml biocontainers reciprocal_smallest_distance
 
+    rsd_search 
+        -q Mycoplasma_genitalium.aa \
+        --subject-genome=Mycobacterium_leprae.aa \
+        -o Mycoplasma_genitalium.aa_Mycobacterium_leprae.aa_0.8_1e-5.orthologs.txt
+
+    rsd_format -g Mycoplasma_genitalium.aa
+
+    rsd_blast -v -q Mycoplasma_genitalium.aa \
+        --subject-genome=Mycobacterium_leprae.aa \
+        --forward-hits q_s.hits --reverse-hits s_q.hits \
+        --no-format --evalue 0.1
 .. _Github:  https://github.com/todddeluca/reciprocal_smallest_distance

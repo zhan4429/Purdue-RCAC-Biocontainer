@@ -36,7 +36,7 @@ To run Eggnog-mapper on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 24
     #SBATCH --job-name=eggnog-mapper
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -45,4 +45,6 @@ To run Eggnog-mapper on our clusters::
     module --force purge
     ml biocontainers eggnog-mapper
 
+    emapper.py -i proteins.faa --cpu 24 -o protein.out
+    emapper.py -m diamond --itype CDS -i cDNA.fasta -o cdna.out --cpu 24
 .. _Github: https://github.com/eggnogdb/eggnog-mapper

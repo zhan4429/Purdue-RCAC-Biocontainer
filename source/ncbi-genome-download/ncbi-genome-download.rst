@@ -30,7 +30,7 @@ To run Ncbi-genome-download on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 4
     #SBATCH --job-name=ncbi-genome-download
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -38,5 +38,9 @@ To run Ncbi-genome-download on our clusters::
 
     module --force purge
     ml biocontainers ncbi-genome-download
+
+    ncbi-genome-download bacteria,viral --parallel 4
+    ncbi-genome-download --genera "Streptomyces coelicolor,Escherichia coli" bacteria
+    ncbi-genome-download --species-taxids 562 bacteria
 
 .. _Github: https://github.com/kblin/ncbi-genome-download
