@@ -53,4 +53,5 @@ To run Fasta3 on our clusters::
     module --force purge
     ml biocontainers fasta3
 
+    fasta36 input.fasta genome.fasta
 .. _Github: https://github.com/wrpearson/fasta36

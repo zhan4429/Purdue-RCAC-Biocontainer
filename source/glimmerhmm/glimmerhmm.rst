@@ -40,3 +40,6 @@ To run Glimmerhmm on our clusters::
 
     module --force purge
     ml biocontainers glimmerhmm
+
+    trainGlimmerHMM Asperg.fasta Asperg.cds -d Asperg
+    glimmerhmm Asperg.fasta -d Asperg -o Asperg_glimmerhmm_out

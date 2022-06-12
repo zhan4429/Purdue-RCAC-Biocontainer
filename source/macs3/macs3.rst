@@ -5,7 +5,7 @@ Macs3
 
 Introduction
 ~~~~~~~~
-``Macs3`` is Model-based Analysis of ChIP-Seq for identifying transcript factor. For more information, please check its Docker hub: https://hub.docker.com/r/lbmc/macs3/3.0.0a6 and its home page on `Github`_.
+``MACS3`` is Model-based Analysis of ChIP-Seq for identifying transcript factor. For more information, please check its Docker hub: https://hub.docker.com/r/lbmc/macs3/3.0.0a6 and its home page on `Github`_.
 
 Versions
 ~~~~~~~~
@@ -39,4 +39,5 @@ To run Macs3 on our clusters::
     module --force purge
     ml biocontainers macs3
 
+    macs3 callpeak -t ChIP.bam -c Control.bam -f BAM -g hs -n test -B -q 0.01
 .. _Github: https://github.com/macs3-project/MACS

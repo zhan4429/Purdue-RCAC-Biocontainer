@@ -36,7 +36,7 @@ To run Quast on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 8
     #SBATCH --job-name=quast
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -45,4 +45,8 @@ To run Quast on our clusters::
     module --force purge
     ml biocontainers quast
 
+    metaquast.py  --gene-finding --threads 8  \ 
+        meta_contigs_1.fasta meta_contigs_2.fasta \
+        -r meta_ref_1.fasta,meta_ref_2.fasta,meta_ref_3.fasta \
+        -o quast_out_genefinding
 .. _Github: https://bioconda.github.io/recipes/quast/README.html

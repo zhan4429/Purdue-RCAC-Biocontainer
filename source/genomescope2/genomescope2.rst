@@ -39,4 +39,7 @@ To run Genomescope2 on our clusters::
     module --force purge
     ml biocontainers genomescope2
 
+    wget https://raw.githubusercontent.com/schatzlab/genomescope/master/analysis/real_data/ara_F1_21.hist
+
+    genomescope2 -i ara_F1_21.hist -o output -k 21
 .. _Github: https://github.com/tbenavi1/genomescope2.0

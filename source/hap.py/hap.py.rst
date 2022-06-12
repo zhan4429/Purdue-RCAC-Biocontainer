@@ -52,3 +52,10 @@ To run hap.py on our clusters::
     module --force purge
     ml biocontainers hap.py
 
+    hap.py  \
+      example/happy/PG_NA12878_chr21.vcf.gz \
+      example/happy/NA12878_chr21.vcf.gz \
+      -f example/happy/PG_Conf_chr21.bed.gz \
+      -r example/chr21.fa \
+      -o test
+

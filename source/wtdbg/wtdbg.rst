@@ -32,7 +32,7 @@ To run Wtdbg2 on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 24
     #SBATCH --job-name=wtdbg
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -41,4 +41,5 @@ To run Wtdbg2 on our clusters::
     module --force purge
     ml biocontainers wtdbg
 
+    wtpoa-cns -t 24 -i dbg.ctg.lay.gz -fo dbg.ctg.fa
 .. _Github: https://github.com/ruanjue/wtdbg2

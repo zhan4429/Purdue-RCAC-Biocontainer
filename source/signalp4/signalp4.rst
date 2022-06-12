@@ -38,3 +38,6 @@ To run SignalP on our clusters::
 
     module --force purge
     ml biocontainers signalp
+
+    signalp -t gram+ -f all proka.fasta > proka_out
+    signalp -t euk -f all euk.fasta > euk.out

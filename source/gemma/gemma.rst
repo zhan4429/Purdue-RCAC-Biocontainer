@@ -39,4 +39,12 @@ To run Gemma on our clusters::
     module --force purge
     ml biocontainers gemma
 
+    gemma -g ./example/mouse_hs1940.geno.txt.gz -p ./example/mouse_hs1940.pheno.txt \
+        -gk -o mouse_hs1940
+
+    gemma -g ./example/mouse_hs1940.geno.txt.gz \
+        -p ./example/mouse_hs1940.pheno.txt -n 1 -a ./example/mouse_hs1940.anno.txt \
+        -k ./output/mouse_hs1940.cXX.txt -lmm -o mouse_hs1940_CD8_lmm
+
+
 .. _Github: https://github.com/genetics-statistics/GEMMA

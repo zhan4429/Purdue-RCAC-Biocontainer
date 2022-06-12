@@ -41,4 +41,9 @@ To run Pycoqc on our clusters::
     module --force purge
     ml biocontainers pycoqc
 
+    pycoQC \
+        -f Albacore-1.2.1_basecall-1D-DNA_sequencing_summary.txt\
+         -o Albacore-1.2.1_basecall-1D-DNA.html \
+        --quiet
+
 .. _Github: https://github.com/a-slide/pycoQC

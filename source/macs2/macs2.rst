@@ -39,4 +39,5 @@ To run MACS2 on our clusters::
     module --force purge
     ml biocontainers macs2
 
+    macs2 callpeak -t ChIP.bam -c Control.bam -f BAM -g hs -n test -B -q 0.01
 .. _Github: https://github.com/macs3-project/MACS

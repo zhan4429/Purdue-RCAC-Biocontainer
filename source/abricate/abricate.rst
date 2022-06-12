@@ -30,7 +30,7 @@ To run Abricate on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 8
     #SBATCH --job-name=abricate
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -39,4 +39,5 @@ To run Abricate on our clusters::
     module --force purge
     ml biocontainers abricate
 
+    abricate --threads 8 *.fasta
 .. _Github: https://github.com/tseemann/abricate

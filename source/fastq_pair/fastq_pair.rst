@@ -39,4 +39,5 @@ To run Fastq_pair on our clusters::
     module --force purge
     ml biocontainers fastq_pair
 
+    fastq_pair seq_1.fastq  seq_2.fastq 
 .. _Github: https://github.com/linsalrob/fastq-pair

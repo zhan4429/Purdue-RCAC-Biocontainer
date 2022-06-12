@@ -39,4 +39,5 @@ To run Alfred on our clusters::
     module --force purge
     ml biocontainers alfred
 
+    alfred qc -r genome.fasta -o qc.tsv.gz sorted.bam
 .. _Github: https://github.com/tobiasrausch/alfred

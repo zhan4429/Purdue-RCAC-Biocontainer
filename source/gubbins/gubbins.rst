@@ -45,4 +45,5 @@ To run Gubbins on our clusters::
     module --force purge
     ml biocontainers gubbins
 
+    run_gubbins.py --prefix ST239 ST239.aln 
 .. _Github: https://github.com/nickjcroucher/gubbins

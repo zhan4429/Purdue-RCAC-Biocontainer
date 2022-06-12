@@ -41,4 +41,8 @@ To run Genomicconsensus on our clusters::
     module --force purge
     ml biocontainers genomicconsensus
 
+    quiver -j12 out.aligned_subreads.bam \ 
+        -r All4mer.V2.01_Insert-changed.fa  \
+        -o consensus.fasta -o consensus.fastq
+
 .. _Github: https://github.com/PacificBiosciences/GenomicConsensus
