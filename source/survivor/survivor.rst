@@ -42,3 +42,7 @@ To run survivor on our clusters::
     module --force purge
     ml biocontainers survivor
 
+    SURVIVOR simSV parameter_file
+    SURVIVOR simSV ref.fa parameter_file 0.1 0 simulated
+    SURVIVOR eval caller.vcf simulated.bed 10 eval_res
+~                                                    

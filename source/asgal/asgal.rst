@@ -39,4 +39,9 @@ To run ASGAL on our clusters::
     module --force purge
     ml biocontainers asgal
 
+    asgal -g input/genome.fa \
+        -a input/annotation.gtf \
+        -s input/sample_1.fa -o outputFolder
+
+
 .. _Github: https://github.com/AlgoLab/galig

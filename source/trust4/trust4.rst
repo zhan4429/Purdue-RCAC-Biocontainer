@@ -48,3 +48,4 @@ To run trust4 on our clusters::
     module --force purge
     ml biocontainers trust4
 
+    run-trust4 -b mapped.bam -f hg38_bcrtcr.fa --ref human_IMGT+C.fa

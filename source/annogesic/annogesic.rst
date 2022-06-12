@@ -42,3 +42,10 @@ To run annogesic on our clusters::
     module --force purge
     ml biocontainers annogesic
 
+    ANNOGESIC_FOLDER=ANNOgesic
+    annogesic \
+        update_genome_fasta \
+        -c $ANNOGESIC_FOLDER/input/references/fasta_files/NC_009839.1.fa \
+        -m $ANNOGESIC_FOLDER/input/mutation_tables/mutation.csv \
+        -u NC_test.1 \
+        -pj $ANNOGESIC_FOLDER

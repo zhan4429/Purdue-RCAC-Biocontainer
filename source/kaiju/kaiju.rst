@@ -45,7 +45,7 @@ To run Kaiju on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 24
     #SBATCH --job-name=kaiju
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -54,4 +54,8 @@ To run Kaiju on our clusters::
     module --force purge
     ml biocontainers kaiju
 
+    kaiju -t kaijudb/nodes.dmp \
+         -f kaijudb/refseq/kaiju_db_refseq.fmi \
+        -i input_1.fastq -j input_2.fastq
+         -z 24
 .. _Github: https://github.com/bioinformatics-centre/kaiju

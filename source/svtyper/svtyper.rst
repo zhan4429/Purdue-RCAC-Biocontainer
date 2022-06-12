@@ -45,3 +45,8 @@ To run svtyper on our clusters::
     module --force purge
     ml biocontainers svtyper
 
+    svtyper \
+        -i data/example.vcf \
+        -B data/NA12878.target_loci.sorted.bam \
+        -l data/NA12878.bam.json \
+        > out.vcf

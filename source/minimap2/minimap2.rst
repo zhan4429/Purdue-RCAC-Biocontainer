@@ -42,4 +42,8 @@ To run Minimap2 on our clusters::
     module --force purge
     ml biocontainers minimap2
 
+    minimap2 -ax sr Wuhan-Hu-1.fasta \
+        seq_1.fastq seq_2.fastq \
+        > aln.sam
+
 .. _Github: https://github.com/lh3/minimap2

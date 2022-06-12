@@ -39,4 +39,6 @@ To run Intarna on our clusters::
     module --force purge
     ml biocontainers intarna
 
+    IntaRNA -t CCCCCCCCGGGGGGGGGGGGGG -q AAAACCCCCCCUUUU
+
 .. _Github: https://github.com/BackofenLab/IntaRNA#usage

@@ -30,7 +30,7 @@ To run Mapcaller on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=mapcaller
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -39,4 +39,7 @@ To run Mapcaller on our clusters::
     module --force purge
     ml biocontainers mapcaller
 
+    MapCaller index ref.fasta ref
+
+    MapCaller -t 12 -i ref -f input_1.fastq  -f2 input_2.fastq  -vcf out.vcf
 .. _Github: https://github.com/hsinnan75/MapCaller

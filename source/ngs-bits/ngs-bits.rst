@@ -122,4 +122,7 @@ To run Ngs-bits on our clusters::
     module --force purge
     ml biocontainers ngs-bits
 
+    SeqPurge -in1 input1_1.fastq input2_1.fastq \
+         -in2 input2_2.fastq input2_2.fastq \
+         -out1 R1.fastq.gz -out2 R2.fastq.gz
 .. _Github: https://github.com/imgag/ngs-bits
