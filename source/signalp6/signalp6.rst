@@ -47,7 +47,7 @@ To run signalp6 on our clusters::
         --format txt --mode fast
 
 
-Example job for show mode
+Example job for slow mode
 ~~~~
 To run signalp6 on our clusters::
 
