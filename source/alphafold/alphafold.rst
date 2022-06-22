@@ -56,6 +56,9 @@ Contents of $AlphaDB::
 
 Example job using CPU
 ~~~~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run alphafold using CPU::
     
     #!/bin/bash
@@ -76,6 +79,9 @@ To run alphafold using CPU::
 
 Example job using GPU
 ~~~~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run alphafold using GPU::
     
     #!/bin/bash
