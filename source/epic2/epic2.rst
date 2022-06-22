@@ -27,7 +27,7 @@ You can load the modules by::
 Example job
 ~~~~~
 .. warning::
-    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of job. Please use ``#!/bin/bash`` instead. 
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of som biocontainer modules. Please use ``#!/bin/bash`` instead. 
 
 To run Epic2 on our clusters::
 
