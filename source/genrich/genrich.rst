@@ -39,4 +39,5 @@ To run Genrich on our clusters::
     module --force purge
     ml biocontainers genrich
 
+    Genrich  -t sample.bam  -o sample.narrowPeak  -v
 .. _Github: https://github.com/jsh58/Genrich

@@ -38,3 +38,5 @@ To run Gffcompare on our clusters::
 
     module --force purge
     ml biocontainers gffcompare
+
+    gffcompare -r annotation.gff transcripts.gtf

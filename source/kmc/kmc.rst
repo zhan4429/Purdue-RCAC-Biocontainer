@@ -41,4 +41,5 @@ To run Kmc on our clusters::
     module --force purge
     ml biocontainers kmc
 
+    kmc -k27 seq.fastq 27mers .
 .. _Github: https://github.com/refresh-bio/kmc

@@ -38,3 +38,9 @@ To run Gffread on our clusters::
 
     module --force purge
     ml biocontainers gffread
+
+    gffread -E annotation.gff -o ann_simple.gff
+
+    gffread annotation.gff -T -o annotation.gtf
+
+    gffread -w transcripts.fa -g genome.fa annotation.gff

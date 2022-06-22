@@ -25,12 +25,13 @@ for filename in ${listofmissingfiles[@]}; do
    containername=$(echo $inputpath | awk -F/ '{print $6}')
 
    # outputfile="$containername.rst"
-   outputfile="/home/$USER/biocontainer_doc/source/$containername/$containername.rst"
+   #outputfile="/home/$USER/biocontainer_doc/source/$containername/$containername.rst"
+   outputfile="/home/zhan4429/svn/biocontainer_doc/source/$containername/$containername.rst"
    echo "output file: "$outputfile
 
    inputpathcontent=$(<$inputpath)  
 
-   mkdir -p /home/$USER/biocontainer_doc/source/$containername
+   mkdir -p /home/$USER/svn/biocontainer_doc/source/$containername
 
    echo ".. _backbone-label:" > $outputfile
    echo "" >> $outputfile
@@ -88,8 +89,8 @@ done
 
 # Update index.rst using names of files in source folder
 
-sourcefolder="/home/$USER/biocontainer_doc/source/"
-indexfile="/home/$USER/biocontainer_doc/index.rst"
+sourcefolder="/home/$USER/svn/biocontainer_doc/source/"
+indexfile="/home/$USER/svn/biocontainer_doc/index.rst"
 
 filenamesarray=`ls $sourcefolder`
 

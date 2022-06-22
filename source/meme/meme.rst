@@ -54,3 +54,7 @@ To run Meme on our clusters::
 
     module --force purge
     ml biocontainers meme
+
+    meme seq.fasta -dna -mod oops -pal
+
+    meme-chip Klf1.fna -o memechip_klf1_out

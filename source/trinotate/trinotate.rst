@@ -100,4 +100,17 @@ To run Trinotate on our clusters::
     module --force purge
     ml biocontainers trinotate
 
+    sqlite_db="myTrinotate.sqlite"
+    
+    Trinotate ${sqlite_db} init \
+        --gene_trans_map data/Trinity.fasta.gene_to_trans_map \
+        --transcript_fasta data/Trinity.fasta \
+         --transdecoder_pep \
+        data/Trinity.fasta.transdecoder.pep
+
+    Trinotate ${sqlite_db} LOAD_swissprot_blastp data/swissprot.blastp.outfmt6
+    
+    Trinotate ${sqlite_db} LOAD_pfam data/TrinotatePFAM.out
+ 
+    
 .. _Github: https://github.com/Trinotate/Trinotate.github.io/blob/master/index.asciidoc

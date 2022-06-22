@@ -47,4 +47,7 @@ To run HTSeq on our clusters::
     module --force purge
     ml biocontainers htseq
 
+    python -m HTSeq.scripts.count \
+           -f bam input.bam ref.gtf \
+           > test.out
 .. _Github: https://github.com/htseq/htseq
