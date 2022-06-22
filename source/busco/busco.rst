@@ -40,6 +40,9 @@ You can load the modules by::
 
 Example job for prokaryotic genomes
 ~~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run BUSCO on our cluster::
 
     #!/bin/bash
@@ -66,6 +69,9 @@ To run BUSCO on our cluster::
 
 Example job for eukaryotic genomes
 ~~~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run BUSCO on our cluster::
 
     #!/bin/bash

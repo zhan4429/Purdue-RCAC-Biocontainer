@@ -33,6 +33,9 @@ You can load the modules by::
 
 Example job using single CPU
 ~~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run FastTree on our our clusters::
 
     #!/bin/bash
@@ -52,6 +55,9 @@ To run FastTree on our our clusters::
 
 Example job using multiple CPUs
 ~~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run FastTree on our our clusters::
 
     #!/bin/bash

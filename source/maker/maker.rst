@@ -70,6 +70,9 @@ Prerequisites
  
 Example job non-mpi
 ~~~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run MAKER on our cluster::
 
     #!/bin/bash
