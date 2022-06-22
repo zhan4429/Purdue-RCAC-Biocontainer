@@ -1,11 +1,12 @@
 #! /bin/bash
 
-# This script generates documentation files based on the names of the missing biocontainers in listofmissingfiles.txt
+# This script generates documentation files based on the names of the missing biocontainers in listofmissingfiles.txt and then updates index.rst based on files in the 'source' folder
 # listofmissingfiles.txt can be generated using generatelistofmissingfiles.sh
 # Example Usage: ./generatedocumentation.sh
 # Warning: Will not work if listofmissingfiles.txt does not exist
 # Verify biocontainer input and documentation output paths before running
 
+# Generate documentation for missing files using listofmissingfiles.txt
 readarray -t listofmissingfiles < listofmissingfiles.txt
 
 for filename in ${listofmissingfiles[@]}; do
@@ -24,12 +25,13 @@ for filename in ${listofmissingfiles[@]}; do
    containername=$(echo $inputpath | awk -F/ '{print $6}')
 
    # outputfile="$containername.rst"
-   outputfile="/home/$USER/biocontainer_doc/source/$containername/$containername.rst"
+   #outputfile="/home/$USER/biocontainer_doc/source/$containername/$containername.rst"
+   outputfile="/home/zhan4429/svn/biocontainer_doc/source/$containername/$containername.rst"
    echo "output file: "$outputfile
 
    inputpathcontent=$(<$inputpath)  
 
-   mkdir -p /home/$USER/biocontainer_doc/source/$containername
+   mkdir -p /home/$USER/svn/biocontainer_doc/source/$containername
 
    echo ".. _backbone-label:" > $outputfile
    echo "" >> $outputfile
@@ -76,6 +78,9 @@ for filename in ${listofmissingfiles[@]}; do
    echo "" >> $outputfile
    echo "Example job" >> $outputfile
    echo "~~~~~" >> $outputfile
+   echo ".. warning::" >> $outputfile
+   echo "    Using \`\`#!/bin/sh -l\`\` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use \`\`#!/bin/bash\`\` instead." >> $outputfile
+   echo "" >> $outputfile
    echo "To run $containername on our clusters::" >> $outputfile
    echo "" >> $outputfile
    echo -e "    #!/bin/bash\n    #SBATCH -A myallocation     # Allocation name\n    #SBATCH -t 1:00:00\n    #SBATCH -N 1\n    #SBATCH -n 1\n    #SBATCH --job-name=$containername\n    #SBATCH --mail-type=FAIL,BEGIN,END\n    #SBATCH --error=%x-%J-%u.err\n    #SBATCH --output=%x-%J-%u.out" >> $outputfile
@@ -83,4 +88,21 @@ for filename in ${listofmissingfiles[@]}; do
    echo "    module --force purge" >> $outputfile
    echo "    ml biocontainers $containername" >> $outputfile
    echo "" >> $outputfile
+done
+
+# Update index.rst using names of files in source folder
+
+sourcefolder="/home/$USER/svn/biocontainer_doc/source/"
+indexfile="/home/$USER/svn/biocontainer_doc/index.rst"
+
+filenamesarray=`ls $sourcefolder`
+
+sed -i '/Application list/,$d' $indexfile
+echo "   :caption: Application list" >> $indexfile
+echo "   :maxdepth: 3" >> $indexfile
+echo "   :titlesonly:" >> $indexfile
+echo "   " >> $indexfile
+for eachfile in $filenamesarray
+do
+   echo "   source/$eachfile/$eachfile" >> $indexfile
 done

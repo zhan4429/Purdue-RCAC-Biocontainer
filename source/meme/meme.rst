@@ -40,6 +40,9 @@ You can load the modules by::
 
 Example job
 ~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run Meme on our clusters::
 
     #!/bin/bash
@@ -54,3 +57,7 @@ To run Meme on our clusters::
 
     module --force purge
     ml biocontainers meme
+
+    meme seq.fasta -dna -mod oops -pal
+
+    meme-chip Klf1.fna -o memechip_klf1_out

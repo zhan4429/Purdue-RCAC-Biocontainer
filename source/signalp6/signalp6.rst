@@ -27,6 +27,9 @@ You can load the modules by::
 
 Example job for fast mode
 ~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run signalp6 on our clusters::
 
     #!/bin/bash
@@ -49,6 +52,12 @@ To run signalp6 on our clusters::
 
 Example job for slow mode
 ~~~~
+<<<<<<< HEAD
+=======
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
+>>>>>>> main
 To run signalp6 on our clusters::
 
     #!/bin/bash

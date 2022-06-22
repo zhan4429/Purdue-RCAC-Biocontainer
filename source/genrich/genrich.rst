@@ -24,6 +24,9 @@ You can load the modules by::
 
 Example job
 ~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run Genrich on our clusters::
 
     #!/bin/bash
@@ -39,4 +42,5 @@ To run Genrich on our clusters::
     module --force purge
     ml biocontainers genrich
 
+    Genrich  -t sample.bam  -o sample.narrowPeak  -v
 .. _Github: https://github.com/jsh58/Genrich

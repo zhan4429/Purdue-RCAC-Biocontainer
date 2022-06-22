@@ -24,6 +24,9 @@ You can load the modules by::
 
 Example job
 ~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run Gffread on our clusters::
 
     #!/bin/bash
@@ -38,3 +41,9 @@ To run Gffread on our clusters::
 
     module --force purge
     ml biocontainers gffread
+
+    gffread -E annotation.gff -o ann_simple.gff
+
+    gffread annotation.gff -T -o annotation.gtf
+
+    gffread -w transcripts.fa -g genome.fa annotation.gff

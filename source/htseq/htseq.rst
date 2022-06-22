@@ -32,6 +32,9 @@ You can load the modules by::
 
 Example job
 ~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run HTSeq on our clusters::
 
     #!/bin/bash
@@ -47,4 +50,7 @@ To run HTSeq on our clusters::
     module --force purge
     ml biocontainers htseq
 
+    python -m HTSeq.scripts.count \
+           -f bam input.bam ref.gtf \
+           > test.out
 .. _Github: https://github.com/htseq/htseq

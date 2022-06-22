@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 actc
 alignstats
 any2fasta
@@ -32,3 +33,16 @@ vatools
 vcf2phylip
 vg
 winnowmap
+=======
+checkm-genome
+coinfinder
+crispresso2
+dragonflye
+gadma
+gfastats
+metilene
+mhm2
+panaroo
+transrate
+vardict-java
+>>>>>>> main

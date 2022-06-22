@@ -25,6 +25,9 @@ You can load the modules by::
 
 Example job
 ~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run Graphlan on our clusters::
 
     #!/bin/bash
@@ -39,3 +42,7 @@ To run Graphlan on our clusters::
 
     module --force purge
     ml biocontainers graphlan
+
+    graphlan_annotate.py hmptree.xml hmptree.annot.xml --annot annot.txt
+    
+    graphlan.py hmptree.annot.xml hmptree.png --dpi 150 --size 14

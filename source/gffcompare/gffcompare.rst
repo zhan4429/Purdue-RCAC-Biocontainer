@@ -24,6 +24,9 @@ You can load the modules by::
 
 Example job
 ~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run Gffcompare on our clusters::
 
     #!/bin/bash
@@ -38,3 +41,5 @@ To run Gffcompare on our clusters::
 
     module --force purge
     ml biocontainers gffcompare
+
+    gffcompare -r annotation.gff transcripts.gtf

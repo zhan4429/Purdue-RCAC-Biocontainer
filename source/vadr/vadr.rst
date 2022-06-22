@@ -30,6 +30,12 @@ You can load the modules by::
 
 Example job
 ~~~~~
+<<<<<<< HEAD
+=======
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
+>>>>>>> main
 To run vadr on our clusters::
 
     #!/bin/bash

@@ -67,13 +67,16 @@ You can load the modules by::
 
 Example job
 ~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run Gmap on our clusters::
 
     #!/bin/bash
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 4
     #SBATCH --job-name=gmap
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -81,3 +84,9 @@ To run Gmap on our clusters::
 
     module --force purge
     ml biocontainers gmap
+
+    gmap_build -d Cmm -D Cmm genome.fasta
+    gmap -d Cmm -t 4 -D ./Cmm  cdna.fasta > gmap_out.txt
+
+    gmap_build -d GRCh38 -D GRCh38 Homo_sapiens.GRCh38.dna.primary_assembly.fa
+    gsnap -d GRCh38 -D ./GRCh38 --nthreads=4  SRR16956239_1.fastq SRR16956239_2.fastq > gsnap_out.txt

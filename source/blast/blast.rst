@@ -55,6 +55,9 @@ Local copies of the blast dabase can be found in the directory **/depot/itap/dat
 
 Example job
 ~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run BLAST on our clusters::
 
     #!/bin/bash

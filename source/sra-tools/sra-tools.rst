@@ -69,6 +69,9 @@ Users can config SRA-Toolkit by the command ``vdb-config``. For example, the bel
   
 Example job
 ~~~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To run SRA-Toolkit on our cluster::
 
     #!/bin/bash
