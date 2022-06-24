@@ -56,3 +56,4 @@ To run panaroo on our clusters::
     module --force purge
     ml biocontainers panaroo
 
+    panaroo -i gff/*.gff -o results --clean-mode strict

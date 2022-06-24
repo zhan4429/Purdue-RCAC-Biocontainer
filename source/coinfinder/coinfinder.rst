@@ -45,3 +45,6 @@ To run coinfinder on our clusters::
     module --force purge
     ml biocontainers coinfinder
 
+    coinfinder -i coinfinder-manuscript/gene_presence_absence.csv \
+        -I -p coinfinder-manuscript/core-gps_fasttree.newick \
+        -o output

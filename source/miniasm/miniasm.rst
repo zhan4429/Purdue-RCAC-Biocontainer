@@ -34,7 +34,7 @@ To run Miniasm on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=miniasm
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -43,4 +43,6 @@ To run Miniasm on our clusters::
     module --force purge
     ml biocontainers miniasm
 
+    miniasm -f Elysia_ont_test.fq  Elysia_reads.paf.gz \
+         > Elysia_reads.gfa
 .. _Github:  https://github.com/lh3/miniasm

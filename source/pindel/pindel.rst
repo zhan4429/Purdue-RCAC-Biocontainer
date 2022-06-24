@@ -42,3 +42,9 @@ To run Pindel on our clusters::
 
     module --force purge
     ml biocontainers pindel
+
+    pindel -i simulated_config.txt -f simulated_reference.fa -o bamtest -c ALL
+
+    pindel -p COLO-829_20-p_ok.txt -f hs_ref_chr20.fa -o colontumor -c 20
+
+    pindel2vcf -r hs_ref_chr20.fa -R HUMAN_G1K_V2 -d 20100101 -p colontumor_D -e 5

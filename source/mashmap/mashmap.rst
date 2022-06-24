@@ -33,7 +33,7 @@ To run Mashmap on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=mashmap
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -42,4 +42,5 @@ To run Mashmap on our clusters::
     module --force purge
     ml biocontainers mashmap
 
+    mashmap -r ref.fasta -t 12 -q input.fasta
 .. _Github: https://github.com/marbl/MashMap

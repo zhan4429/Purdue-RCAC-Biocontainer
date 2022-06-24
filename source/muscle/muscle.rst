@@ -47,3 +47,5 @@ To run Muscle on our clusters::
 
     module --force purge
     ml biocontainers muscle
+
+    muscle -align seqs2.fasta  -output seqs.afa

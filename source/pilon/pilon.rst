@@ -33,7 +33,7 @@ To run Pilon on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=pilon
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -42,4 +42,10 @@ To run Pilon on our clusters::
     module --force purge
     ml biocontainers pilon
 
+    pilon.jar --nostrays \
+         --genome scaffolds.fasta \
+         --frags out_sorted.bam \
+         --vcf --verbose --threads 12 \
+         --output pilon_corrected \
+         --outdir pilon_outdir
 .. _Github: https://github.com/broadinstitute/pilon/

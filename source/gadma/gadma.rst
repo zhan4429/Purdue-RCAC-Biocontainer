@@ -27,6 +27,21 @@ You can load the modules by::
     module load biocontainers
     module load gadma
 
+Interactive job
+~~~~~
+To run GADMA interactively on our clusters::
+
+   (base) UserID@bell-fe00:~ $ sinteractive -N1 -n12 -t4:00:00 -A myallocation
+   salloc: Granted job allocation 12345869
+   salloc: Waiting for resource configuration
+   salloc: Nodes bell-a008 are ready for job
+   (base) UserID@bell-a008:~ $ module load biocontainers gadma
+   (base) UserID@bell-a008:~ $ python
+   Python 3.8.13 | packaged by conda-forge | (default, Mar 25 2022, 06:04:10)
+   [GCC 10.3.0] on linux
+   Type "help", "copyright", "credits" or "license" for more information.  
+   >>> from gadma import *
+
 Example job
 ~~~~~
 .. warning::
@@ -47,3 +62,4 @@ To run gadma on our clusters::
     module --force purge
     ml biocontainers gadma
 
+    gadma -p params_file

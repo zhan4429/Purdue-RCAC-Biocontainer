@@ -42,4 +42,8 @@ To run Panacota on our clusters::
     module --force purge
     ml biocontainers panacota
 
+    PanACoTA annotate \
+        -d Examples/genomes_init \
+        -l Examples/input_files/list_genomes.lst \
+        -r Examples/2-res-QC -Q
 .. _Github: https://github.com/gem-pasteur/PanACoTA

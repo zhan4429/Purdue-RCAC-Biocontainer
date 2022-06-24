@@ -36,7 +36,7 @@ To run dragonflye on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 8
     #SBATCH --job-name=dragonflye
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -45,3 +45,6 @@ To run dragonflye on our clusters::
     module --force purge
     ml biocontainers dragonflye
 
+    dragonflye --cpus 8 \
+         --outdir output \
+         --reads SRR18498195.fastq

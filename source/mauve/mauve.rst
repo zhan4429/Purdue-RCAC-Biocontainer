@@ -42,3 +42,9 @@ To run Mauve on our clusters::
 
     module --force purge
     ml biocontainers mauve
+
+    mauveAligner seqs.fasta --output=mauveAligner_output
+
+    progressiveMauve --output=threeway.xmfa \
+        --output-guide-tree=threeway.tree \
+        --backbone-output=threeway.backbone genome1.gbk genome2.gbk genome3.gbk

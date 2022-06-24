@@ -33,7 +33,7 @@ To run Lra on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=lra
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -42,4 +42,7 @@ To run Lra on our clusters::
     module --force purge
     ml biocontainers lra
 
+    lra index genome.fasta
+    
+    lra align genome.fasta input.fastq -t 12 -p s > output.sam
 .. _Github: https://github.com/ChaissonLab/LRA

@@ -45,3 +45,4 @@ To run gfastats on our clusters::
     module --force purge
     ml biocontainers gfastats
 
+    gfastats input.fasta -o gfa

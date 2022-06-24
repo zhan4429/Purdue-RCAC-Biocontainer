@@ -42,4 +42,8 @@ To run Mitofinder on our clusters::
     module --force purge
     ml biocontainers mitofinder
 
+    mitofinder -j Aphaenogaster_megommata_SRR1303315 \
+               -1 Aphaenogaster_megommata_SRR1303315_R1_cleaned.fastq.gz \
+               -2 Aphaenogaster_megommata_SRR1303315_R2_cleaned.fastq.gz \
+               -r reference.gb -o 5 -p 5 -m 10
 .. _Github: https://github.com/RemiAllio/MitoFinder

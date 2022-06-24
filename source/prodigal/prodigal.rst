@@ -42,4 +42,5 @@ To run Prodigal on our clusters::
     module --force purge
     ml biocontainers prodigal
 
+    prodigal -i genome.fasta -o output.genes -a proteins.faa
 .. _Github: https://github.com/hyattpd/Prodigal

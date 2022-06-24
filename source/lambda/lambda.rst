@@ -41,3 +41,9 @@ To run Lambda on our clusters::
 
     module --force purge
     ml biocontainers lambda
+
+    lambda2 mkindexp -d uniprot_sprot.fasta
+
+    lambda2 searchp \
+        -q proteins.fasta \
+        -i uniprot_sprot.fasta.lambda
