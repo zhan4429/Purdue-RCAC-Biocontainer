@@ -14,6 +14,10 @@ This is the user guide for biocontainer modules deployed in Purdue High Performa
 If you have any question, contact me(Yucheng Zhang) at: 
 `zhan4429@purdue.edu <mailto:zhan4429@purdue.edu>`_
 
+.. warning::
+    Do not use both ``bioinfo`` and ``biocontainers`` in your job script, because loading ``bioinfo`` will cause the failure of loading many modules including ``biocontainers`` in ``Brown``, ``Halstead``, ``Scholar``, ``Workbench``, and ``Gilbreth``. Since RCAC will not provide support to ``bioinfo`` in the future clusters, we recommend users to just use ``biocontainers``. 
+
+
 .. toctree::
    :caption: Frequently Asked Questions
    :titlesonly:
