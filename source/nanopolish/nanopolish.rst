@@ -42,4 +42,10 @@ To run Nanopolish on our clusters::
     module --force purge
     ml biocontainers nanopolish
 
+    nanopolish index -d fast5_files/ reads.fasta
+
+    nanopolish variants --consensus \
+        -o polished.vcf -w "tig00000001:200000-202000" \
+         -r reads.fasta -b reads.sorted.bam  -g draft.fa
+
 .. _Github: https://github.com/jts/nanopolish

@@ -45,4 +45,7 @@ To run Shorah on our clusters::
     module --force purge
     ml biocontainers shorah
 
+    shorah amplicon -b ampli_sorted.bam -f reference.fasta
+    shorah shotgun -b test_aln.cram -f test_ref.fasta
+    shorah shotgun -a 0.1 -w 42 -x 100000 -p 0.9 -c 0 -r REF:42-272 -R 42 -b test_aln.cram -f ref.fasta
 .. _Github: https://github.com/cbg-ethz/shorah

@@ -33,7 +33,7 @@ To run Raven-assembler on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=raven-assembler
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -42,4 +42,5 @@ To run Raven-assembler on our clusters::
     module --force purge
     ml biocontainers raven-assembler
 
+    raven -t 12 input.fastq
 .. _Github: https://github.com/lbcb-sci/raven

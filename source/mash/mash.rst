@@ -42,4 +42,5 @@ To run Mash on our clusters::
     module --force purge
     ml biocontainers mash
 
+    mash dist genome1.fasta genome2.fasta
 .. _Github: https://github.com/marbl/Mash

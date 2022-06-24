@@ -43,4 +43,8 @@ To run SortMeRNA on our clusters::
     module --force purge
     ml biocontainers sortmerna
 
+    sortmerna --ref silva-bac-16s-id90.fasta,silva-bac-16s-db \
+        --reads set2_environmental_study_550_amplicon.fasta \
+        --fastx --aligned Test
+
 .. _Github: https://github.com/biocore/sortmerna

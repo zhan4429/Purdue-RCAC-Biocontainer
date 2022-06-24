@@ -42,4 +42,7 @@ To run Sourmash on our clusters::
     module --force purge
     ml biocontainers sourmash
 
+    sourmash sketch dna -p k=31 *.fna.gz
+    sourmash compare *.sig -o cmp.dist
+    sourmash plot cmp.dist --labels
 .. _Github: https://github.com/sourmash-bio/sourmash

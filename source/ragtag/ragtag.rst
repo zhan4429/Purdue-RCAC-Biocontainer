@@ -42,4 +42,7 @@ To run Ragtag on our clusters::
     module --force purge
     ml biocontainers ragtag
 
+    ragtag.py correct ref.fasta query.fasta
+    ragtag.py patch target.fa query.fa
+
 .. _Github: https://github.com/malonge/RagTag

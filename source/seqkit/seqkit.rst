@@ -43,4 +43,5 @@ To run Seqkit on our clusters::
     module --force purge
     ml biocontainers seqkit
 
+    seqkit stats configs.fasta > contigs_statistics.txt
 .. _Github: https://github.com/shenwei356/seqkit

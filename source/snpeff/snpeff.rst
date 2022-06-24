@@ -42,4 +42,5 @@ To run Snpeff on our clusters::
     module --force purge
     ml biocontainers snpeff
 
+    snpEff GRCh37.75 examples/test.chr22.vcf > test.chr22.ann.vcf
 .. _Github: http://pcingola.github.io/SnpEff/

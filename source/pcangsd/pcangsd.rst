@@ -33,7 +33,7 @@ To run PCAngsd on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=pcangsd
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -42,4 +42,6 @@ To run PCAngsd on our clusters::
     module --force purge
     ml biocontainers pcangsd
 
+    pcangsd -b pupfish.beagle.gz --inbreedSites \
+         --selection -o pup_pca2 --threads 12
 .. _Github: https://github.com/Rosemeis/pcangsd

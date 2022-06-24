@@ -59,4 +59,5 @@ To run Proteinortho on our clusters::
     module --force purge
     ml biocontainers proteinortho
 
+    proteinortho6.pl test/C.faa test/E.faa test/L.faa test/M.faa
 .. _Gitlab: https://gitlab.com/paulklemm_PHD/proteinortho

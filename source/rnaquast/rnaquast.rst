@@ -33,7 +33,7 @@ To run Rnaquast on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=rnaquast
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -41,3 +41,8 @@ To run Rnaquast on our clusters::
 
     module --force purge
     ml biocontainers rnaquast
+
+    rnaQUAST.py -t 12 -o output \
+         --transcripts test_data/Trinity.fasta test_data/idba.fasta \
+         --reference test_data/Saccharomyces_cerevisiae.R64-1-1.75.dna.toplevel.fa \
+         --gtf test_data/Saccharomyces_cerevisiae.R64-1-1.75.gtf

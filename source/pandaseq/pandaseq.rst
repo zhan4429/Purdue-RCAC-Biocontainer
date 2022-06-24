@@ -42,4 +42,5 @@ To run Pandaseq on our clusters::
     module --force purge
     ml biocontainers pandaseq
 
+    pandaseq -f SRR069027_1.fastq -r SRR069027_2.fastq
 .. _Github: https://github.com/neufeld/pandaseq
