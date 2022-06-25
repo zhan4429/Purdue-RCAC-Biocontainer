@@ -12,7 +12,7 @@ Frequently Asked Questions
 
 **How should I load biocontainers after I load bioinfo? The error message shows "biocontainers" is unknown.**
   Run below commands:
-   - module --force purge
+   - module purge
    - module load modtree/recent
    - module load biocontainers
 
