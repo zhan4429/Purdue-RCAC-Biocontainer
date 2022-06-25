@@ -42,4 +42,28 @@ To run Ataqv on our clusters::
     module --force purge
     ml biocontainers ataqv
 
+    ataqv --peak-file sample_1_peaks.broadPeak \
+        --name sample_1 --metrics-file sample_1.ataqv.json.gz \
+        --excluded-region-file hg19.blacklist.bed.gz \
+        --tss-file hg19.tss.refseq.bed.gz \
+        --ignore-read-groups human sample_1.md.bam \
+         > sample_1.ataqv.out
+    
+    ataqv --peak-file sample_2_peaks.broadPeak \
+        --name sample_2 --metrics-file sample_2.ataqv.json.gz \
+        --excluded-region-file hg19.blacklist.bed.gz \
+        --tss-file hg19.tss.refseq.bed.gz \ 
+        --ignore-read-groups human sample_2.md.bam \
+        > sample_2.ataqv.out
+    
+    ataqv --peak-file sample_3_peaks.broadPeak \
+        --name sample_3 --metrics-file sample_3.ataqv.json.gz \
+        --excluded-region-file hg19.blacklist.bed.gz \
+        --tss-file hg19.tss.refseq.bed.gz \
+        --ignore-read-groups human sample_3.md.bam \
+         > sample_3.ataqv.out
+
+    mkarv my_fantastic_experiment sample_1.ataqv.json.gz sample_2.ataqv.json.gz sample_3.ataqv.json.gz
+
+   
 .. _Github: https://github.com/ParkerLab/ataqv

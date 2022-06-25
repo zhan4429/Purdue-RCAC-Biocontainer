@@ -33,7 +33,7 @@ To run Atropos on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 4
     #SBATCH --job-name=atropos
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -41,5 +41,10 @@ To run Atropos on our clusters::
 
     module --force purge
     ml biocontainers atropos
+
+    atropos --threads 4  \
+        -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCACGAGTTA \
+        -o trimmed1.fq.gz -p trimmed2.fq.gz \
+        -pe1 SRR13176582_1.fastq -pe2 SRR13176582_2.fastq
 
 .. _Github: https://github.com/jdidion/atropos

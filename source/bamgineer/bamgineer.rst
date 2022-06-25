@@ -42,4 +42,13 @@ To run Bamgineer on our clusters::
     module --force purge
     ml biocontainers bamgineer
 
+    simulate.py -config inputs/config.cfg \
+                -splitbamdir splitbams \
+                -cnv_bed inputs/cnv.bed \
+                -vcf inputs/normal_het.vcf \
+                -exons inputs/exons.bed \
+                -outbam tumour.bam \
+                -results outputs \
+                -cancertype LUAC1 
+    
 .. _Github: https://github.com/pughlab/bamgineer
