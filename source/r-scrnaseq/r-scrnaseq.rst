@@ -71,9 +71,6 @@ Install packages
 
 Interactive job
 ~~~~~~
-.. warning::
-    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
-
 To run interactively on our clusters::
 
    (base) UserID@bell-fe00:~ $ sinteractive -N1 -n12 -t4:00:00 -A myallocation
@@ -107,6 +104,9 @@ To run interactively on our clusters::
 
 Batch job
 ~~~~~~
+.. warning::
+    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+
 To submit a sbatch job on our clusters::
 
     #!/bin/bash

@@ -26,9 +26,6 @@ You can load the modules by::
 
 Interactive job
 ~~~~~
-.. warning::
-    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
-
 To run Cyvcf2 interactively on our clusters::
 
    (base) UserID@bell-fe00:~ $ sinteractive -N1 -n1 -t1:00:00 -A myallocation
