@@ -43,3 +43,7 @@ To run Prinseq on our clusters::
 
     module --force purge
     ml biocontainers prinseq
+
+    prinseq-lite.pl -verbose -fastq  SRR5043021_1.fastq -fastq2 SRR5043021_2.fastq -graph_data test.gd -out_good null -out_bad null
+    prinseq-graphs.pl -i test.gd -png_all -o test
+    prinseq-graphs-noPCA.pl -i test.gd -png_all -o test_noPCA

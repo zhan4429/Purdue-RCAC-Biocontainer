@@ -41,3 +41,7 @@ To run Peakranger on our clusters::
 
     module --force purge
     ml biocontainers peakranger
+
+    peakranger ccat --format bam  27-1_sorted_MDRD_MQ30filtered.bam 27-4_sorted_MDRD_MQ30filtered.bam \
+         ccat_result_with_HTML_report_5kb_region --report \
+         --gene_annot_file refGene.txt --plot_region 10000

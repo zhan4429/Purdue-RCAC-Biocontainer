@@ -29,9 +29,9 @@ Interactive  job
 Since IGV requires GUI, it is recommended to run it within ThinLinc::
 
     (base) UserID@bell-fe00:~ $ sinteractive -N1 -n12 -t4:00:00 -A myallocation
-    salloc: Granted job allocation 12345869
-    salloc: Waiting for resource configuration
-    salloc: Nodes bell-a008 are ready for job
+     salloc: Granted job allocation 12345869
+     salloc: Waiting for resource configuration
+     salloc: Nodes bell-a008 are ready for job
     (base) UserID@bell-a008:~ $ module --force purge
     (base) UserID@bell-a008:~ $ ml biocontainers igv
     (base) UserID@bell-a008:~ $ igv.sh

@@ -41,3 +41,17 @@ To run Nextclade on our clusters::
 
     module --force purge
     ml biocontainers nextclade
+
+    mkdir -p data
+    nextclade dataset get --name 'sars-cov-2' --output-dir 'data/sars-cov-2'
+
+    nextclade \
+        --in-order \
+        --input-fasta data/sars-cov-2/sequences.fasta \
+        --input-dataset data/sars-cov-2 \
+        --output-tsv output/nextclade.tsv \
+        --output-tree output/nextclade.auspice.json \
+        --output-dir output/ \
+        --output-basename nextclade
+
+
