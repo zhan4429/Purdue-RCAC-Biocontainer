@@ -42,4 +42,13 @@ To run Isoseq3 on our clusters::
     module --force purge
     ml biocontainers isoseq3
 
+    isoseq3 --version
+
+    isoseq3 refine --require-polya \
+        alz.demult.5p--3p.bam \
+        primers.fasta alz.flnc.bam
+
+    isoseq3 cluster alz.flnc.bam \
+        alz.polished.bam --verbose --use-qvs
+
 .. _Github: https://github.com/PacificBiosciences/IsoSeq

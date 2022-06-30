@@ -45,4 +45,6 @@ To run Raxml-ng on our clusters::
     module --force purge
     ml biocontainers raxml-ng
 
+    raxml-ng --bootstrap --msa alignment.phy \
+         --model GTR+G --threads 12 --bs-trees 1000
 .. _Github: https://github.com/amkozlov/raxml-ng

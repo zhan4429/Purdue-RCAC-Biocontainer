@@ -42,3 +42,6 @@ To run Velvet on our clusters::
 
     module --force purge
     ml biocontainers velvet
+ 
+    velveth output_directory 21 -fasta -short solexa1.fa solexa2.fa solexa3.fa -long capillary.fa
+    velvetg output_directory -cov_cutoff 4

@@ -42,3 +42,5 @@ To run TopHat on our clusters::
 
     module --force purge
     ml biocontainers tophat
+
+    tophat -r 20 test_ref reads_1.fq reads_2.fq

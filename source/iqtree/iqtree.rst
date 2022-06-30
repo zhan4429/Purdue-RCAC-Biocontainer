@@ -43,3 +43,5 @@ To run IQ-TREE on our clusters::
 
     module --force purge
     ml biocontainers iqtree
+
+    iqtree -s input.phy -m GTR+I+G > test.out

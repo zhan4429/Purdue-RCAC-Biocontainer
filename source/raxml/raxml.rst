@@ -38,7 +38,7 @@ To run Raxml on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 36
     #SBATCH --job-name=raxml
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -46,3 +46,10 @@ To run Raxml on our clusters::
 
     module --force purge
     ml biocontainers raxml
+
+    raxmlHPC-SSE3 -m GTRGAMMA  -p 12345 -s input.fasta -n HPC-SSE3_out -# 20 -T 36
+    raxmlHPC -m GTRGAMMA  -p 12345 -s input.fasta -n HPC_out -# 20 -T 36
+    raxmlHPC-AVX2  -m GTRGAMMA  -p 12345 -s input.fasta -n HPC-AVX2_out -# 20 -T 36 
+    raxmlHPC-PTHREADS  -m GTRGAMMA  -p 12345 -s input.fasta -n HPC-PTHREADS_out -# 20 -T 36
+    raxmlHPC-PTHREADS-AVX2  -m GTRGAMMA  -p 12345 -s input.fasta -n HPC-PTHREADS-AVX2_out -# 20 -T 36
+    raxmlHPC-PTHREADS-SSE3  -m GTRGAMMA  -p 12345 -s input.fasta -n HPC-PTHREADS-SSE3_out -# 20 -T 36

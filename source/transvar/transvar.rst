@@ -41,3 +41,11 @@ To run Transvar on our clusters::
 
     module --force purge
     ml biocontainers transvar
+
+    # set up databases
+    transvar config --download_anno --refversion hg19
+
+    # in case you don't have a reference
+    transvar config --download_ref --refversion hg19
+
+    transvar panno -i 'PIK3CA:p.E545K' --ucsc --ccds

@@ -57,4 +57,5 @@ To run Mummer4 on our clusters::
     module --force purge
     ml biocontainers mummer4
 
+    mummer -mum -b -c H_pylori26695_Eslice.fasta H_pyloriJ99_Eslice.fasta > mummer.mums
 .. _Github: https://github.com/mummer4/mummer

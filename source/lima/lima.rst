@@ -33,7 +33,7 @@ To run Lima on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=lima
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -41,3 +41,9 @@ To run Lima on our clusters::
 
     module --force purge
     ml biocontainers lima
+
+    lima --version
+    lima --isoseq --dump-clips \
+        --peek-guess -j 12 \
+        alz.ccs.bam primers.fasta \
+        alz.demult.bam

@@ -33,7 +33,7 @@ To run Funannotate on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=funannotate
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -42,4 +42,7 @@ To run Funannotate on our clusters::
     module --force purge
     ml biocontainers funannotate
 
+    funannotate clean -i genome.fa -o genome_cleaned.fa
+    funannotate sort -i genome_cleaned.fa -o genome_cleaned_sorted.fa
+    funannotate predict -i genome_cleaned_sorted.fa -o predict_out --species "arabidopsis" --rna_bam  RNAseq.bam --cpus 12
 .. _Github: https://github.com/nextgenusfs/funannotate

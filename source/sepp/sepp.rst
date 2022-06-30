@@ -46,4 +46,9 @@ To run Sepp on our clusters::
     module --force purge
     ml biocontainers sepp
 
+    run_sepp.py -t mock/rpsS/sate.tre \
+        -r mock/rpsS/sate.tre.RAxML_info \
+        -a mock/rpsS/sate.fasta \
+        -f mock/rpsS/rpsS.even.fas \
+        -o rpsS.out.default
 .. _Github: https://github.com/smirarab/sepp

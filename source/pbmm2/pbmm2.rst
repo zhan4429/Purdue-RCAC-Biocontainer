@@ -33,7 +33,7 @@ To run Pbmm2 on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=pbmm2
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -41,5 +41,12 @@ To run Pbmm2 on our clusters::
 
     module --force purge
     ml biocontainers pbmm2
+
+    pbmm2 --version
+
+    pbmm2 align hg38.fa \
+        alz.polished.hq.bam alz.aligned.bam \
+         -j 12 --preset ISOSEQ --sort \
+         --log-level INFO 
 
 .. _Github: https://github.com/PacificBiosciences/pbmm2

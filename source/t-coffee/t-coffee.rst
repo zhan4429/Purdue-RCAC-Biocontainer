@@ -42,4 +42,5 @@ To run T-coffee on our clusters::
     module --force purge
     ml biocontainers t-coffee
 
+    t_coffee  OG0002077.fa -mode  expresso
 .. _Github: https://github.com/cbcrg/tcoffee
