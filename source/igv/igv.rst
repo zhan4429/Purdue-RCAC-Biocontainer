@@ -24,22 +24,14 @@ You can load the modules by::
     module load biocontainers
     module load igv
 
-Example job
+Interactive  job
 ~~~~~
-.. warning::
-    Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
+Since IGV requires GUI, it is recommended to run it within ThinLinc::
 
-To run IGV on our clusters::
-
-    #!/bin/bash
-    #SBATCH -A myallocation     # Allocation name 
-    #SBATCH -t 1:00:00
-    #SBATCH -N 1
-    #SBATCH -n 1
-    #SBATCH --job-name=igv
-    #SBATCH --mail-type=FAIL,BEGIN,END
-    #SBATCH --error=%x-%J-%u.err
-    #SBATCH --output=%x-%J-%u.out
-
-    module --force purge
-    ml biocontainers igv
+    (base) UserID@bell-fe00:~ $ sinteractive -N1 -n12 -t4:00:00 -A myallocation
+    salloc: Granted job allocation 12345869
+    salloc: Waiting for resource configuration
+    salloc: Nodes bell-a008 are ready for job
+    (base) UserID@bell-a008:~ $ module --force purge
+    (base) UserID@bell-a008:~ $ ml biocontainers igv
+    (base) UserID@bell-a008:~ $ igv.sh
