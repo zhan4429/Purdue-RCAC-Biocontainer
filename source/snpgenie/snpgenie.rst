@@ -49,4 +49,6 @@ To run Snpgenie on our clusters::
     module --force purge
     ml biocontainers snpgenie
 
+    snpgenie.pl --minfreq=0.01 --snpreport=CLC_SNP_EXAMPLE.txt \
+        --fastafile=REFERENCE_EXAMPLE.fasta --gtffile=CDS_EXAMPLE.gtf
 .. _Github: https://github.com/chasewnelson/SNPGenie

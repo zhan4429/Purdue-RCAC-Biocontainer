@@ -42,4 +42,5 @@ To run Popscle on our clusters::
     module --force purge
     ml biocontainers popscle
 
+    popscle dsc-pileup --sam data/$bam --vcf data/$ref_vcf --out data/$pileup
 .. _Github: https://github.com/statgen/popscle

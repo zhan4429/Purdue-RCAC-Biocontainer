@@ -33,7 +33,7 @@ To run Flye on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=flye
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -42,4 +42,6 @@ To run Flye on our clusters::
     module --force purge
     ml biocontainers flye
 
+    flye --pacbio-raw E.coli_PacBio_40x.fasta --out-dir out_pacbio --threads 12
+    flye --nano-raw Loman_E.coli_MAP006-1_2D_50x.fasta --out-dir out_nano --threads 12
 .. _Github: https://github.com/fenderglass/Flye

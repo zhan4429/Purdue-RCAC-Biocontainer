@@ -45,3 +45,5 @@ To run mlst on our clusters::
     module --force purge
     ml biocontainers mlst
 
+    mlst contigs.fa
+    mlst genome.gbk.gz

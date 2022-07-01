@@ -44,4 +44,7 @@ To run Recycler on our clusters::
     module --force purge
     ml biocontainers recycler
 
+    recycle.py -g test/assembly_graph.fastg \ 
+        -k 55 -b test/test.sort.bam -i True
+
 .. _Github: https://github.com/Shamir-Lab/Recycler

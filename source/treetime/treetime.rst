@@ -42,4 +42,5 @@ To run Treetime on our clusters::
     module --force purge
     ml biocontainers treetime
 
+    treetime ancestral --aln input.fasta --tree input.nwk
 .. _Github: https://github.com/neherlab/treetime

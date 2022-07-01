@@ -44,4 +44,8 @@ To run Pyani on our clusters::
     module --force purge
     ml biocontainers pyani
 
+    average_nucleotide_identity.py -i tests/ -o tests/test_ANIm_output -m ANIm -g
+    average_nucleotide_identity.py -i tests/  -o tests/test_ANIb_output -m ANIb -g
+    average_nucleotide_identity.py -i tests/ -o tests/test_ANIblastall_output -m ANIblastall -g
+    average_nucleotide_identity.py -i tests/  -o tests/test_TETRA_output -m TETRA -g
 .. _Github: http://widdowquinn.github.io/pyani/

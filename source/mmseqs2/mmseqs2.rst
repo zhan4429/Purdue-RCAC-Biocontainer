@@ -42,4 +42,9 @@ To run Mmseqs2 on our clusters::
     module --force purge
     ml biocontainers mmseqs2
 
+    mmseqs createdb examples/DB.fasta targetDB
+    mmseqs createtaxdb targetDB tmp
+    mmseqs createindex targetDB tmp
+    mmseqs easy-taxonomy examples/QUERY.fasta targetDB alnRes tmp
+
 .. _Github: https://github.com/soedinglab/MMseqs2

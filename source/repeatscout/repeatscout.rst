@@ -47,4 +47,7 @@ To run RepeatScout on our clusters::
     module --force purge
     ml biocontainers repeatscout
 
+    build_lmer_table -l 14 -sequence genome.fasta -freq Final_assembly.freq
+
+    RepeatScout -sequence genome.fasta -output Final_assembly_repeats.fasta -freq Final_assembly.freq -l 14
 .. _Github: https://github.com/mmcco/RepeatScout

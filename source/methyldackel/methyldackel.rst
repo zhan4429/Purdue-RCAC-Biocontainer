@@ -45,3 +45,4 @@ To run methyldackel on our clusters::
     module --force purge
     ml biocontainers methyldackel
 
+    MethylDackel extract chgchh.fa chgchh_aln.bam

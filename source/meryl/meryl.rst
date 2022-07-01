@@ -46,4 +46,6 @@ To run Meryl on our clusters::
     module --force purge
     ml biocontainers meryl
 
+    meryl count k=42 data/ec.fna.gz output ec.meryl
+
 .. _Github: https://github.com/marbl/meryl

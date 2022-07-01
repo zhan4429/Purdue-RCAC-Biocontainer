@@ -45,4 +45,5 @@ To run Htslib on our clusters::
     module --force purge
     ml biocontainers htslib
 
+    tabix sorted.gff.gz chr1:10,000,000-20,000,000
 .. _Github: https://github.com/samtools/htslib

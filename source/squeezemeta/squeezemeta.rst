@@ -96,3 +96,4 @@ To run squeezemeta on our clusters::
     module --force purge
     ml biocontainers squeezemeta
 
+    SqueezeMeta.pl -m coassembly -p Hadza -s test.samples -f raw

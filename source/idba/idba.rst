@@ -74,3 +74,6 @@ To run Idba on our clusters::
 
     module --force purge
     ml biocontainers idba
+
+    fq2fa --paired --filter SRR1977249.abundtrim.subset.pe.fq SRR1977249.abundtrim.subset.pe.fa
+    idba_ud  -r SRR1977249.abundtrim.subset.pe.fa -o output

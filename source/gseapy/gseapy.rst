@@ -43,3 +43,9 @@ To run Gseapy on our clusters::
 
     module --force purge
     ml biocontainers gseapy
+
+    gseapy ssgsea -d ./data/testSet_rand1200.gct \
+                -g data/temp.gmt \
+                -o test/ssgsea_report2  \
+                -p 4 --no-plot --no-scale
+    gseapy replot -i data -o test/replot_test

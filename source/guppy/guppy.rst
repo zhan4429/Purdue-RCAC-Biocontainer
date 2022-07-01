@@ -39,7 +39,7 @@ To run Guppy on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=guppy
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -48,3 +48,6 @@ To run Guppy on our clusters::
     module --force purge
     ml biocontainers guppy
 
+    guppy_basecaller --compress_fastq -i data/fast5_tiny/ \
+        -s basecall_tiny/ --cpu_threads_per_caller 12 \
+        --num_callers 1 -c dna_r9.4.1_450bps_hac.cfg

@@ -41,3 +41,13 @@ To run Impute2 on our clusters::
 
     module --force purge
     ml biocontainers impute2
+
+    impute2 \
+        -m Example/example.chr22.map \
+        -h Example/example.chr22.1kG.haps \
+        -l Example/example.chr22.1kG.legend \
+        -g Example/example.chr22.study.gens \
+        -strand_g Example/example.chr22.study.strand \
+        -int 20.4e6 20.5e6 \
+        -Ne 20000 \
+        -o example.chr22.one.phased.impute2

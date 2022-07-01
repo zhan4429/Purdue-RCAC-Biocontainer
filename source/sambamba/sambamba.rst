@@ -42,4 +42,7 @@ To run Sambamba on our clusters::
     module --force purge
     ml biocontainers sambamba
 
+    sambamba view --reference-info input.bam 
+    sambamba view -c -F "mapping_quality >= 40" input.bam 
+
 .. _Github: https://github.com/biod/sambamba
