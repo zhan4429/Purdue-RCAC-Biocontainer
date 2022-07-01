@@ -42,4 +42,5 @@ To run Varlociraptor on our clusters::
     module --force purge
     ml biocontainers varlociraptor
 
+    varlociraptor call variants tumor-normal --purity 0.75 --tumor
 .. _Github: https://github.com/varlociraptor/varlociraptor
