@@ -9,8 +9,8 @@ Introduction
 
 Versions
 ~~~~~~~~
-- 5.3.0-py37
-- 5.4.1-py37
+- 5.3.3
+- 5.4.1
 
 Commands
 ~~~~~~~

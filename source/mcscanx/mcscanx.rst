@@ -33,6 +33,16 @@ You can load the modules by::
     module load biocontainers
     module load mcscanx
 
+Helper command
+~~~~  
+.. note::
+   
+   To conduct downstream analyses, users need to copy the folder ``downstream_analyses`` from container into the host system. 
+
+   A helper command ``copy_downstream_analyses`` is provided to simplify the task. Follow the procedure below to copy downstream_analyses into target directory::
+   
+   $ copy_downstream_analyses $PWD # this will copy the downstream_analyses into the current directory.
+
 Example job
 ~~~~~
 .. warning::
@@ -52,4 +62,13 @@ To run mcscanx on our clusters::
 
     module --force purge
     ml biocontainers mcscanx
+
+    ## Run MCScanX
+    MCScanX Result/merge
+    ## Copy downstream_analyses
+    copy_downstream_analyses $PWD
+    ## Downstream analyses   
+    java circle_plotter -g ../Result/merge.gff -s ../Result/merge.collinearity -c ../Result/merge_circ.ctl -o ../Result/merge_circle.png
+    java dot_plotter -g ../Result/merge.gff -s ../Result/merge.collinearity -c ../Result/merge_dot.ctl -o ../Result/merge_dot.png
+    java dual_synteny_plotter -g ../Result/merge.gff -s ../Result/merge.collinearity -c ../Result/merge_dot.ctl -o ../Result/merge_dual_synteny.png
 

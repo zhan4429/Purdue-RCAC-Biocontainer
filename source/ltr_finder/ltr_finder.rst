@@ -50,3 +50,5 @@ To run ltr_finder on our clusters::
     module --force purge
     ml biocontainers ltr_finder
 
+    ltr_finder 3ds_72.fa -P 3ds_72 -w2  > test/3ds_72_result.txt \
+        |  genome_plot.pl test/

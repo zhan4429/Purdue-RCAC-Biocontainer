@@ -163,3 +163,5 @@ To run Rseqc on our clusters::
 
     module --force purge
     ml biocontainers rseqc
+
+    bam_stat.py -i *.bam -q 30

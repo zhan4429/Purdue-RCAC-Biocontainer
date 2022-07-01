@@ -45,3 +45,4 @@ To run cegma on our clusters::
     module --force purge
     ml biocontainers cegma
 
+    cegma --genome genome.fasta -o output

@@ -25,6 +25,11 @@ You can load the modules by::
     module load biocontainers
     module load clair3
 
+Model_path
+~~~~  
+.. note::
+   ``model_path`` is in ``/opt/models/``. The parameter will be like this ``--model_path="/opt/models/MODEL_NAME"`` 
+
 Example job
 ~~~~~
 .. warning::
@@ -44,4 +49,13 @@ To run clair3 on our clusters::
 
     module --force purge
     ml biocontainers clair3
+
+    run_clair3.sh \
+          --bam_fn=input.bam \
+          --ref_fn=ref.fasta \
+          --threads=12 \
+          --platform=ont \
+          --model_path="/opt/models/ont" \
+          --output=output
+
 
