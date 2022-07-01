@@ -44,3 +44,4 @@ To run mhm2 on our clusters::
     module --force purge
     ml biocontainers mhm2
 
+    mhm2.py -r input_1.fastq,input_2.fastq

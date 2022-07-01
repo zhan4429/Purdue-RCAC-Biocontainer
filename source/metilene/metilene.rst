@@ -48,3 +48,4 @@ To run metilene on our clusters::
     module --force purge
     ml biocontainers metilene
 
+    metilene -a g1 -b g2 methylation-file

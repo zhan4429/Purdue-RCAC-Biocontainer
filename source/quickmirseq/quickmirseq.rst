@@ -26,10 +26,14 @@ You can load the modules by::
     module load quickmirseq
 
 .. note::
-   This module defines program installation directory (note: inside the container!) as environment variable $QuickMIRSeq. Once again, this is not a host path, this path is only available from inside the container.
-   With the way this module is organized, you should be able to use the variable freely for both the perl  $QuickMIRSeq/QuickMIRSeq.pl  allIDs.txt run.config and the $QuickMIRSeq/QuickMIRSeq-report.sh steps as directed by the user guide.
-  A simple 'QuickMIRSeq.pl' and 'QuickMIRSeq-report.sh' will also work (and can be a backup if the variable expansion somehow does not work for you).
-  You will also need a run configuration file. You can copy from an existing one, or take from the user guide, or as a last resort, use Singularity to copy the template (in $QuickMIRSeq/run.config.template) from inside the container image. 'singularity shell' may be an easiest way for the latter.
+   
+   This module defines program installation directory (note: inside the container!) as environment variable ``$QuickMIRSeq``. Once again, this is not a host path, this path is only available from inside the container.
+
+   With the way this module is organized, you should be able to use the variable freely for both the ``perl $QuickMIRSeq/QuickMIRSeq.pl allIDs.txt run.config`` and the ``$QuickMIRSeq/QuickMIRSeq-report.sh`` steps as directed by the user guide.
+  
+   A simple ``QuickMIRSeq.pl`` and ``QuickMIRSeq-report.sh`` will also work (and can be a backup if the variable expansion somehow does not work for you).
+
+   You will also need a run configuration file. You can copy from an existing one, or take from the user guide, or as a last resort, use Singularity to copy the template (in ``$QuickMIRSeq/run.config.template``) from inside the container image. ``singularity shell`` may be an easiest way for the latter.
 
 Example job
 ~~~~~

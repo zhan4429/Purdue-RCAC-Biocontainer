@@ -106,6 +106,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/ccs/ccs
    source/cdbtools/cdbtools
    source/cd-hit/cd-hit
+   source/cegma/cegma
    source/cellbender/cellbender
    source/cellphonedb/cellphonedb
    source/cellranger/cellranger
@@ -121,6 +122,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/circlator/circlator
    source/circos/circos
    source/ciriquant/ciriquant
+   source/clair3/clair3
    source/clairvoyante/clairvoyante
    source/clever-toolkit/clever-toolkit
    source/clustalw/clustalw
@@ -227,6 +229,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/iqtree/iqtree
    source/isoseq3/isoseq3
    source/ivar/ivar
+   source/jcvi/jcvi
    source/kaiju/kaiju
    source/kallisto/kallisto
    source/khmer/khmer
@@ -242,6 +245,8 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/lofreq/lofreq
    source/longqc/longqc
    source/lra/lra
+   source/ltr_finder/ltr_finder
+   source/ltrpred/ltrpred
    source/lumpy-sv/lumpy-sv
    source/lyveset/lyveset
    source/macs2/macs2
@@ -258,6 +263,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/maxbin2/maxbin2
    source/maxquant/maxquant
    source/mcl/mcl
+   source/mcscanx/mcscanx
    source/medaka/medaka
    source/megadepth/megadepth
    source/megahit/megahit
@@ -322,6 +328,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/platypus/platypus
    source/plink/plink
    source/plink2/plink2
+   source/plotsr/plotsr
    source/pomoxis/pomoxis
    source/popscle/popscle
    source/prinseq/prinseq
@@ -430,6 +437,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/svtools/svtools
    source/svtyper/svtyper
    source/swat/swat
+   source/syri/syri
    source/talon/talon
    source/taxonkit/taxonkit
    source/t-coffee/t-coffee

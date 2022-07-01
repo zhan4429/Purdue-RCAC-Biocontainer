@@ -36,7 +36,7 @@ To run minipolish on our clusters::
     #SBATCH -A myallocation     # Allocation name
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 8
     #SBATCH --job-name=minipolish
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -45,3 +45,4 @@ To run minipolish on our clusters::
     module --force purge
     ml biocontainers minipolish
 
+    minipolish -t 8 long_reads.fastq.gz assembly.gfa > polished.gfa

@@ -42,4 +42,6 @@ To run Minialign on our clusters::
     module --force purge
     ml biocontainers minialign
 
+    minialign -d index.mai genome.fasta
+    minialign -l index.mai input.fastq > out.sam
 .. _Github: https://github.com/ocxtal/minialign

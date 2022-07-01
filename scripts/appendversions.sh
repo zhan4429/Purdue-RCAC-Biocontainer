@@ -12,7 +12,7 @@ then
         inputfolder="/opt/spack/modulefiles/biocontainers/$containername/"
         echo "input folder: "$inputfolder
 
-        outputfile="/home/$USER/biocontainer_doc/source/$containername/$containername.rst"
+        outputfile="/home/$USER/svn/biocontainer_doc/source/$containername/$containername.rst"
         echo "output file: "$outputfile
 
         echo "Versions" > tempfile.rst
