@@ -47,3 +47,6 @@ To run strique on our clusters::
     module --force purge
     ml biocontainers strique
 
+    STRique_test.py
+    STRique.py index data/ > data/reads.fofn
+    cat data/c9orf72.sam | STRique.py count ./data/reads.fofn ./models/r9_4_450bps.model ./configs/repeat_config.tsv --config ./configs/STRique.json
