@@ -46,4 +46,12 @@ To run Sicer2 on our clusters::
     module --force purge
     ml biocontainers sicer2
 
+    sicer_df -t ./test/treatment_1.bed ./test/treatment_2.bed \ 
+        -c ./test/control_1.bed ./test/control_2.bed \
+        -s hg38 --significant_reads
+
+    recognicer_df -t ./test/treatment_1.bed ./test/treatment_2.bed \
+        -c ./test/control_1.bed ./test/control_2.bed \
+        -s hg38 --significant_reads
+
 .. _Github: https://github.com/zanglab/SICER2

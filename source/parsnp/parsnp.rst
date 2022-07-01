@@ -33,7 +33,7 @@ To run Parsnp on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 8
     #SBATCH --job-name=parsnp
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -42,4 +42,6 @@ To run Parsnp on our clusters::
     module --force purge
     ml biocontainers parsnp
 
+    parsnp -g examples/mers_virus/ref/England1.gbk \
+         -d examples/mers_virus/genomes/*.fna -c -p 8
 .. _Github: https://github.com/marbl/parsnp

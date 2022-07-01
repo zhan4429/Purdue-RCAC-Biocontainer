@@ -53,4 +53,6 @@ To run Last on our clusters::
     module --force purge
     ml biocontainers last
 
+    lastdb humdb humanMito.fa
+    lastal humdb fuguMito.fa > myalns.maf
 .. _Gitlab: https://gitlab.com/mcfrith/last

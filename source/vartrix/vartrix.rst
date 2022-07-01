@@ -42,4 +42,7 @@ To run Vartrix on our clusters::
     module --force purge
     ml biocontainers vartrix
 
+    vartrix -v test/test.vcf -b test/test.bam \ 
+        -f test/test.fa -c test/barcodes.tsv \
+        -o output.matrix
 .. _Github: https://github.com/10XGenomics/vartrix

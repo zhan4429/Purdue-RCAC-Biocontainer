@@ -42,4 +42,6 @@ To run VCFtools on our clusters::
     module --force purge
     ml biocontainers vcftools
 
+    vcftools --vcf input_data.vcf --chr 1 \
+        --from-bp 1000000 --to-bp 2000000
 .. _Github: https://vcftools.github.io/

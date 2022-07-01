@@ -42,4 +42,7 @@ To run Snpsift on our clusters::
     module --force purge
     ml biocontainers snpsift
 
+    SnpSift annotate -id dbSnp132.vcf \
+        variants.vcf > variants_annotated.vcf
+
 .. _Github: http://pcingola.github.io/SnpEff/

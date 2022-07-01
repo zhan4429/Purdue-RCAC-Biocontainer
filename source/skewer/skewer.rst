@@ -42,4 +42,7 @@ To run Skewer on our clusters::
     module --force purge
     ml biocontainers skewer
 
+    skewer -l 50 -m pe -o skewerQ30 --mean-quality 30 \
+         --end-quality 30 -t 10 -x TruSeq3-PE.fa \
+         input_1.fastq input_2.fastq
 .. _Github: https://github.com/relipmoc/skewer.git

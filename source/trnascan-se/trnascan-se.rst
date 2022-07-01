@@ -33,7 +33,7 @@ To run Trnascan-se on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=trnascan-se
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -41,3 +41,6 @@ To run Trnascan-se on our clusters::
 
     module --force purge
     ml biocontainers trnascan-se
+
+    tRNAscan-SE --thread 12 -o tRNA.out \
+        -f rRNA.ss -m tRNA.stats genome.fasta

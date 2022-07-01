@@ -41,3 +41,6 @@ To run Weblogo on our clusters::
 
     module --force purge
     ml biocontainers weblogo
+  
+    weblogo --resolution 600 --format PNG \
+         <seq.fasta >logo.png

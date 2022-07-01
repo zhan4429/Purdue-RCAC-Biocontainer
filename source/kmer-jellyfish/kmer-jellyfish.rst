@@ -33,7 +33,7 @@ To run Jellyfish on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=kmer-jellyfish
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -41,3 +41,6 @@ To run Jellyfish on our clusters::
 
     module --force purge
     ml biocontainers kmer-jellyfish
+
+    jellyfish count -m 16 -s 100M -t 12 \
+         -o mer_counts -c 7  input.fastq

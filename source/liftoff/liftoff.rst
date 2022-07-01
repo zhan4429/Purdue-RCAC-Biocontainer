@@ -44,4 +44,7 @@ To run Liftoff on our clusters::
     module --force purge
     ml biocontainers liftoff
 
+    liftoff -g reference.gff3 -o target.gff3 \
+        -chroms chr_pairs.txt target.fasta reference.fa
+
 .. _Github: https://github.com/agshumate/Liftoff

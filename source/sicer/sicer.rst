@@ -44,3 +44,7 @@ To run Sicer on our clusters::
 
     module --force purge
     ml biocontainers sicer
+
+    SICER.sh ./ test.bed control.bed . hg18 1 200 150 0.74 600 .01
+
+    SICER-rb.sh ./ test.bed . hg18 1 200 150 0.74 400 100

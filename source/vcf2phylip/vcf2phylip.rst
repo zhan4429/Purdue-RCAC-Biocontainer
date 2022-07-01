@@ -44,3 +44,4 @@ To run vcf2phylip on our clusters::
     module --force purge
     ml biocontainers vcf2phylip
 
+    vcf2phylip --input myfile.vcf

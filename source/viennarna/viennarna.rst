@@ -70,3 +70,6 @@ To run Viennarna on our clusters::
 
     module --force purge
     ml biocontainers viennarna
+
+    RNAfold < test.seq
+    RNAfold -p --MEA < test.seq

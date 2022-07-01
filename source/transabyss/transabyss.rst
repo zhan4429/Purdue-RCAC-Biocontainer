@@ -34,7 +34,7 @@ To run Transabyss on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 12
     #SBATCH --job-name=transabyss
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -42,5 +42,9 @@ To run Transabyss on our clusters::
 
     module --force purge
     ml biocontainers transabyss
+
+    transabyss --name  SRR12095148 \
+        --pe SRR12095148_1.fastq SRR12095148_2.fastq \
+        --outdir  SRR12095148_assembly  --threads 12
 
 .. _Github: https://github.com/bcgsc/transabyss

@@ -43,4 +43,7 @@ To run Vsearch on our clusters::
     module --force purge
     ml biocontainers vsearch
 
+    vsearch -sintax SRR8723605_merged.fasta -db rdp_16s_v16_sp.fa \
+        -tabbedout SRR8723605_out.txt -strand both -sintax_cutoff 0.5 
+
 .. _Github: https://github.com/torognes/vsearch
