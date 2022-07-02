@@ -31,6 +31,22 @@ You can load the modules by::
     module load biocontainers
     module load megan
 
+GUI
+~~~~
+To run MEGAN with GUI, it is recommended to run within ThinLinc::
+
+   (base) UserID@bell-fe00:~ $ sinteractive -N1 -n12 -t4:00:00 -A myallocation
+   salloc: Granted job allocation 12345869
+   salloc: Waiting for resource configuration
+   salloc: Nodes bell-a008 are ready for job
+   (base) UserID@bell-a008:~ $ module load biocontainers megan
+   (base) UserID@bell-a008:~ $ MEGAN
+
+.. image:: ../../images/megan.png
+      :width: 700px
+   :align: left
+
+
 Example job
 ~~~~~
 .. warning::
