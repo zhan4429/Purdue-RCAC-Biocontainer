@@ -2,6 +2,7 @@
 
 CellRank
 ============================== 
+
 .. image:: ../../images/cellrank_fate_map.png
    :width: 700px
    :align: left
