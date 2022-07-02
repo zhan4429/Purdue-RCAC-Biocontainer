@@ -43,3 +43,5 @@ To run Trimal on our clusters::
 
     module --force purge
     ml biocontainers trimal
+
+    trimal -in input.fasta -out output1 -htmlout output1.html -gt 1
