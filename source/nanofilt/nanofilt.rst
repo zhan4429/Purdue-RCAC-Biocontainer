@@ -42,4 +42,6 @@ To run Nanofilt on our clusters::
     module --force purge
     ml biocontainers nanofilt
 
+    NanoFilt -q 12 --headcrop 75 reads.fastq | gzip > trimmed-reads.fastq.gz
+  
 .. _Github: https://github.com/wdecoster/nanofilt

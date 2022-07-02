@@ -42,4 +42,5 @@ To run Nanolyse on our clusters::
     module --force purge
     ml biocontainers nanolyse
 
+    gunzip -c reads.fastq.gz | NanoLyse | gzip > reads_without_lambda.fastq.gz
 .. _Github: https://github.com/wdecoster/nanolyse

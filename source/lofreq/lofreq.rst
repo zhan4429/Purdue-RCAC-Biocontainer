@@ -33,7 +33,7 @@ To run Lofreq on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 8
     #SBATCH --job-name=lofreq
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -41,5 +41,10 @@ To run Lofreq on our clusters::
 
     module --force purge
     ml biocontainers lofreq
+
+    lofreq  call -f ref.fa -o vars.vcf out_sorted.bam
+
+    lofreq call-parallel --pp-threads 8 \
+         -f ref.fa -o vars_pallel.vcf out_sorted.bam
 
 .. _Github: https://csb5.github.io/lofreq/

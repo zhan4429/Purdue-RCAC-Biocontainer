@@ -23,12 +23,28 @@ You can load the modules by::
     module load biocontainers
     module load maxquant
 
-Example job
+
+GUI
+~~~~~
+To run Maxquant with GUI, it is recommended to run within ThinLinc::
+
+   (base) UserID@bell-fe00:~ $ sinteractive -N1 -n12 -t4:00:00 -A myallocation
+   salloc: Granted job allocation 12345869
+   salloc: Waiting for resource configuration
+   salloc: Nodes bell-a008 are ready for job
+   (base) UserID@bell-a008:~ $ module load biocontainers maxquant
+   (base) UserID@bell-a008:~ $ MaxQuantGui.exe
+
+.. image:: images/maxquant.png
+      :width: 700px
+   :align: left
+
+CMD job
 ~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Maxquant on our clusters::
+To run Maxquant without GUI on our clusters::
 
     #!/bin/bash
     #SBATCH -A myallocation     # Allocation name 
@@ -42,3 +58,5 @@ To run Maxquant on our clusters::
 
     module --force purge
     ml biocontainers maxquant
+
+    MaxQuantCmd.exe mqpar.xml

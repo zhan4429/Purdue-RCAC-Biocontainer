@@ -46,3 +46,5 @@ To run maxbin2 on our clusters::
     module --force purge
     ml biocontainers maxbin2
 
+    run_MaxBin.pl -contig subset_assembly.fa \
+         -abund_list abundance.list -max_iteration 5 -out mbin

@@ -51,3 +51,5 @@ To run vatools on our clusters::
     module --force purge
     ml biocontainers vatools
 
+    vcf-readcount-annotator <input_vcf> <snv_bam_readcount_file> <DNA|RNA> \
+                -s <sample_name> -t snv -o <snv_annotated_vcf>

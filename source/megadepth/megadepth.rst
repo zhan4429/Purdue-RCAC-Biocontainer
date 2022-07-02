@@ -42,4 +42,5 @@ To run Megadepth on our clusters::
     module --force purge
     ml biocontainers megadepth
 
+    megadepth sorted.bam
 .. _Github: https://github.com/ChristopherWilks/megadepth
