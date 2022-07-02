@@ -3,11 +3,9 @@
 CellRank
 ============================== 
 
-.. image:: ../../images/cellrank_fate_map.png
-   :width: 700px
+.. image:: ../../images/cellrank.png
+   :width: 500px
    :align: left
-
-
 
 Introduction
 ~~~~~~~
