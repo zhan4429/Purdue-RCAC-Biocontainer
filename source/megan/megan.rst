@@ -43,7 +43,7 @@ To run MEGAN with GUI, it is recommended to run within ThinLinc::
    (base) UserID@bell-a008:~ $ MEGAN
 
 .. image:: ../../images/megan.png
-      :width: 700px
+   :width: 700px
    :align: left
 
 
