@@ -35,9 +35,10 @@ To run Maxquant with GUI, it is recommended to run within ThinLinc::
    (base) UserID@bell-a008:~ $ module load biocontainers maxquant
    (base) UserID@bell-a008:~ $ MaxQuantGui.exe
 
-.. image:: images/maxquant.png
-      :width: 700px
+.. image:: ../../images/maxquant.png
+   :width: 700px
    :align: left
+
 
 CMD job
 ~~~~~
