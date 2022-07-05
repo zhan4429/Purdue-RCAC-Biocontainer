@@ -44,4 +44,9 @@ To run Bamsurgeon on our clusters::
     module --force purge
     ml biocontainers bamsurgeon
 
+    addsv.py -p 1 -v test_sv.txt -f testregion_realign.bam \
+        -r reference.fasta -o testregion_sv_mut.bam \
+        --aligner mem --keepsecondary --seed 1234 \
+        --inslib test_inslib.fa
+        
 .. _Github: https://github.com/adamewing/bamsurgeon
