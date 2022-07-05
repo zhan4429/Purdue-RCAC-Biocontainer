@@ -4,7 +4,7 @@ r-scrnaseq
 ============================== 
 Introduction
 ~~~~~~~
-``r-scrnaseq`` is a customerized R module based on ``R/4.1.1`` used for scRNAseq analysis. 
+``r-scrnaseq`` is a customerized R module based on ``R/4.1.1`` or ``R/4.2.0`` used for scRNAseq analysis. 
 
 In the module, we have some packages installed:  
 
@@ -46,6 +46,8 @@ Versions
 ~~~~~~~~
 - 4.1.1-1
 - 4.1.1-1-rstudio
+- 4.2.0
+- 4.2.0-rstudio
 
 Commands
 ~~~~~~
@@ -58,9 +60,11 @@ Module
 You can load the modules by::
  
    module load biocontainers  
-   module load r-scrnaseq/4.1.1-1
+   module load r-scrnaseq
+   # or module load r-scrnaseq/4.2.0
    # If you want to use Rstudio, load the rstudio version
    module load r-scrnaseq/4.1.1-1-rstudio 
+   # or module load r-scrnaseq/4.2.0-rstudio 
 
 Install packages
 ~~~~~  
@@ -77,11 +81,11 @@ To run interactively on our clusters::
    salloc: Granted job allocation 12345869
    salloc: Waiting for resource configuration
    salloc: Nodes bell-a008 are ready for job
-   (base) UserID@bell-a008:~ $ module load biocontainers r-scrnaseq/4.1.1-1 # or r-scrnaseq/4.1.1-1-rstudio 
+   (base) UserID@bell-a008:~ $ module load biocontainers r-scrnaseq/4.2.0 # or r-scrnaseq/4.2.0-rstudio 
    (base) UserID@bell-a008:~ $ R
    
-   R version 4.1.1 (2021-08-10) -- "Kick Things"
-   Copyright (C) 2021 The R Foundation for Statistical Computing
+   R version 4.2.0 (2022-04-22) -- "Vigorous Calisthenics"
+   Copyright (C) 2022 The R Foundation for Statistical Computing
    Platform: x86_64-pc-linux-gnu (64-bit)
 
    R is free software and comes with ABSOLUTELY NO WARRANTY.
