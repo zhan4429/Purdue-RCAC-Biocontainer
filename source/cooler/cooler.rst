@@ -1,5 +1,8 @@
 .. _backbone-label:
 
+.. image:: https://github.com/open2c/cooler/raw/master/docs/cooler_logo.png
+  :width: 200
+  :alt: Alternative text
 Cooler
 ==============================
 
