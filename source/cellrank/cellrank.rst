@@ -2,7 +2,7 @@
 
 .. image:: ../../images/cellrank.png
    :width: 300px
-   :align: left
+   :align: center
    
 |
 |
