@@ -4,9 +4,9 @@ CellRank-krylov
 ============================== 
 
 .. image:: ../../images/cellrank.png
-   :width: 500px
-   :align: left
-
+   :width: 300px
+   :align: center
+   
 Introduction
 ~~~~~~~
 ``CellRank`` a toolkit to uncover cellular dynamics based on Markov state modeling of single-cell data. ``CellRank-krylov`` is ``CellRank`` installed with extra libraries, enabling it to have better performance for large datasets (>15k cells). 
