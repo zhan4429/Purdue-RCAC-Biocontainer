@@ -1,14 +1,11 @@
 .. _backbone-label:  
 
+CellRank
+============================== 
 .. image:: ../../images/cellrank.png
    :width: 300px
    :align: center
    
-|
-|
-
-CellRank
-============================== 
 Introduction
 ~~~~~~~
 ``CellRank`` a toolkit to uncover cellular dynamics based on Markov state modeling of single-cell data.
