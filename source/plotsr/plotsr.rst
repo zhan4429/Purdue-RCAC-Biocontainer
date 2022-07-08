@@ -44,3 +44,4 @@ To run plotsr on our clusters::
     module --force purge
     ml biocontainers plotsr
 
+    plotsr syri.out refgenome qrygenome -H 8 -W 5
