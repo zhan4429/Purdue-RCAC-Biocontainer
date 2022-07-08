@@ -42,4 +42,5 @@ To run Taxonkit on our clusters::
     module --force purge
     ml biocontainers taxonkit
 
+    taxonkit list --show-rank --show-name --indent "    " --ids 9605,239934
 .. _Github: https://github.com/shenwei356/taxonkit
