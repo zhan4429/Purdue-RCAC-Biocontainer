@@ -57,5 +57,13 @@ To run HISAT2 on our clusters::
 
     module --force purge
     ml biocontainers hisat2
+    
+    hisat2-build genome.fa genome
+    
+    # for single-end FASTA reads DNA alignment
+    hisat2 -f -x genome -U reads.fa -S output.sam --no-spliced-alignment
+
+    # for paired-end FASTQ reads alignment
+    hisat2 -x genome -1 reads_1.fq -2 read2_2.fq -S output.sam
 
 .. _Github: https://github.com/hahnlab/hisat2
