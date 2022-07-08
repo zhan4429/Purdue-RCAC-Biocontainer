@@ -33,7 +33,7 @@ To run Tombo on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 4
     #SBATCH --job-name=tombo
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -41,5 +41,23 @@ To run Tombo on our clusters::
 
     module --force purge
     ml biocontainers tombo
+    
+    tombo resquiggle path/to/fast5s/ genome.fasta --processes 4 --num-most-common-errors 5
+    tombo detect_modifications alternative_model --fast5-basedirs path/to/fast5s/ \
+        --statistics-file-basename native.e_coli_sample \
+        --alternate-bases dam dcm --processes 4
+
+    # plot raw signal at most significant dcm locations
+    tombo plot most_significant --fast5-basedirs path/to/fast5s/ \
+        --statistics-filename native.e_coli_sample.dcm.tombo.stats \
+        --plot-standard-model --plot-alternate-model dcm \
+        --pdf-filename sample.most_significant_dcm_sites.pdf
+
+    # produces wig file with estimated fraction of modified reads at each valid reference site
+    tombo text_output browser_files --statistics-filename native.e_coli_sample.dam.tombo.stats \
+         --file-types dampened_fraction --browser-file-basename native.e_coli_sample.dam
+    # also produce successfully processed reads coverage file for reference
+    tombo text_output browser_files --fast5-basedirs path/to/fast5s/ \
+        --file-types coverage --browser-file-basename native.e_coli_sample
 
 .. _Github: https://github.com/nanoporetech/tombo
