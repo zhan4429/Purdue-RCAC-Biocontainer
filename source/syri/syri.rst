@@ -44,3 +44,4 @@ To run syri on our clusters::
     module --force purge
     ml biocontainers syri
 
+    syri -c out.sam -r refgenome -q qrygenome -k -F S
