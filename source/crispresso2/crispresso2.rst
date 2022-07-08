@@ -51,3 +51,5 @@ To run crispresso2 on our clusters::
     module --force purge
     ml biocontainers crispresso2
 
+    CRISPResso --fastq_r1 nhej.r1.fastq.gz --fastq_r2 nhej.r2.fastq.gz -n nhej --amplicon_seq \
+        AATGTCCCCCAATGGGAAGTTCATCTGGCACTGCCCACAGGTGAGGAGGTCATGATCCCCTTCTGGAGCTCCCAACGGGCCGTGGTCTGGTTCATCATCTGTAAGAATGGCTTCAAGAGGCTCGGCTGTGGTT 
