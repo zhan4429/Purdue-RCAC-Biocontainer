@@ -23,12 +23,28 @@ You can load the modules by::
     module load biocontainers
     module load pybigwig
 
-Example job
+Interactive job
+~~~~~~
+To run pybigwig interactively on our clusters::
+
+   (base) UserID@bell-fe00:~ $ sinteractive -N1 -n12 -t4:00:00 -A myallocation
+   salloc: Granted job allocation 12345869
+   salloc: Waiting for resource configuration
+   salloc: Nodes bell-a008 are ready for job
+   (base) UserID@bell-a008:~ $ module load biocontainers pybigwig
+   (base) UserID@bell-a008:~ $ python
+   Python 3.6.15 | packaged by conda-forge | (default, Dec  3 2021, 18:49:41)  
+   [GCC 9.4.0] on linux
+   Type "help", "copyright", "credits" or "license" for more information.  
+   >>> import pyBigWig
+   >>> bw = pyBigWig.open("test/test.bw")
+
+Batch job
 ~~~~~
 .. warning::
     Using ``#!/bin/sh -l`` as shebang in the slurm job script will cause the failure of some biocontainer modules. Please use ``#!/bin/bash`` instead.
 
-To run Pybigwig on our clusters::
+To run batch jobs on our clusters::
 
     #!/bin/bash
     #SBATCH -A myallocation     # Allocation name 
@@ -42,5 +58,6 @@ To run Pybigwig on our clusters::
 
     module --force purge
     ml biocontainers pybigwig
-
+    
+    python script.py
 .. _Github: https://github.com/deeptools/pyBigWig
