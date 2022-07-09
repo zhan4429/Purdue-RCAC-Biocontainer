@@ -70,7 +70,7 @@ To run Trinity on our clusters::
     #SBATCH -A myallocation     # Allocation name 
     #SBATCH -t 1:00:00
     #SBATCH -N 1
-    #SBATCH -n 1
+    #SBATCH -n 6
     #SBATCH --job-name=trinity
     #SBATCH --mail-type=FAIL,BEGIN,END
     #SBATCH --error=%x-%J-%u.err
@@ -78,5 +78,8 @@ To run Trinity on our clusters::
 
     module --force purge
     ml biocontainers trinity
+    
+    Trinity --seqType fq --left reads_1.fq --right reads_2.fq \
+        --CPU 6 --max_memory 20G 
 
 .. _Github: https://github.com/trinityrnaseq/trinityrnaseq/
