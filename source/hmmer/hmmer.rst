@@ -83,3 +83,5 @@ To run Hmmer on our clusters::
 
     module --force purge
     ml biocontainers hmmer
+   
+    hmmsearch Nramp.hmm protein.fa > out
