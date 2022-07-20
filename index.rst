@@ -290,10 +290,12 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/multiqc/multiqc
    source/mummer4/mummer4
    source/muscle/muscle
+   source/mykrobe/mykrobe
    source/nanofilt/nanofilt
    source/nanolyse/nanolyse
    source/nanoplot/nanoplot
    source/nanopolish/nanopolish
+   source/ncbi-amrfinderplus/ncbi-amrfinderplus
    source/ncbi-genome-download/ncbi-genome-download
    source/neusomatic/neusomatic
    source/nextalign/nextalign
@@ -413,6 +415,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/snp-dists/snp-dists
    source/snpeff/snpeff
    source/snpgenie/snpgenie
+   source/snphylo/snphylo
    source/snpsift/snpsift
    source/snp-sites/snp-sites
    source/soapdenovo2/soapdenovo2
@@ -439,6 +442,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/swat/swat
    source/syri/syri
    source/talon/talon
+   source/tassel/tassel
    source/taxonkit/taxonkit
    source/t-coffee/t-coffee
    source/tetranscripts/tetranscripts

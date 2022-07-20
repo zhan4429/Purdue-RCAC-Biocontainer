@@ -1,8 +1,4 @@
-cegma
-clair3
-jcvi
-ltr_finder
-ltrpred
-mcscanx
-plotsr
-syri
+mykrobe
+ncbi-amrfinderplus
+snphylo
+tassel
