@@ -48,3 +48,17 @@ To run ncbi-amrfinderplus on our clusters::
     module --force purge
     ml biocontainers ncbi-amrfinderplus
 
+    # Protein AMRFinder with no genomic coordinates
+    amrfinder -p test_prot.fa
+
+    # Translated nucleotide AMRFinder (will not use HMMs)
+    amrfinder -n test_dna.fa
+
+    # Protein AMRFinder using GFF to get genomic coordinates and 'plus' genes
+    amrfinder -p test_prot.fa -g test_prot.gff --plus
+
+    # Protein AMRFinder with Escherichia protein point mutations
+    amrfinder -p test_prot.fa -O Escherichia
+
+    # Full AMRFinderPlus search combining results
+    amrfinder -p test_prot.fa -g test_prot.gff -n test_dna.fa -O Escherichia --plus
