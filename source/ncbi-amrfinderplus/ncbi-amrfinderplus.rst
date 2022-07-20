@@ -5,7 +5,7 @@ Ncbi-amrfinderplus
 
 Introduction
 ~~~~~~~~
-Ncbi-amrfinderplus and the accompanying database identify acquired antimicrobial resistance genes in bacterial protein and/or assembled nucleotide sequences as well as known resistance-associated point mutations for several taxa.
+``Ncbi-amrfinderplus`` and the accompanying database identify acquired antimicrobial resistance genes in bacterial protein and/or assembled nucleotide sequences as well as known resistance-associated point mutations for several taxa.
 For more information, please check:
 BioContainers: https://biocontainers.pro/tools/ncbi-amrfinderplus 
 Home page: https://github.com/ncbi/amr
@@ -26,7 +26,7 @@ You can load the modules by::
     module load ncbi-amrfinderplus
 
 .. note::
-        AMRFinderPlus database has been setup for users. Users can check the database version by `amrfinder -V`. RCAC will keep updating database for users. If you notice our database is out of date, you can contact us to update the database.  
+        AMRFinderPlus database has been setup for users. Users can check the database version by ``amrfinder -V``. RCAC will keep updating database for users. If you notice our database is out of date, you can contact us to update the database.  
 
 Example job
 ~~~~~
