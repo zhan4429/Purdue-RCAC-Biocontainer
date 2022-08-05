@@ -1,4 +1,5 @@
-mykrobe
-ncbi-amrfinderplus
-snphylo
-tassel
+genemarks-2
+kover
+mutmap
+revbayes
+vcf-kit
