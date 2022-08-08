@@ -176,7 +176,15 @@
 
 **Version:** 7.0
 
-**Local Uri:** docker://quay.io/biocontainers/anvio:7--hdfd78af_1
+**Local Uri:** docker://meren/anvio:7
+
+**Version:** 7.1_main
+
+**Local Uri:** docker://meren/anvio:7.1_main_0522
+
+**Version:** 7.1_structure
+
+**Local Uri:** docker://meren/anvio:7.1_structure
 
 <br>
 
@@ -1034,6 +1042,10 @@
 
 **Local Uri:** docker://quay.io/biocontainers/diamond:2.0.14--hdcc8f71_0
 
+**Version:** 2.0.15
+
+**Local Uri:** docker://quay.io/biocontainers/diamond:2.0.15--hb97b32f_0
+
 <br>
 
 ## Dnaio
@@ -1359,6 +1371,14 @@
 **Local Uri:** 
 
 **Version:** 4.69
+
+**Local Uri:** 
+
+<br>
+
+## Genemarks-2
+
+**Version:** 1.14_1.25
 
 **Local Uri:** 
 
@@ -1808,6 +1828,14 @@
 
 <br>
 
+## Kover
+
+**Version:** 2.0.6
+
+**Local Uri:** docker://aldro61/kover:release-2.0.6
+
+<br>
+
 ## Kraken2
 
 **Version:** 2.1.2
@@ -2023,6 +2051,10 @@
 ## Maxquant
 
 **Version:** 2.1.0.0
+
+**Local Uri:** 
+
+**Version:** 2.1.3.0
 
 **Local Uri:** 
 
@@ -2269,6 +2301,14 @@
 **Version:** 5.1
 
 **Local Uri:** docker://quay.io/biocontainers/muscle:5.1--h9f5acd7_1
+
+<br>
+
+## Mutmap
+
+**Version:** 2.3.3
+
+**Local Uri:** docker://quay.io/biocontainers/mutmap:2.3.3--pyhdfd78af_0
 
 <br>
 
@@ -2842,6 +2882,10 @@
 
 **Local Uri:** docker://staphb/rasusa:0.6.0
 
+**Version:** 0.7.0
+
+**Local Uri:** docker://staphb/rasusa:0.7.0
+
 <br>
 
 ## Raven-assembler
@@ -2917,6 +2961,14 @@
 **Version:** 1.0.6
 
 **Local Uri:** docker://quay.io/biocontainers/repeatscout:1.0.6--h779adbc_2
+
+<br>
+
+## Revbayes
+
+**Version:** 1.1.1
+
+**Local Uri:** https://github.com/revbayes/revbayes/releases/download/1.1.1/RevBayes_Singularity_1.1.1.simg
 
 <br>
 
@@ -3810,6 +3862,10 @@
 
 **Local Uri:** docker://staphb/vadr:1.4.1-models-1.3-2
 
+**Version:** 1.4.2
+
+**Local Uri:** docker://staphb/vadr:1.4.2
+
 <br>
 
 ## Vardict-java
@@ -3861,6 +3917,18 @@
 **Version:** 2.8
 
 **Local Uri:** 
+
+<br>
+
+## Vcf-kit
+
+**Version:** 0.2.6
+
+**Local Uri:** docker://andersenlab/vcf-kit:20200822175018b7b60d
+
+**Version:** 0.2.9
+
+**Local Uri:** docker://quay.io/biocontainers/vcfkit:0.2.9--pyh5bfb8f1_0
 
 <br>
 

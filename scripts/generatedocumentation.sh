@@ -92,8 +92,8 @@ done
 
 # Update index.rst using names of files in source folder
 
-sourcefolder="/home/$USER/svn/biocontainer_doc/source/"
-indexfile="/home/$USER/svn/biocontainer_doc/index.rst"
+sourcefolder="/home/$USER/svn/Purdue-RCAC-Biocontainer/source/"
+indexfile="/home/$USER/svn/Purdue-RCAC-Biocontainer/index.rst"
 
 filenamesarray=`ls $sourcefolder`
 

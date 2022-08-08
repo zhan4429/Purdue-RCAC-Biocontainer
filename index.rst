@@ -187,6 +187,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/gatk4/gatk4
    source/gemma/gemma
    source/genemark/genemark
+   source/genemarks-2/genemarks-2
    source/genomepy/genomepy
    source/genomescope2/genomescope2
    source/genomicconsensus/genomicconsensus
@@ -236,6 +237,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/kmc/kmc
    source/kmer-jellyfish/kmer-jellyfish
    source/kneaddata/kneaddata
+   source/kover/kover
    source/kraken2/kraken2
    source/krakentools/krakentools
    source/lambda/lambda
@@ -290,6 +292,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/multiqc/multiqc
    source/mummer4/mummer4
    source/muscle/muscle
+   source/mutmap/mutmap
    source/mykrobe/mykrobe
    source/nanofilt/nanofilt
    source/nanolyse/nanolyse
@@ -367,6 +370,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/repeatmasker/repeatmasker
    source/repeatmodeler/repeatmodeler
    source/repeatscout/repeatscout
+   source/revbayes/revbayes
    source/rmats/rmats
    source/rmats2sashimiplot/rmats2sashimiplot
    source/rnaindel/rnaindel
@@ -474,6 +478,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/vartrix/vartrix
    source/vatools/vatools
    source/vcf2phylip/vcf2phylip
+   source/vcf-kit/vcf-kit
    source/vcftools/vcftools
    source/velocyto.py/velocyto.py
    source/velvet/velvet

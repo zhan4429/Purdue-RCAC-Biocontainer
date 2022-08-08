@@ -7,7 +7,7 @@ biocontainerspath="/opt/spack/modulefiles/biocontainers/"
 
 listofbiocontainerfiles=`ls $biocontainerspath`
 
-outputfile="/home/$USER/biocontainer_doc/source_uri.md"
+outputfile="/home/$USER/svn/Purdue-RCAC-Biocontainer/source_uri.md"
 
 echo "# Source Uri" > $outputfile
 echo "" >> $outputfile
