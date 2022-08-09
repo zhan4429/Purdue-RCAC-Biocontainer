@@ -1,5 +1,1 @@
-genemarks-2
-kover
-mutmap
-revbayes
-vcf-kit
+pixy

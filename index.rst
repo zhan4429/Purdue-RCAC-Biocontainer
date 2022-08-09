@@ -330,6 +330,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/pilon/pilon
    source/pindel/pindel
    source/pirate/pirate
+   source/pixy/pixy
    source/platypus/platypus
    source/plink/plink
    source/plink2/plink2
