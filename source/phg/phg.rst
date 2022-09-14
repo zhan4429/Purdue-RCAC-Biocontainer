@@ -9,6 +9,7 @@ Practical Haplotype Graph (PHG) is a general, graph-based, computational framewo
 
 For more information, please check:
 Docker hub: https://hub.docker.com/r/maizegenetics/phg 
+
 Home page: https://www.maizegenetics.net/phg
 
 Versions
