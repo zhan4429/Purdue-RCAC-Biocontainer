@@ -110,6 +110,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/cellbender/cellbender
    source/cellphonedb/cellphonedb
    source/cellranger/cellranger
+   source/cellranger-arc/cellranger-arc
    source/cellranger-atac/cellranger-atac
    source/cellrank/cellrank
    source/cellrank-krylov/cellrank-krylov
@@ -186,6 +187,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/gatk/gatk
    source/gatk4/gatk4
    source/gemma/gemma
+   source/gemoma/gemoma
    source/genemark/genemark
    source/genemarks-2/genemarks-2
    source/genomepy/genomepy
@@ -242,6 +244,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/krakentools/krakentools
    source/lambda/lambda
    source/last/last
+   source/ldsc/ldsc
    source/liftoff/liftoff
    source/lima/lima
    source/lofreq/lofreq
@@ -254,6 +257,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/macs2/macs2
    source/macs3/macs3
    source/mafft/mafft
+   source/mageck/mageck
    source/maker/maker
    source/manta/manta
    source/mapcaller/mapcaller
@@ -323,6 +327,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/pepper_deepvariant/pepper_deepvariant
    source/perl-bioperl/perl-bioperl
    source/phd2fasta/phd2fasta
+   source/phg/phg
    source/phrap/phrap
    source/phred/phred
    source/picard/picard
@@ -351,6 +356,8 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/pycoqc/pycoqc
    source/pyensembl/pyensembl
    source/pyfaidx/pyfaidx
+   source/pygenometracks/pygenometracks
+   source/pygenomeviz/pygenomeviz
    source/pyranges/pyranges
    source/pysam/pysam
    source/qiime2/qiime2
@@ -429,6 +436,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/sourmash/sourmash
    source/spaceranger/spaceranger
    source/spades/spades
+   source/sprod/sprod
    source/squeezemeta/squeezemeta
    source/sra-tools/sra-tools
    source/stacks/stacks
@@ -447,6 +455,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    source/swat/swat
    source/syri/syri
    source/talon/talon
+   source/targetp/targetp
    source/tassel/tassel
    source/taxonkit/taxonkit
    source/t-coffee/t-coffee

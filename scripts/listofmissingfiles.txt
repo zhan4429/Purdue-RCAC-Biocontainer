@@ -1,1 +1,9 @@
-pixy
+cellranger-arc
+gemoma
+ldsc
+mageck
+phg
+pygenometracks
+pygenomeviz
+sprod
+targetp
