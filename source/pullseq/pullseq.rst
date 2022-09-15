@@ -48,4 +48,3 @@ To run pullseq on our clusters::
 
     module --force purge
     ml biocontainers pullseq
-

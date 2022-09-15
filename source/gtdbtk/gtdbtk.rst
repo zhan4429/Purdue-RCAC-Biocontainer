@@ -12,6 +12,7 @@ GTDB-Tk reference data (`R202`_) has been downloaded for users.
 Versions
 ~~~~~~~~
 - 1.7.0
+- 2.1.0
 
 Commands
 ~~~~~~

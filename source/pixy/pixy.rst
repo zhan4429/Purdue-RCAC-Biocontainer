@@ -43,4 +43,3 @@ To run pixy on our clusters::
 
     module --force purge
     ml biocontainers pixy
-

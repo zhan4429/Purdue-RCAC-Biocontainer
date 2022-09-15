@@ -10,6 +10,7 @@ Introduction
 Versions
 ~~~~~~~~
 - 1.1.12
+- 1.2.3
 
 Commands
 ~~~~~~
@@ -76,5 +77,3 @@ To submit a sbatch job on our clusters::
     find_enrichment.py --pval=0.05 --indent data/study data/population data/association
     
     go_plot.py --go_file=tests/data/go_plot/go_heartjogging6.txt -r -o heartjogging6_r1.png
-
-

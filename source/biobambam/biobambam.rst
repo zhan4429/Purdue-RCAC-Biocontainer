@@ -119,4 +119,3 @@ To run Biobambam on our clusters::
     bamtofastq filename=Aligned.sortedByCoord.out.bam outputdir=fastq_out
 
 .. _Gitlab: https://gitlab.com/german.tischler/biobambam2
-

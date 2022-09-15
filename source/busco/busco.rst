@@ -13,6 +13,7 @@ Versions
 ~~~~~~~~
 - 5.2.2
 - 5.3.0
+- 5.4.1
 
 Commands
 ~~~~~~  
@@ -104,4 +105,3 @@ To run BUSCO on our cluster::
     ## generate a simple summary plot
     generate_plot.py -wd busco_out_protein
     generate_plot.py -wd busco_out_genome
-

@@ -45,4 +45,3 @@ To run pygenometracks on our clusters::
 
     module --force purge
     ml biocontainers pygenometracks
-

@@ -44,4 +44,3 @@ To run parliament2 on our clusters::
 
     module --force purge
     ml biocontainers parliament2
-

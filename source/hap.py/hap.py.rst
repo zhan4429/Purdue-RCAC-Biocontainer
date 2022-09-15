@@ -61,4 +61,3 @@ To run hap.py on our clusters::
       -f example/happy/PG_Conf_chr21.bed.gz \
       -r example/chr21.fa \
       -o test
-

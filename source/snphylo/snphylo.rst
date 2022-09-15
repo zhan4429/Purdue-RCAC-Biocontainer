@@ -52,4 +52,3 @@ To run snphylo on our clusters::
 
     module --force purge
     ml biocontainers snphylo
-

@@ -45,4 +45,3 @@ To run CRISPRCasFinder on our our clusters::
     ml biocontainers crisprcasfinder/4.2.20 
     
     CRISPRCasFinder.pl -in install_test/sequence.fasta -cas -cf CasFinder-2.0.3 -def G -keep
-

@@ -76,4 +76,3 @@ To run FastTree on our our clusters::
     export OMP_NUM_THREADS=24
 
     FastTreeMP alignmentfile > treefile
-

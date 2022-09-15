@@ -53,5 +53,3 @@ To run clairvoyante on our clusters::
        --bed_fn ../testingData/chr21/chr21.bed \
        --call_fn chr21_calls.vcf \
        --ctgName chr21
-
-

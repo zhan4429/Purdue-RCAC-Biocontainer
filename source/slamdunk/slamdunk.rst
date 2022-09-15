@@ -45,4 +45,3 @@ To run slamdunk on our clusters::
 
     module --force purge
     ml biocontainers slamdunk
-

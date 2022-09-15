@@ -13,6 +13,7 @@ Home page: https://github.com/ncbi/vadr
 Versions
 ~~~~~~~~
 - 1.4.1
+- 1.4.2
 
 Commands
 ~~~~~~~

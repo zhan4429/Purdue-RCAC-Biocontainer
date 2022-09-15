@@ -17,8 +17,8 @@ For more information, please check its user guide at: https://huttenhower.sph.ha
 
 Versions
 ~~~~~~~~
-- 3.0.9
 - 3.0.14
+- 3.0.9
 
 Commands
 ~~~~~~  
@@ -58,4 +58,3 @@ To run MetaPhlAn on our cluster::
     
     DATABASE=/depot/itap/datasets/metaphlan/
     metaphlan SRR11234553_1.fastq,SRR11234553_2.fastq --input_type fastq --nproc 24 -o profiled_metagenome.txt --bowtie2db $DATABASE  --bowtie2out metagenome.bowtie2.bz2
-

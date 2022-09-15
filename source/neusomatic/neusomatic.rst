@@ -60,4 +60,3 @@ To run neusomatic on our clusters::
 
     module --force purge
     ml biocontainers neusomatic
-

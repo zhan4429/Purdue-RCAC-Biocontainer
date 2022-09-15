@@ -77,5 +77,3 @@ To run signalp6 on our clusters::
     signalp6 --write_procs 24 --fastafile proteins_clean.fasta  \
         --organism euk --output_dir output_slow-sequential  \
         --format txt --mode slow-sequential
-
-

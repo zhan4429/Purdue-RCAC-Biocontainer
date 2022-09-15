@@ -18,6 +18,7 @@ Versions
 ~~~~~~~~
 - 2.0.13
 - 2.0.14
+- 2.0.15
 
 Commands
 ~~~~~~
@@ -60,4 +61,3 @@ To run diamond on our our clusters::
     
     diamond makedb  --in uniprot_sprot.fasta -d uniprot_sprot
     diamond blastp -p 24 -q test.faa -d uniprot_sprot  --very-sensitive -o blastp_output.txt
-

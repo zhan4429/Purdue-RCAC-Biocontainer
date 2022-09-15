@@ -13,6 +13,7 @@ Home page: https://github.com/rastanton/GAMMA
 Versions
 ~~~~~~~~
 - 1.4
+- 2.2
 
 Commands
 ~~~~~~~

@@ -66,4 +66,3 @@ To submit a sbatch job on our clusters::
     ml biocontainers velocyto.py/0.17.17-py39
    
     velocyto run10x cellranger_count_1kpbmcs_out refdata-gex-GRCh38-2020-A/genes/genes.gtf
-

@@ -61,5 +61,3 @@ To run pvactools on our clusters::
       -e1 8,9,10 \
       -e2 15 \
       --iedb-install-directory /opt/iedb
-
-

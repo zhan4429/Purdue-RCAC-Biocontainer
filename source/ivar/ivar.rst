@@ -44,4 +44,3 @@ To run ivar on our clusters::
 
     module --force purge
     ml biocontainers ivar
-

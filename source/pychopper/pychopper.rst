@@ -44,4 +44,3 @@ To run pychopper on our clusters::
 
     module --force purge
     ml biocontainers pychopper
-

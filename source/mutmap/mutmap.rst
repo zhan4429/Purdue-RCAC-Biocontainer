@@ -45,4 +45,3 @@ To run mutmap on our clusters::
 
     module --force purge
     ml biocontainers mutmap
-

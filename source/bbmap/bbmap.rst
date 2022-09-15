@@ -200,4 +200,3 @@ To run Bbmap on our clusters::
     bbmask.sh in=SRR11234553_1.fastq out=test.mark sam=map1.sam  
   
 .. _Sourceforge: https://sourceforge.net/projects/bbmap
-

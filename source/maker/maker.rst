@@ -111,4 +111,3 @@ To use MAKER in MPI mode, we cannot use the maker modules. Instead we have to us
     
     ## MAKER3
     mpirun -n 24 singularity exec /apps/biocontainers/images/maker_3.01.03.sif maker -c 8
-

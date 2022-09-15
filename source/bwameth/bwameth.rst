@@ -44,4 +44,3 @@ To run bwameth on our clusters::
 
     module --force purge
     ml biocontainers bwameth
-

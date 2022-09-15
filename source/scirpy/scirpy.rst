@@ -44,4 +44,3 @@ To run scirpy on our clusters::
 
     module --force purge
     ml biocontainers scirpy
-

@@ -43,4 +43,3 @@ To run fraggenescanrs on our clusters::
 
     module --force purge
     ml biocontainers fraggenescanrs
-

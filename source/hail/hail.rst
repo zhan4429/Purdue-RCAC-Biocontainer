@@ -13,6 +13,7 @@ Home page: https://github.com/hail-is/hail
 Versions
 ~~~~~~~~
 - 0.2.94
+- 0.2.98
 
 Commands
 ~~~~~~~
@@ -62,4 +63,3 @@ To run hail on our clusters::
     module --force purge
     ml biocontainers hail
     python3 script.py
-

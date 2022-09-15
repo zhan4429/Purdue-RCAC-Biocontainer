@@ -44,4 +44,3 @@ To run chromap on our clusters::
 
     module --force purge
     ml biocontainers chromap
-

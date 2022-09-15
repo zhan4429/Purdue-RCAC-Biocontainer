@@ -13,6 +13,7 @@ Home page: https://github.com/mbhall88/rasusa
 Versions
 ~~~~~~~~
 - 0.6.0
+- 0.7.0
 
 Commands
 ~~~~~~~
@@ -48,4 +49,3 @@ To run rasusa on our clusters::
     rasusa -i seq_1.fq -i seq_2.fq  \
         --coverage 100 --genome-size 35mb  \
         -o out.r1.fq -o out.r2.fq
-

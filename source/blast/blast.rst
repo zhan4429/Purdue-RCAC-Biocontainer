@@ -10,6 +10,7 @@ Introduction
 Versions
 ~~~~~~~~
 - 2.11.0
+- 2.13.0
 
 Commands
 ~~~~~~~
@@ -74,5 +75,3 @@ To run BLAST on our clusters::
     ml biocontainers blast
 
     blastp -query protein.fasta -db nr -out test_out -num_threads 4    
-
-

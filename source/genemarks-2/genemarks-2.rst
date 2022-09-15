@@ -46,4 +46,3 @@ To run genemarks-2 on our clusters::
 
     module --force purge
     ml biocontainers genemarks-2
-

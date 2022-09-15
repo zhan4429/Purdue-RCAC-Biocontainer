@@ -44,4 +44,3 @@ To run bcl2fastq on our clusters::
 
     module --force purge
     ml biocontainers bcl2fastq
-

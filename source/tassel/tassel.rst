@@ -45,4 +45,3 @@ To run tassel on our clusters::
 
     module --force purge
     ml biocontainers tassel
-

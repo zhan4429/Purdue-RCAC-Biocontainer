@@ -44,4 +44,3 @@ To run cellphonedb on our clusters::
 
     module --force purge
     ml biocontainers cellphonedb
-

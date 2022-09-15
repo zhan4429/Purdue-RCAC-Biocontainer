@@ -13,6 +13,7 @@ Home page: https://github.com/HKU-BAL/Clair3
 Versions
 ~~~~~~~~
 - 0.1-r11
+- 0.1-r12
 
 Commands
 ~~~~~~~
@@ -57,5 +58,3 @@ To run clair3 on our clusters::
           --platform=ont \
           --model_path="/opt/models/ont" \
           --output=output
-
-

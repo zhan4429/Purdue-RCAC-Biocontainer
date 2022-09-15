@@ -44,4 +44,3 @@ To run mykrobe on our clusters::
 
     module --force purge
     ml biocontainers mykrobe
-

@@ -53,5 +53,3 @@ To run Nextclade on our clusters::
         --output-tree output/nextclade.auspice.json \
         --output-dir output/ \
         --output-basename nextclade
-
-

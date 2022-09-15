@@ -62,4 +62,3 @@ To run Centrifuge on our clusters::
     centrifuge-build -p 8 --conversion-table seqid2taxid.map \
                  --taxonomy-tree taxonomy/nodes.dmp --name-table taxonomy/names.dmp \
                  input-sequences.fna abv
-

@@ -51,4 +51,3 @@ To run CNVkit on our clusters::
                     --output-reference my_reference.cnn
                     --output-dir example/
 .. _Github: https://github.com/etal/cnvkit
-

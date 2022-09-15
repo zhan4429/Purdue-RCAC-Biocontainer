@@ -45,4 +45,3 @@ To run vcf-kit on our clusters::
 
     module --force purge
     ml biocontainers vcf-kit
-

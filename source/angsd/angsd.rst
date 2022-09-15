@@ -11,6 +11,7 @@ Versions
 ~~~~~~~~
 - 0.935
 - 0.937
+- 0.939
 
 Commands
 ~~~~~~
@@ -48,5 +49,3 @@ To run angsd on our our clusters::
     ml biocontainers angsd/0.937
     
     angsd -b bam.filelist -GL 1 -doMajorMinor 1 -doMaf 2 -P 5 -minMapQ 30 -minQ 20 -minMaf 0.05
-
-

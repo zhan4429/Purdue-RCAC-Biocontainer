@@ -50,4 +50,3 @@ To run mirtop on our clusters::
         --gtf examples/annotate/hsa.gff3 \
         -o test_out \
         examples/prost/prost.example.txt
-

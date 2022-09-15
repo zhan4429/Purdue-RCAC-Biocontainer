@@ -13,6 +13,7 @@ Home page: https://github.com/rrwick/Trycycler
 Versions
 ~~~~~~~~
 - 0.5.0
+- 0.5.3
 
 Commands
 ~~~~~~~

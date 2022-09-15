@@ -265,4 +265,3 @@ To run atac-seq-pipeline on our clusters::
 
     module --force purge
     ml biocontainers atac-seq-pipeline
-

@@ -44,4 +44,3 @@ To run svtools on our clusters::
 
     module --force purge
     ml biocontainers svtools
-

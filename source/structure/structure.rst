@@ -43,4 +43,3 @@ To run structure on our clusters::
 
     module --force purge
     ml biocontainers structure
-

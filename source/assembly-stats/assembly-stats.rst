@@ -45,4 +45,3 @@ To run Assembly-stats on our our clusters::
     assembly-stats seq.fasta
     
 .. _Github: https://github.com/sanger-pathogens/assembly-stats
-

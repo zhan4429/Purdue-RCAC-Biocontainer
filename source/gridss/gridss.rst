@@ -52,4 +52,3 @@ To run Gridss on our clusters::
     ml biocontainers gridss
 
 .. _Github: https://github.com/PapenfussLab/gridss
-

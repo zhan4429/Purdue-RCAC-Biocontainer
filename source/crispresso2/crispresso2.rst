@@ -13,6 +13,7 @@ Home page: https://github.com/pinellolab/CRISPResso2
 Versions
 ~~~~~~~~
 - 2.2.8
+- 2.2.9
 
 Commands
 ~~~~~~~
