@@ -1,11 +1,11 @@
 .. _backbone-label:  
 
-Cell Ranger
+Cellranger
 ============================== 
 
 Introduction
 ~~~~~~~
-``Cell Ranger`` is a set of analysis pipelines that process Chromium single-cell data to align reads, generate feature-barcode matrices, perform clustering and other secondary analysis, and more. 
+``Cellranger`` is a set of analysis pipelines that process Chromium single-cell data to align reads, generate feature-barcode matrices, perform clustering and other secondary analysis, and more. 
 Detailed usage can be found here: https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger.
 
 Versions
@@ -30,7 +30,7 @@ Module
 You can load the modules by::
 
     module load biocontainers
-    module load cellranger/6.1.1
+    module load cellranger
 
 Example job
 ~~~~~~
@@ -50,6 +50,6 @@ To run cellranger our our clusters::
     #SBATCH --output=%x-%J-%u.out
 
     module --force purge
-    ml biocontainers cellranger/6.1.1
+    ml biocontainers cellranger
     
     cellranger count --id=run_count_1kpbmcs --fastqs=pbmc_1k_v3_fastqs --sample=pbmc_1k_v3 --transcriptome=refdata-gex-GRCh38-2020-A
