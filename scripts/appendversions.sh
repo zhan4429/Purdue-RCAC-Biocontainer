@@ -1,34 +1,38 @@
 #! /bin/bash
 
-# This script adds versions to the documentations of the biocontainers whose names are entered as arguemnts when running the script
-# Example Usage: ./appendversions.sh dbg2olc deepbgc deepsignal2
+# This script updates the versions section of all the files in the source folder
+# Example Usage: ./appendversions.sh
 # Warning: Will not work unless name is exact match with both biocontainer and .rst documentation file 
+# Verify biocontainer input and documentation output paths before running
 
-if [ $# -gt 0 ]
-then
-    for x; do
-        containername=$x
+# sourcefolder="/home/$USER/svn/Purdue-RCAC-Biocontainer/source/"
+sourcefolder="/home/$USER/Purdue-RCAC-Biocontainer/source/"
+containernamesarray=`ls $sourcefolder`
 
-        inputfolder="/opt/spack/modulefiles/biocontainers/$containername/"
-        echo "input folder: "$inputfolder
+for containername in $containernamesarray
+do
+    inputfolder="/opt/spack/modulefiles/biocontainers/$containername/"
+    echo "input folder: "$inputfolder
 
-        outputfile="/home/$USER/svn/biocontainer_doc/source/$containername/$containername.rst"
-        echo "output file: "$outputfile
+    # outputfile="/home/$USER/svn/Purdue-RCAC-Biocontainer/source/$containername/$containername.rst"
+    outputfile="/home/$USER/Purdue-RCAC-Biocontainer/source/$containername/$containername.rst"
 
-        echo "Versions" > tempfile.rst
-        echo "~~~~~~~~" >> tempfile.rst
-        filenamesarray=`ls $inputfolder*.lua`
-        for eachfile in $filenamesarray
-        do
-            echo -n "- " >> tempfile.rst
-            eachfile=${eachfile::-4}
-            echo "$eachfile" | sed 's:.*/::' >> tempfile.rst
-        done
-        echo "" >> tempfile.rst
+    echo "~~~~~~~~" > tempfile.rst
+    filenamesarray=`ls $inputfolder*.lua`
 
-        sed -i $'/Command/{e cat     tempfile.rst\n}' $outputfile
-
-        rm tempfile.rst
+    for eachfile in $filenamesarray
+    do
+        echo -n "- " >> tempfile.rst
+        eachfile=${eachfile::-4}
+        echo "$eachfile" | sed 's:.*/::' >> tempfile.rst
     done
+    echo "" >> tempfile.rst
+
+    lead='^Versions$'
+    tail='^Commands$'
+    output=$(sed -e "/$lead/,/$tail/{ /$lead/{p; r tempfile.rst
+        }; /$tail/p; d }"  $outputfile)
+    echo "$output" > $outputfile
     
-fi
+done
+rm tempfile.rst
