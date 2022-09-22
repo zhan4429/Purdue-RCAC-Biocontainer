@@ -1,168 +1,3 @@
-Missing Local Uri
-
-
-File name: actc/0.2.0.lua
-Local image: actc_0.2.0.sif
-
-File name: angsd/0.939.lua
-Local image: angsd_0.939.sif
-
-File name: annovar/2022-01-13.lua
-Local image: annovar_20220113.sif
-
-File name: atram/2.4.3.lua
-Local image: atram.2.4.3.sif
-
-File name: beast2/2.6.6.lua
-Local image: beast2.6.6.sif
-
-File name: blobtools/1.1.1.lua
-Local image: blobtools_1.1.sif
-
-File name: cross_match/1.090518.lua
-Local image: phrap_1.090518.sif
-
-File name: deepsignal2/0.1.2.lua
-Local image: deepsignal2_0.1.2.sif
-
-File name: dsuite/0.5.r44.lua
-Local image: dsuite.0.5.r44.sif
-
-File name: easysfs/1.0.lua
-Local image: easySFS_1.0.sif
-
-File name: exonerate/2.4.0.lua
-Local image: quay.io_biocontainers_exonerate:2.4.0--h7c8e0dd_4.sif
-
-File name: fraggenescanrs/1.1.0.lua
-Local image: FragGeneScanRs_1.1.0.sif
-
-File name: fseq/2.0.3.lua
-Local image: fseq2.0.3.sif
-
-File name: genemark/4.69.lua
-Local image: genemark_4.69.sif
-
-File name: genemarks-2/1.14_1.25.lua
-Local image: genemarkS-2_1.14_1.25.sif
-
-File name: goatools/1.2.3.lua
-Local image: goatools.1.2.3.sif
-
-File name: homer/4.11.lua
-Local image: homer_4.11.sif
-
-File name: igv/2.12.3.lua
-Local image: igv_2.12.3.sif
-
-File name: jcvi/1.2.7-py39.lua
-Local image: jcvi.1.2.7.sif
-
-File name: ltr_finder/1.07.lua
-Local image: ltr_finder_1.07.sif
-
-File name: maxquant/2.1.3.0.lua
-Local image: maxquant_2.1.3.sif
-
-File name: mcscanx/default.lua
-Local image: mcscanx.default.sif
-
-File name: microbedmm/1.0.lua
-Local image: microbedmm_1.0.sif
-
-File name: panphlan/3.1.lua
-Local image: panphlan.3.1.sif
-
-File name: pcangsd/1.10.lua
-Local image: pcangsd.1.10.sif
-
-File name: phd2fasta/0.990622.lua
-Local image: phd2fasta_0.990622.sif
-
-File name: phrap/1.090518.lua
-Local image: phrap_1.090518.sif
-
-File name: phred/0.071220.c.lua
-Local image: phred_0.071220.c.sif
-
-File name: pilon/1.24.lua
-Local image: pilon.1.24.sif
-
-File name: pixy/1.2.7.lua
-Local image: pixy_1.2.7.sif
-
-File name: plotsr/0.5.4.lua
-Local image: plotsr.0.5.4.sif
-
-File name: reciprocal_smallest_distance/1.1.7.lua
-Local image: reciprocal_smallest_distance_1.1.7.sif
-
-File name: r-scrnaseq/4.2.0-rstudio.lua
-Local image: r_4.2.0_scrnaseq_rstudio.sif
-
-File name: run_dbcan/3.0.2.lua
-Local image: run_dbcan_3.0.2.sif
-
-File name: rush/0.4.2.lua
-Local image: rush_0.4.2.sif
-
-File name: scanpy/1.9.1.lua
-Local image: scanpy_1.9.1.sif
-
-File name: scarches/0.5.3.lua
-Local image: scarches_0.5.3.sif
-
-File name: scgen/2.1.0.lua
-Local image: scgen_2.1.0.sif
-
-File name: scirpy/0.10.1.lua
-Local image: scirpy_0.10.1.sif
-
-File name: scvi-tools/0.16.2.lua
-Local image: scvi-tools_0.16.2.sif
-
-File name: shasta/0.10.0.lua
-Local image: shasta_0.10.0.sif
-
-File name: signalp4/4.1.lua
-Local image: signalp_4.1.sif
-
-File name: signalp6/6.0-slow.lua
-Local image: signalp6.0_slow_sequential_nomodel.sif
-
-File name: snphylo/20180901.lua
-Local image: snphylo_2018_09_01.sif
-
-File name: sprod/1.0.lua
-Local image: sprod_1.0.sif
-
-File name: squeezemeta/1.5.1.lua
-Local image: squeezemeta_1.5.2_configed.sif
-
-File name: structure/2.3.4.lua
-Local image: structure_2.3.4.sif
-
-File name: swat/1.090518.lua
-Local image: phrap_1.090518.sif
-
-File name: syri/1.6.lua
-Local image: syri.1.6.sif
-
-File name: targetp/2.0.lua
-Local image: targetp_2.0.sif
-
-File name: tassel/5.0.lua
-Local image: tassel5.sif
-
-File name: varscan/2.4.4.lua
-Local image: varscan.2.4.4.sif
-
-File name: vcf2phylip/2.8.lua
-Local image: vcf2pphylip_2.8.sif
-
-
-
-
 Local image not equal to converted uri
 
 
@@ -170,131 +5,217 @@ File name: abacas/1.3.1.lua
 Local image: abacas_1.3.1.sif
 Local uri: docker://quay.io/biocontainers/abacas:1.3.1--pl5321hdfd78af_2
 
+
+
 File name: advntr/1.4.0.lua
 Local image: advntr_1.4.0.sif
 Local uri: docker://mgymrek/advntr:latest
+
+
 
 File name: allpathslg/52488.lua
 Local image: remiolsen_allpathslg_52488.sif
 Local uri: docker://remiolsen/allpathslg
 
+
+
+File name: angsd/0.935.lua
+Local image: angsd.0.935.sif
+Local uri: docker://quay.io/biocontainers/angsd:0.935--he28291e_1
+
 File name: braker2/2.1.6.lua
 Local image: braker2_2.1.6.sif
 Local uri: docker://quay.io/biocontainers/braker2:2.1.6--hdfd78af_3
+
+
+
+File name: busco/5.3.0.lua
+Local image: ezlabgva_busco:v5.3.0_cv1.sif
+Local uri: docker://https://hub.docker.com/r/ezlabgva/busco:v5.3.0_cv1
 
 File name: bwameth/0.2.4.lua
 Local image: bwameth_0.2.5.sif
 Local uri: docker://quay.io/biocontainers/bwameth:0.2.4--pyh5e36f6f_0
 
+
+
 File name: cellrank/1.5.1.lua
 Local image: cellrank_1.5.1_v2.sif
 Local uri: docker://quay.io/biocontainers/cellrank:1.5.1--pyhdfd78af_0
+
+
 
 File name: cellrank-krylov/1.5.1.lua
 Local image: cellrank-krylov_1.5.1_v2.sif
 Local uri: docker://quay.io/biocontainers/cellrank-krylov:1.5.1--pyh1e54042_0
 
+
+
+File name: celltypist/0.2.0.lua
+Local image: celltypist_0.2.0.sif
+Local uri: docker://quay.io/biocontainers/celltypist:0.2.0--pyhdfd78af_0
+
 File name: celltypist/1.1.0.lua
 Local image: celltypist_1.1.0.sif
 Local uri: docker://quay.io/biocontainers/celltypist:1.1.0--pyhdfd78af_0
+
+
 
 File name: checkm-genome/1.2.0.lua
 Local image: checkM_1.2.0.sif
 Local uri: docker://quay.io/biocontainers/checkm-genome:1.2.0--pyhdfd78af_0
 
+
+
 File name: dropest/0.8.6.lua
 Local image: dropest_0.8.6.sif
 Local uri: docker://quay.io/biocontainers/dropest:0.8.6--r41he6cf555_4
+
+
 
 File name: fastq_pair/1.0.lua
 Local image: quay.io_biocontainers_fastq-pair:1.0--h87f3376_3.sif
 Local uri: docker://quay.io/biocontainers/fastq_pair:1.0--h87f3376_3
 
+
+
 File name: funannotate/1.8.10.lua
 Local image: funannotate_1.8.9.sif
 Local uri: docker://nextgenusfs/funannotate:latest
+
+
 
 File name: fwdpy11/0.18.1.lua
 Local image: fwpy11_0.18.1.sif
 Local uri: docker://molpopgen/fwdpy11
 
+
+
 File name: humann/3.0.0.lua
 Local image: humann_3.0.0.sif
 Local uri: docker://biobakery/humann:3.0.0
+
+
 
 File name: kaiju/1.8.2.lua
 Local image: kaiju_1.8.2.sif
 Local uri: docker://quay.io/biocontainers/kaiju:1.8.2--h5b5514e_1
 
+
+
+File name: maker/2.31.11.lua
+Local image: maker_2.31.11.sif
+Local uri: docker://quay.io/biocontainers/maker:2.31.11--pl5262hec0a270_1
+
 File name: maker/3.01.03.lua
 Local image: maker_3.01.03.sif
 Local uri: docker://quay.io/biocontainers/maker:3.01.03--pl5262h8f1cd36_2
+
+
 
 File name: megan/6.21.7.lua
 Local image: megan_6.21.7.sif
 Local uri: docker://quay.io/biocontainers/megan:6.21.7--h9ee0642_0
 
+
+
 File name: metaphlan/3.0.9.lua
 Local image: depot.galaxyproject.org_singularity_metaphlan%3A3.0.9--pyhb7b1952_0.sif
 Local uri: https://depot.galaxyproject.org/singularity/metaphlan%3A3.0.9--pyhb7b1952_0
+
+
 
 File name: mitofinder/1.4.1.lua
 Local image: remiallio_default_mitofinder:v1.4.1.sif
 Local uri: library://remiallio/default/mitofinder:v1.4.1
 
+
+
 File name: neusomatic/0.2.1.lua
 Local image: neusomatic_0.2.1.sif
 Local uri: docker://msahraeian/neusomatic:0.2.1
+
+
 
 File name: phg/1.0.lua
 Local image: phg_1.0.sif
 Local uri: docker://maizegenetics/phg:1.0
 
+
+
 File name: platypus/0.8.1.lua
 Local image: platypus_0.8.1.sif
 Local uri: docker://quay.io/biocontainers/platypus-variant:0.8.1.2--py27h4fe4a89_4
+
+
 
 File name: prinseq/0.20.4.lua
 Local image: prinseq_0.20.4.sif
 Local uri: docker://quay.io/biocontainers/prinseq:0.20.4--hdfd78af_5
 
+
+
 File name: prothint/2.6.0.lua
 Local image: braker2_2.1.6.sif
 Local uri: docker://quay.io/biocontainers/braker2:2.1.6--hdfd78af_5
+
+
 
 File name: qualimap/2.2.1.lua
 Local image: qualimap_2.2.1.sif
 Local uri: docker://quay.io/biocontainers/qualimap:2.2.2d--hdfd78af_2
 
+
+
 File name: revbayes/1.1.1.lua
 Local image: RevBayes_Singularity_1.1.1.simg
 Local uri: https://github.com/revbayes/revbayes/releases/download/1.1.1/RevBayes_Singularity_1.1.1.simg
+
+
 
 File name: r-rnaseq/4.1.1-1-rstudio.lua
 Local image: r_4.1.1_rstudio_rnaseq.sif
 Local uri: docker://r-base:4.1.1
 
+
+
 File name: r-rstudio/4.1.1.lua
 Local image: r_4.1.1_rstudio.sif
+Local uri: docker://r-base:4.1.1
+
+
+
+File name: r-scrnaseq/4.1.1-1-rstudio.lua
+Local image: r_4.1.1.2_rstudio_scrnaseq.sif
 Local uri: docker://r-base:4.1.1
 
 File name: scvelo/0.2.4.lua
 Local image: scVelo_0.2.4.sif
 Local uri: docker://quay.io/biocontainers/scvelo:0.2.4--pyhdfd78af_0
 
+
+
 File name: souporcell/2.0.lua
 Local image: wheaton5_souporcell.sif
 Local uri: shub://wheaton5/souporcell
+
+
 
 File name: stream/1.0.lua
 Local image: stream_1.0.sif
 Local uri: docker://pinellolab/stream:1.0
 
+
+
 File name: strique/0.4.2.lua
 Local image: strique_0.4.2.sif
 Local uri: docker://giesselmann/strique:v0.4.2
 
+
+
 File name: trinotate/3.2.2.lua
 Local image: trinotate_3.2.2.sif
 Local uri: docker://quay.io/biocontainers/trinotate:3.2.2--pl5321hdfd78af_1
+
+
 
