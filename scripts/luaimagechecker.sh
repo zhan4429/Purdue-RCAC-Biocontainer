@@ -61,11 +61,11 @@ do
         fi
     done
     # Output files formatting
-    if [ "$tempvariable" = "1" ]; then
-        echo "" >> $outputfile1
-        echo "" >> $outputfile1
-    elif [ "$tempvariable" = "2" ]; then
-        echo "" >> $outputfile2
-        echo "" >> $outputfile2
-    fi
+    # if [ "$tempvariable" = "1" ]; then
+    #     echo "" >> $outputfile1
+    #     echo "" >> $outputfile1
+    # elif [ "$tempvariable" = "2" ]; then
+    #     echo "" >> $outputfile2
+    #     echo "" >> $outputfile2
+    # fi
 done
