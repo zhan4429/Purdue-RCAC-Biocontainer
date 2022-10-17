@@ -6,7 +6,7 @@
 # Verify biocontainer input and documentation output paths before running
 
 # sourcefolder="/home/$USER/svn/Purdue-RCAC-Biocontainer/source/"
-sourcefolder="/home/$USER/Purdue-RCAC-Biocontainer/source/"
+sourcefolder="/home/$USER/svn/Purdue-RCAC-Biocontainer/source/"
 containernamesarray=`ls $sourcefolder`
 
 for containername in $containernamesarray
@@ -15,7 +15,7 @@ do
     echo "input folder: "$inputfolder
 
     # outputfile="/home/$USER/svn/Purdue-RCAC-Biocontainer/source/$containername/$containername.rst"
-    outputfile="/home/$USER/Purdue-RCAC-Biocontainer/source/$containername/$containername.rst"
+    outputfile="/home/$USER/svn/Purdue-RCAC-Biocontainer/source/$containername/$containername.rst"
 
     echo "~~~~~~~~" > tempfile.rst
     filenamesarray=`ls $inputfolder*.lua`
